@@ -1,0 +1,6 @@
+.DS_Store
+classes_gen
+source_gen
+testclasses
+*.iws
+*.class
