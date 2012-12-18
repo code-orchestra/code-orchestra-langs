@@ -1,0 +1,622 @@
+<project name="ActionScript-languages" default="pack.codeOrchestra.actionScript.annotations0">
+  <fail unless="deploy.dir" message="Property deploy.dir unspecified." />
+	
+  <target name="pack.codeOrchestra.mpsTuning0">
+    <mkdir dir="languages/mpsTuning/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.mpsTuning.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/mpsTuning/mpsTuning.mpl" prefix="module" />
+      <zipfileset dir="languages/mpsTuning" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/mpsTuning/classes_gen" />
+    </jar>
+  </target>
+  <target name="pack.codeOrchestra.mpsEditorTunning0">
+    <mkdir dir="languages/mpsEditorTunning/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.mpsEditorTunning.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/mpsEditorTunning/mpsEditorTunning.mpl" prefix="module" />
+      <zipfileset dir="languages/mpsEditorTunning" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/mpsEditorTunning/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.mps.editorTrigger0">
+    <mkdir dir="languages/editorTrigger/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.mps.editorTrigger.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/editorTrigger/editorTrigger.mpl" prefix="module" />
+      <zipfileset dir="languages/editorTrigger" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/editorTrigger/classes_gen" />
+    </jar>
+  </target>    
+  <target name="pack.codeOrchestra.mps.smodelOperations0">
+    <mkdir dir="languages/smodelOperations/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.mps.smodelOperations.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/smodelOperations/smodelOperations.mpl" prefix="module" />
+      <zipfileset dir="languages/smodelOperations" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/smodelOperations/classes_gen" />
+    </jar>
+  </target>      
+  <target name="pack.codeOrchestra.mps.extensionPoint0">
+    <mkdir dir="languages/extensionPoint/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.mps.extensionPoint.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/extensionPoint/extensionPoint.mpl" prefix="module" />
+      <zipfileset dir="languages/extensionPoint" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/extensionPoint/classes_gen" />
+    </jar>
+  </target>        
+  <target name="pack.codeOrchestra.actionScript.refactoring0">
+    <mkdir dir="languages/refactoring/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.refactoring.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/refactoring/refactoring.mpl" prefix="module" />
+      <zipfileset dir="languages/refactoring" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/refactoring/classes_gen" />
+    </jar>
+  </target>
+  <target name="pack.codeOrchestra.actionScript0">
+    <mkdir dir="languages/actionScript/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/codeOrchestra.actionScript.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/actionScript/actionScript.mpl" prefix="module" />
+      <zipfileset dir="languages/actionScript" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/actionScript/classes_gen" />
+    </jar>
+  </target>
+  <target name="pack.codeOrchestra.actionScript.objectBuilder0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.objectBuilder.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/objectBuilder/objectBuilder.mpl" prefix="module" />
+      <zipfileset dir="languages/objectBuilder" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/objectBuilder/classes_gen" />
+    </jar>
+  </target>
+  <target name="pack.codeOrchestra.actionScript.conceptFunction0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.conceptFunction.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/conceptFunction/conceptFunction.mpl" prefix="module" />
+      <zipfileset dir="languages/conceptFunction" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/conceptFunction/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.actionScript.overloadedOperators0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.overloadedOperators.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/overloadedOperators/overloadedOperators.mpl" prefix="module" />
+      <zipfileset dir="languages/overloadedOperators" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/overloadedOperators/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.actionScript.overloadedMethods0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.overloadedMethods.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/overloadedMethods/overloadedMethods.mpl" prefix="module" />
+      <zipfileset dir="languages/overloadedMethods" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/overloadedMethods/classes_gen" />
+    </jar>
+  </target>    
+  <target name="pack.codeOrchestra.actionScript.traits0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.traits.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/traits/traits.mpl" prefix="module" />
+      <zipfileset dir="languages/traits" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/traits/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.actionScript.tuples0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.tuples.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/tuples/tuples.mpl" prefix="module" />
+      <zipfileset dir="languages/tuples" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/tuples/classes_gen" />
+    </jar>
+  </target>
+  <target name="pack.codeOrchestra.actionScript.types0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.types.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/types/types.mpl" prefix="module" />
+      <zipfileset dir="languages/types" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/types/classes_gen" />
+    </jar>
+  </target>
+  <target name="pack.codeOrchestra.actionScript.collections0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.collections.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/collectionsLang/collections.mpl" prefix="module" />
+      <zipfileset dir="languages/collectionsLang" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/collectionsLang/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.actionScript.mixins0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.mixins.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/mixins/mixins.mpl" prefix="module" />
+      <zipfileset dir="languages/mixins" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/mixins/classes_gen" />
+    </jar>
+  </target>  
+  <!-- <target name="pack.codeOrchestra.actionScript.mxmltoas0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.mxmltoas.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/mxmltoas/mxmltoas.mpl" prefix="module" />
+      <zipfileset dir="languages/mxmltoas" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/mxmltoas/classes_gen" />
+    </jar>
+  </target> -->  
+  <target name="pack.codeOrchestra.actionScript.extensionMethods0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.extensionMethods.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/extensionMethods/extensionMethods.mpl" prefix="module" />
+      <zipfileset dir="languages/extensionMethods" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/extensionMethods/classes_gen" />
+    </jar>
+  </target>    
+  <target name="pack.codeOrchestra.actionScript.logging0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.logging.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/logging/logging.mpl" prefix="module" />
+      <zipfileset dir="languages/logging" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/logging/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.actionScript.closures0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.closures.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/closures/closures.mpl" prefix="module" />
+      <zipfileset dir="languages/closures" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/closures/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.actionScript.assertions0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.assertions.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/assertions/assertions.mpl" prefix="module" />
+      <zipfileset dir="languages/assertions" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/assertions/classes_gen" />
+    </jar>
+  </target>    
+  <target name="pack.codeOrchestra.actionScript.eventsFlow0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.eventsFlow.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/eventsFlow/eventsFlow.mpl" prefix="module" />
+      <zipfileset dir="languages/eventsFlow" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/eventsFlow/classes_gen" />
+    </jar>
+  </target>      
+  <target name="pack.codeOrchestra.actionScript.liveCoding0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.liveCoding.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/liveCoding/liveCoding.mpl" prefix="module" />
+      <zipfileset dir="languages/liveCoding" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/liveCoding/classes_gen" />
+    </jar>
+  </target>       
+  <target name="pack.codeOrchestra.actionScript.iosLive0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.iosLive.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/iosLive/iosLive.mpl" prefix="module" />
+      <zipfileset dir="languages/iosLive" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/iosLive/classes_gen" />
+    </jar>
+  </target>     
+  <target name="pack.codeOrchestra.actionScript.regexp0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.regexp.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/regexp/regexp.mpl" prefix="module" />
+      <zipfileset dir="languages/regexp" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>
+  <target name="pack.codeOrchestra.actionScript.generics0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.generics.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/generics/generics.mpl" prefix="module" />
+      <zipfileset dir="languages/generics" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/generics/classes_gen" />      
+    </jar>
+  </target>
+  <target name="pack.codeOrchestra.actionScript.enums0">
+    <mkdir dir="languages/enums/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.enums.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/enums/enums.mpl" prefix="module" />
+      <zipfileset dir="languages/enums" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/enums/classes_gen" />
+    </jar>
+  </target>
+  <target name="pack.codeOrchestra.actionScript.nullable0">
+    <mkdir dir="languages/nullable-as/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.nullable.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/nullable-as/nullable.mpl" prefix="module" />
+      <zipfileset dir="languages/nullable-as" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/nullable-as/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.actionScript.plugins0">
+    <mkdir dir="languages/plugins/classes_gen" />
+    <mkdir dir="languages/plugins/classes" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/plugins/codeOrchestra.actionScript.plugins.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/plugins/plugins.mpl" prefix="module" />
+      <zipfileset dir="languages/plugins" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/plugins/classes_gen" />
+      <zipfileset dir="languages/plugins/classes" />
+    </jar>
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/plugins/codeOrchestra.actionScript.plugins.runtime.jar" duplicate="preserve" filesonly="true">
+      <fileset dir="languages/plugins/classes" />
+    </jar>
+  </target>
+  <target name="pack.com.realaxy.actionScript.help0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/plugins/com.realaxy.actionScript.help.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/help/help.mpl" prefix="module" />
+      <zipfileset dir="languages/help" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/help/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.actionScript.smartVariables0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.smartVariables.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/smartVariables/smartVariables.mpl" prefix="module" />
+      <zipfileset dir="languages/smartVariables" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/smartVariables/classes_gen" />
+    </jar>
+  </target>    
+  <!-- RE-3767 <target name="pack.codeOrchestra.actionScript.tutor0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/plugins/codeOrchestra.actionScript.tutor.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/tutor/tutor.mpl" prefix="module" />
+      <zipfileset dir="languages/tutor" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/tutor/classes_gen" />
+    </jar>
+  </target> -->
+  <target name="pack.codeOrchestra.actionScript.core0">
+    <mkdir dir="languages/core/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.core.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/core/core.mpl" prefix="module" />
+      <zipfileset dir="languages/core" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/core/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.actionScript.css0">
+    <mkdir dir="languages/css/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.css.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/css/css.mpl" prefix="module" />
+      <zipfileset dir="languages/css" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/css/classes_gen" />
+    </jar>
+  </target>
+  <target name="pack.codeOrchestra.actionScript.run0">
+    <mkdir dir="languages/run/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.run.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/run/run.mpl" prefix="module" />
+      <zipfileset dir="languages/run" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/run/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.mxml0">
+    <mkdir dir="languages/mxml/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.mxml.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/mxml/mxml.mpl" prefix="module" />
+      <zipfileset dir="languages/mxml" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/mxml/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.html5.api0">
+    <mkdir dir="languages/api/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/html5.api.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/api/api.mpl" prefix="module" />
+      <zipfileset dir="languages/api" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/api/classes_gen" />
+    </jar>
+  </target>   
+  <target name="pack.html5.astojs0">
+    <mkdir dir="languages/astojs/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/html5.astojs.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/astojs/astojs.mpl" prefix="module" />
+      <zipfileset dir="languages/astojs" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/astojs/classes_gen" />
+    </jar>
+  </target>
+  <target name="pack.html5.jquery0">
+    <mkdir dir="languages/jquery/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/html5.jquery.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/jquery/jquery.mpl" prefix="module" />
+      <zipfileset dir="languages/jquery" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/jquery/classes_gen" />
+    </jar>
+  </target>    
+  <target name="pack.html5.d30">
+    <mkdir dir="languages/d3/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/html5.d3.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/d3/d3.mpl" prefix="module" />
+      <zipfileset dir="languages/d3" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/d3/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.html5.lesscss0">
+    <mkdir dir="languages/lesscss/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/html5.lesscss.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/lesscss/lesscss.mpl" prefix="module" />
+      <zipfileset dir="languages/lesscss" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/lesscss/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.html5.pokki0">
+    <mkdir dir="languages/pokki/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/html5.pokki.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/pokki/pokki.mpl" prefix="module" />
+      <zipfileset dir="languages/pokki" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/pokki/classes_gen" />
+    </jar>
+  </target>   
+  <target name="pack.html5.w3c.css0">
+    <mkdir dir="languages/w3c/css/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/html5.w3c.css.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/w3c/css/css.mpl" prefix="module" />
+      <zipfileset dir="languages/w3c/css" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/w3c/css/classes_gen" />
+    </jar>
+  </target>    
+  <target name="pack.html5.w3c.dom0">
+    <mkdir dir="languages/dom/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/html5.w3c.dom.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/dom/dom.mpl" prefix="module" />
+      <zipfileset dir="languages/dom" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/dom/classes_gen" />
+    </jar>
+  </target> 
+  <target name="pack.html5.w3c.html0">
+    <mkdir dir="languages/w3c/html/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/html5.w3c.html.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/w3c/html/html.mpl" prefix="module" />
+      <zipfileset dir="languages/w3c/html" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/w3c/html/classes_gen" />
+    </jar>
+  </target>   
+  <target name="pack.html5.w3c.svg0">
+    <mkdir dir="languages/w3c/svg/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/html5.w3c.svg.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/w3c/svg/svg.mpl" prefix="module" />
+      <zipfileset dir="languages/w3c/svg" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/w3c/svg/classes_gen" />
+    </jar>
+  </target>   
+  <target name="pack.codeOrchestra.js0">
+    <mkdir dir="languages/js/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.js.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/js/js.mpl" prefix="module" />
+      <zipfileset dir="languages/js" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/js/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.actionScript.air0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.air.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/air/air.mpl" prefix="module" />
+      <zipfileset dir="languages/air" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/air/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.actionScript.airMobile0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.airMobile.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/airMobile/airMobile.mpl" prefix="module" />
+      <zipfileset dir="languages/airMobile" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/airMobile/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.actionScript.asstubs0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.asstubs.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/asstubs/asstubs.mpl" prefix="module" />
+      <zipfileset dir="languages/asstubs" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/asstubs/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.projectAssets0">
+    <mkdir dir="languages/projectAssets/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/codeOrchestra.projectAssets.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/projectAssets/projectAssets.mpl" prefix="module" />
+      <zipfileset dir="languages/projectAssets" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/projectAssets/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.codeOrchestra.smallLanguage0">
+    <mkdir dir="languages/smallLanguage/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.smallLanguage.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/smallLanguage/smallLanguage.mpl" prefix="module" />
+      <zipfileset dir="languages/smallLanguage" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/smallLanguage/classes_gen" />
+    </jar>
+  </target>   
+  <target name="pack.codeOrchestra.jsOptimization0">
+    <mkdir dir="languages/jsOptimization/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.jsOptimization.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/jsOptimization/jsOptimization.mpl" prefix="module" />
+      <zipfileset dir="languages/jsOptimization" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/jsOptimization/classes_gen" />
+    </jar>
+  </target>     
+  <target name="pack.codeOrchestra.actionScript.falcon0">
+    <mkdir dir="languages/falcon/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/codeOrchestra.actionScript.falcon.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/falcon/falcon.mpl" prefix="module" />
+      <zipfileset dir="languages/falcon" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/falcon/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.gtext.ext.generatorGoodies0">
+    <mkdir dir="languages/generatorGoodies/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext/gtext.ext.generatorGoodies.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/generatorGoodies/generatorGoodies.mpl" prefix="module" />
+      <zipfileset dir="languages/generatorGoodies" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/generatorGoodies/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.baseLanguage.ext.movements0">
+    <mkdir dir="languages/movements/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/BaseLanguage.ext/baseLanguage.ext.movements.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/movements/movements.mpl" prefix="module" />
+      <zipfileset dir="languages/movements" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/movements/classes_gen" />
+    </jar>
+  </target>
+  <target name="pack.baseLanguage.ext.mpsPerformanceCheckers0">
+    <mkdir dir="languages/mpsPerformanceCheckers/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/BaseLanguage.ext/baseLanguage.ext.mpsPerformanceCheckers.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/mpsPerformanceCheckers/mpsPerformanceCheckers.mpl" prefix="module" />
+      <zipfileset dir="languages/mpsPerformanceCheckers" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/mpsPerformanceCheckers/classes_gen" />
+    </jar>
+  </target>  
+  <target name="pack.baseLanguage.ext.modelCache0">
+    <mkdir dir="languages/modelCache/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/BaseLanguage.ext/baseLanguage.ext.modelCache.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/modelCache/modelCache.mpl" prefix="module" />
+      <zipfileset dir="languages/modelCache" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/modelCache/classes_gen" />
+    </jar>
+  </target>
+  <target name="pack.baseLanguage.ext.nullable0">
+    <mkdir dir="languages/nullable/classes_gen" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/BaseLanguage.ext/baseLanguage.ext.nullable.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="languages/nullable/nullable.mpl" prefix="module" />
+      <zipfileset dir="languages/nullable" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="languages/nullable/classes_gen" />
+    </jar>
+  </target>
+
+  <!-- Packing dump -->
+  <target name="pack.Dump0">
+    <mkdir dir="solutions/Dump/classes_temp" /> 
+    <unzip src="solutions/Dump/apparat-core-1.0.RC9.jar" dest="solutions/Dump/classes_temp"/>
+    <unzip src="solutions/Dump/apparat-log-1.0.RC9.jar" dest="solutions/Dump/classes_temp"/>    
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Java Libraries/Dump.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/Dump/Dump.msd" prefix="module" />
+      <zipfileset file="solutions/Dump/apparat-core-1.0.RC9.jar" prefix="module" />
+      <zipfileset file="solutions/Dump/apparat-log-1.0.RC9.jar" prefix="module" />      
+      <!-- Jar contents -->
+      <zipfileset dir="solutions/Dump/classes_temp"/>
+    </jar>
+    <delete dir="solutions/Dump/classes_temp" />  
+  </target>
+
+  <!-- Packing scala -->
+  <target name="pack.Scala0">
+    <mkdir dir="solutions/Scala/classes_temp" />  
+    <unzip src="solutions/Scala/scala-library.jar" dest="solutions/Scala/classes_temp"/>
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Java Libraries/Scala.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/Scala/Scala.msd" prefix="module" />
+      <zipfileset file="solutions/Scala/scala-library.jar" prefix="module" />
+      <!-- Jar contents -->
+      <zipfileset dir="solutions/Scala/classes_temp"/>
+    </jar>
+    <delete dir="solutions/Scala/classes_temp" /> 
+  </target>  
+  
+  <!-- Packing extensionPointRegistry -->
+  <target name="pack.extensionPointRegistry0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Java Libraries/codeOrchestra.mps.extensionPointRegistry.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/codeOrchestra.mps.extensionPointRegistry/codeOrchestra.mps.extensionPointRegistry.msd" prefix="module" />
+      <zipfileset dir="solutions/codeOrchestra.mps.extensionPointRegistry" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset dir="solutions/codeOrchestra.mps.extensionPointRegistry/classes_gen" />
+    </jar>
+  </target>
+  
+  <!-- Packing jangaroo-browser -->
+  <target name="pack.jangaroo-browser0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/jangaroo-browser.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="modules/jangaroo-browser/jangaroo-browser.msd" prefix="module" />
+      <zipfileset dir="modules/jangaroo-browser" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>  
+  <!-- Packing jooflash -->
+  <target name="pack.jooflash0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/jooflash.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="modules/jooflash/jooflash.msd" prefix="module" />
+      <zipfileset dir="modules/jooflash" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>    
+  <!-- Packing jangaroo-runtime-->
+  <target name="pack.jangaroo-runtime0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/jangaroo-runtime.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="modules/jangaroo-runtime/jangaroo-runtime.msd" prefix="module" />
+      <zipfileset dir="modules/jangaroo-runtime" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>        
+  <!-- Packing Casalib -->
+  <target name="pack.Casalib0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/Casalib.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="modules/casalib/Casalib.msd" prefix="module" />
+      <zipfileset dir="modules/casalib" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>        
+  <!-- Packing Operators -->
+  <target name="pack.Operators0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/Operators.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="modules/Operators/Operators.msd" prefix="module" />
+      <zipfileset dir="modules/Operators" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>         
+
+  <!-- Packing metaas -->
+  <target name="pack.Metaas0">
+    <mkdir dir="solutions/Metaas/classes_temp" /> 
+    <unzip src="solutions/Metaas/metaas-0.9-SNAPSHOT.jar" dest="solutions/Metaas/classes_temp"/>
+    <unzip src="solutions/Metaas/antlr-runtime-3.0.1.jar" dest="solutions/Metaas/classes_temp"/>
+    <unzip src="solutions/Metaas/stringtemplate-3.1-b1.jar" dest="solutions/Metaas/classes_temp"/>
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Java Libraries/Metaas.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/Metaas/Metaas.msd" prefix="module" />
+      <zipfileset file="solutions/Metaas/antlr-runtime-3.0.1.jar" prefix="module" />
+      <zipfileset file="solutions/Metaas/metaas-0.9-SNAPSHOT.jar" prefix="module" />
+      <zipfileset file="solutions/Metaas/stringtemplate-3.1-b1.jar" prefix="module" />
+      <!-- Jar contents -->
+      <zipfileset dir="solutions/Metaas/classes_temp" />
+    </jar>
+    <delete dir="solutions/Metaas/classes_temp" />
+  </target>  
+
+  <!-- Packing Batik -->
+  <target name="pack.Batik0">
+    <mkdir dir="solutions/Batik/classes_temp" /> 
+    <unzip src="solutions/Batik/batik-all-flex.jar" dest="solutions/Batik/classes_temp"/>
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Java Libraries/Batik.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/Batik/Batik.msd" prefix="module" />
+      <zipfileset file="solutions/Batik/batik-all-flex.jar" prefix="module" />
+      <!-- Jar contents -->
+      <zipfileset dir="solutions/Batik/classes_temp" />
+    </jar>
+    <delete dir="solutions/Batik/classes_temp" />
+  </target>  
+  
+  <!-- Packing XStream -->
+  <target name="pack.XStream0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Java Libraries/XStream.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/XStream/XStream.msd" prefix="module" />
+      <zipfileset dir="solutions/XStream" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+      <zipfileset file="lib/xstream.jar" />
+    </jar>
+  </target>
+
+  <!-- Packing Flash Libraries -->
+  <target name="pack.playerglobal_swc0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/playerglobal_swc.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/playerglobal_swc/playerglobal_swc.msd" prefix="module" />
+      <zipfileset dir="solutions/playerglobal_swc" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>
+  <target name="pack.flex_swc0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/flex_swc.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/flex_swc/flex_swc.msd" prefix="module" />
+      <zipfileset dir="solutions/flex_swc" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>
+  <target name="pack.framework_swc0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/framework_swc.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/framework_swc/framework_swc.msd" prefix="module" />
+      <zipfileset dir="solutions/framework_swc" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>
+  <target name="pack.spark_swc0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/spark_swc.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/spark_swc/spark_swc.msd" prefix="module" />
+      <zipfileset dir="solutions/spark_swc" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>  
+  <target name="pack.rpc_swc0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/rpc_swc.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/rpc_swc/rpc_swc.msd" prefix="module" />
+      <zipfileset dir="solutions/rpc_swc" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>      
+  <target name="pack.utilities_swc0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/utilities_swc.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/utilities_swc/utilities_swc.msd" prefix="module" />
+      <zipfileset dir="solutions/utilities_swc" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>        
+  <target name="pack.airframework_swc0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/airframework_swc.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/airframework_swc/airframework_swc.msd" prefix="module" />
+      <zipfileset dir="solutions/airframework_swc" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>  
+  <target name="pack.osmf_swc0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/osmf_swc.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="solutions/osmf_swc/osmf_swc.msd" prefix="module" />
+      <zipfileset dir="solutions/osmf_swc" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    </jar>
+  </target>           
+  <target name="pack.devkit0">
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/codeOrchestra.actionScript.devKit.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="devkits/codeOrchestra.actionScript.devKit/codeOrchestra.actionScript.devKit.devkit" prefix="module" />
+    </jar>
+  </target>         
+</project>

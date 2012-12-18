@@ -1,0 +1,138 @@
+<project name="ActionScript-default" default="main">
+  <property file="${ant.file}/../ActionScript.properties" />
+  <import file="${ant.file}/../ActionScript-compile.xml" />
+  <import file="${ant.file}/../ActionScript-languages.xml" />
+  <property name="mps_artifacts.zip" value="${mps.dir}/MPS-artifacts.zip" />
+  <property name="mps_buildtools.zip" value="${mps.dir}/MPS-buildTools.zip" />
+  <target name="main" depends="mps.prepare,compile,clean.before,folders.create,do.the.job,clean.after" />
+  <target name="compile">
+    <antcall target="compile.all" />
+  </target>
+  <target name="clean.before" depends="compile">
+    <delete dir="${deploy.dir}" />
+    <tstamp />
+  </target>
+  <target name="mps.prepare">
+  <mkdir dir="${mps.build.dir}" />
+    <unzip src="${mps_artifacts.zip}" dest="${mps.build.dir}" />
+  <property name="mps_home" value="${mps.build.dir}" />
+  </target>
+  <target name="folders.create" depends="clean.before">
+    <mkdir dir="${deploy.dir}" />
+    <mkdir dir="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/ext" />
+    <mkdir dir="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript/plugins" />
+    <mkdir dir="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/ActionScript" />
+    <mkdir dir="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages/BaseLanguage.ext" />
+    <mkdir dir="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Languages" />
+    <mkdir dir="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Java Libraries" />
+    <mkdir dir="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries" />
+    <mkdir dir="${deploy.dir}/ActionScript.zip.tmp/ActionScript" />
+    <mkdir dir="${deploy.dir}/ActionScript.zip.tmp" />
+  </target>
+  <target name="do.the.job" depends="folders.create">
+    <!-- Languages -->
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript0" />  
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.core0" />    
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.assertions0" />
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.eventsFlow0" />    
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.liveCoding0" />        
+	<!--
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.iosLive0" />        
+    -->
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.objectBuilder0" />
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.logging0" />
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.closures0" />
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.regexp0" />
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.generics0" />
+	<!--
+    <antcall target="ActionScript-languages.pack.com.realaxy.actionScript.help0" />
+    -->
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.smartVariables0" />
+    <!-- RE-3767 <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.tutor0" /> -->
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.refactoring0" />
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.enums0" />
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.nullable0" />    
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.plugins0" />
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.css0" />    
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.run0" />        
+    <antcall target="ActionScript-languages.pack.codeOrchestra.mxml0" />            
+    <antcall target="ActionScript-languages.pack.codeOrchestra.projectAssets0" />                
+    <antcall target="ActionScript-languages.pack.codeOrchestra.smallLanguage0" />                
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.conceptFunction0" />        
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.overloadedOperators0" />        
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.overloadedMethods0" />            
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.traits0" />           
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.tuples0" />               
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.types0" />               
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.collections0" />          
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.mixins0" />           
+    <!--<antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.mxmltoas0" />-->              
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.extensionMethods0" />             
+    <antcall target="ActionScript-languages.pack.codeOrchestra.jsOptimization0" />             
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.falcon0" />             
+    
+    <antcall target="ActionScript-languages.pack.html5.api0" />              
+    <antcall target="ActionScript-languages.pack.html5.astojs0" />                     
+    <antcall target="ActionScript-languages.pack.html5.d30" />           
+    <antcall target="ActionScript-languages.pack.html5.jquery0" />  
+    <antcall target="ActionScript-languages.pack.html5.lesscss0" />
+    <antcall target="ActionScript-languages.pack.html5.pokki0" />   
+    <antcall target="ActionScript-languages.pack.html5.w3c.css0" />
+    <antcall target="ActionScript-languages.pack.html5.w3c.dom0" />
+    <antcall target="ActionScript-languages.pack.html5.w3c.html0" />
+    <antcall target="ActionScript-languages.pack.html5.w3c.svg0" /> 
+    <antcall target="ActionScript-languages.pack.codeOrchestra.js0" />           
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.air0" />   
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.airMobile0" /> 
+    <antcall target="ActionScript-languages.pack.codeOrchestra.actionScript.asstubs0" />                          
+        
+    <!-- MPS tuning -->
+    <antcall target="ActionScript-languages.pack.codeOrchestra.mpsTuning0" />
+    <antcall target="ActionScript-languages.pack.codeOrchestra.mpsEditorTunning0" />    
+    <antcall target="ActionScript-languages.pack.codeOrchestra.mps.editorTrigger0" />    
+    <antcall target="ActionScript-languages.pack.codeOrchestra.mps.smodelOperations0" />        
+    <antcall target="ActionScript-languages.pack.codeOrchestra.mps.extensionPoint0" />                
+    <antcall target="ActionScript-languages.pack.gtext.ext.generatorGoodies0" />    
+
+    <!-- Base extensions -->
+    <antcall target="ActionScript-languages.pack.baseLanguage.ext.movements0" />
+    <antcall target="ActionScript-languages.pack.baseLanguage.ext.mpsPerformanceCheckers0" />    
+    <antcall target="ActionScript-languages.pack.baseLanguage.ext.modelCache0" />
+    <antcall target="ActionScript-languages.pack.baseLanguage.ext.nullable0" />    
+
+    <!-- Java libraries -->
+    <antcall target="ActionScript-languages.pack.Scala0" />
+    <antcall target="ActionScript-languages.pack.Dump0" />
+    <antcall target="ActionScript-languages.pack.XStream0" />
+    <antcall target="ActionScript-languages.pack.Metaas0" />
+    <antcall target="ActionScript-languages.pack.Batik0" />    
+    <antcall target="ActionScript-languages.pack.extensionPointRegistry0" />    
+  
+    <!-- Flash libraries -->
+    <antcall target="ActionScript-languages.pack.playerglobal_swc0" />
+    <antcall target="ActionScript-languages.pack.framework_swc0" />
+    <antcall target="ActionScript-languages.pack.rpc_swc0" /> 
+    <antcall target="ActionScript-languages.pack.spark_swc0" />  
+    <antcall target="ActionScript-languages.pack.jangaroo-browser0" />
+    <antcall target="ActionScript-languages.pack.jangaroo-runtime0" />          
+    <antcall target="ActionScript-languages.pack.jooflash0" />          
+    <antcall target="ActionScript-languages.pack.Casalib0" />         
+    <antcall target="ActionScript-languages.pack.Operators0" />   
+    <antcall target="ActionScript-languages.pack.osmf_swc0" />           
+    
+    <!--
+    <antcall target="ActionScript-languages.pack.flex_swc0" />  
+    <antcall target="ActionScript-languages.pack.utilities_swc0" />   
+    -->  
+    <mkdir dir="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries" />
+
+    <zip destfile="${deploy.dir}/ActionScript.zip" duplicate="preserve" filesonly="true">
+      <zipfileset dir="${deploy.dir}/ActionScript.zip.tmp" />
+    </zip>
+    <delete dir="${deploy.dir}/ActionScript.zip.tmp" />
+  </target>
+  <target name="clean.after" depends="do.the.job">
+    <delete dir="${deploy.dir}/ActionScript.zip.tmp" />
+  <delete dir="${mps.build.dir}" />
+  </target>
+</project>

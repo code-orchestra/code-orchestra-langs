@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodeStyleSettings">
+    <option name="fieldPrefix" value="" />
+    <option name="fieldSuffix" value="" />
+    <option name="localVariablePrefix" value="" />
+    <option name="localVariableSuffix" value="" />
+    <option name="parameterPrefix" value="" />
+    <option name="parameterSuffix" value="" />
+    <option name="staticFieldPrefix" value="" />
+    <option name="staticFieldSuffix" value="" />
+  </component>
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EnvironmentLibraryManager">
+    <environmentLibrary libraryReference="3849ec0a-97b3-4a50-8e3c-92d2066b6599(playerglobal_swc)" implementationReference="d2f2dcff-810f-4fab-957f-72350eb5b4a4(jooflash)" environment="HTML5" />
+    <environmentLibrary libraryReference="3849ec0a-97b3-4a50-8e3c-92d2066b6599(playerglobal_swc)" implementationReference="e5f7cdc9-b037-45b7-b458-e595780f6b53(jangaroo-runtime)" environment="HTML5" />
+  </component>
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="${project}/languages/actionScript/actionScript.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/actionScriptInternal/actionScriptInternal.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/air/air.mpl" folder="Languages.ActionScript.air" />
+      <modulePath path="${project}/languages/airMobile/airMobile.mpl" folder="Languages.ActionScript.air" />
+      <modulePath path="${project}/languages/api/api.mpl" folder="Languages.JavaScript" />
+      <modulePath path="${project}/languages/assertions/assertions.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/asstubs/asstubs.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/astojs/astojs.mpl" folder="Languages.JavaScript" />
+      <modulePath path="${project}/languages/closures/closures.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/collectionsLang/collections.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/conceptFunction/conceptFunction.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/conveyor/conveyor.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/core/core.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/css/css.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/d3/d3.mpl" folder="Languages.JavaScript" />
+      <modulePath path="${project}/languages/dom/dom.mpl" folder="Languages.W3C" />
+      <modulePath path="${project}/languages/editorTrigger/editorTrigger.mpl" folder="Languages.mps.extentions" />
+      <modulePath path="${project}/languages/enums/enums.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/eventsFlow/eventsFlow.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/extensionMethods/extensionMethods.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/extensionPoint/extensionPoint.mpl" folder="Languages.mps.extentions" />
+      <modulePath path="${project}/languages/falcon/falcon.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/generatorGoodies/generatorGoodies.mpl" folder="Languages.mps.extentions" />
+      <modulePath path="${project}/languages/generics/generics.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/jquery/jquery.mpl" folder="Languages.JavaScript" />
+      <modulePath path="${project}/languages/js/js.mpl" folder="Languages.JavaScript" />
+      <modulePath path="${project}/languages/jsOptimization/jsOptimization.mpl" folder="Languages.JavaScript" />
+      <modulePath path="${project}/languages/liveCoding/liveCoding.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/logging/logging.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/mixins/mixins.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/modelCache/modelCache.mpl" folder="Languages.mps.extentions" />
+      <modulePath path="${project}/languages/movements/movements.mpl" folder="Languages.mps.extentions" />
+      <modulePath path="${project}/languages/mpsEditorTunning/mpsEditorTunning.mpl" folder="Languages.mps.extentions" />
+      <modulePath path="${project}/languages/mpsPerformanceCheckers/mpsPerformanceCheckers.mpl" folder="Languages.mps.extentions" />
+      <modulePath path="${project}/languages/mpsTuning/mpsTuning.mpl" folder="Languages.mps.extentions" />
+      <modulePath path="${project}/languages/mxml/mxml.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/mxmltoas/mxmltoas.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/nullable-as/nullable.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/nullable/nullable.mpl" folder="Languages.mps.extentions" />
+      <modulePath path="${project}/languages/objectBuilder/objectBuilder.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/overloadedMethods/overloadedMethods.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/overloadedOperators/overloadedOperators.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/plugins/plugins.mpl" folder="Languages.ActionScript.plugins" />
+      <modulePath path="${project}/languages/pokki/pokki.mpl" folder="Languages.JavaScript" />
+      <modulePath path="${project}/languages/projectAssets/projectAssets.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/refactoring/refactoring.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/run/run.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/smallLanguage/smallLanguage.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/smartVariables/smartVariables.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/smodelOperations/smodelOperations.mpl" folder="Languages.mps.extentions" />
+      <modulePath path="${project}/languages/traits/traits.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/tuples/tuples.mpl" folder="Languages.ActionScript.ext" />
+      <modulePath path="${project}/languages/types/types.mpl" folder="Languages.ActionScript" />
+      <modulePath path="${project}/languages/w3c/css/css.mpl" folder="Languages.W3C" />
+      <modulePath path="${project}/languages/w3c/html/html.mpl" folder="Languages.W3C" />
+      <modulePath path="${project}/languages/w3c/svg/svg.mpl" folder="Languages.W3C" />
+      <modulePath path="${project}/modules/ActionScript_liveCoding/ActionScript_liveCoding.msd" />
+      <modulePath path="${project}/modules/Operators/Operators.msd" />
+      <modulePath path="${project}/modules/casalib/Casalib.msd" />
+      <modulePath path="${project}/modules/jangaroo-browser/jangaroo-browser.msd" />
+      <modulePath path="${project}/modules/jangaroo-runtime/jangaroo-runtime.msd" folder="Flash Libraries.js" />
+      <modulePath path="${project}/modules/jooflash/jooflash.msd" />
+      <modulePath path="${project}/solutions/Batik/Batik.msd" folder="Java Libraries" />
+      <modulePath path="${project}/solutions/Dump/Dump.msd" folder="Java Libraries" />
+      <modulePath path="${project}/solutions/Metaas/Metaas.msd" folder="Java Libraries" />
+      <modulePath path="${project}/solutions/Scala/Scala.msd" folder="Java Libraries" />
+      <modulePath path="${project}/solutions/XStream/XStream.msd" folder="Java Libraries" />
+      <modulePath path="${project}/solutions/codeOrchestra.mps.extensionPointRegistry/codeOrchestra.mps.extensionPointRegistry.msd" folder="MPS Extensions" />
+      <modulePath path="${project}/solutions/framework_swc/framework_swc.msd" folder="Flash Libraries" />
+      <modulePath path="${project}/solutions/playerglobal_swc/playerglobal_swc.msd" folder="Flash Libraries" />
+      <modulePath path="${project}/solutions/rpc_swc/rpc_swc.msd" folder="Flash Libraries" />
+      <modulePath path="${project}/solutions/spark_swc/spark_swc.msd" folder="Flash Libraries" />
+      <modulePath path="${project}/modules/MyASModule/MyASModule.msd" />
+    </projectModules>
+    <genConfs />
+  </component>
+  <component name="MigrationState">
+    <option name="myState" value="DONE" />
+  </component>
+  <component name="ProjectDetails">
+    <option name="projectName" value="ActionScript" />
+  </component>
+  <component name="ProjectEnvironmentConfiguration">
+    <environmentLibrary libraryReference="3849ec0a-97b3-4a50-8e3c-92d2066b6599(playerglobal_swc)" implementationReference="946ffd1c-aa74-45d7-814a-d19e9f7723ba(jangaroo-flash)" environment="HTML5" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules />
+  </component>
+  <component name="ProjectRootManager" version="2" />
+  <component name="ProjectVersion">
+    <option name="version" value="2.0" />
+  </component>
+  <component name="RGSClientSettings">
+    <option name="useSeperateInstance" value="false" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchMap">
+                <map>
+                  <entry key="https://codeOrchestra.com:8443/svn/realaxy/Core">
+                    <value>
+                      <list />
+                    </value>
+                  </entry>
+                  <entry key="https://codeOrchestra.com:8443/svn/realaxy/branches">
+                    <value>
+                      <list />
+                    </value>
+                  </entry>
+                  <entry key="https://codeOrchestra.com:8443/svn/realaxy/tags">
+                    <value>
+                      <list />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://codeOrchestra.com:8443/svn/realaxy/Core" />
+                  <option value="https://codeOrchestra.com:8443/svn/realaxy/branches" />
+                  <option value="https://codeOrchestra.com:8443/svn/realaxy/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://codeOrchestra.com:8443/svn/realaxy/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="myVersion" value="124" />
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+  </component>
+</project>
+

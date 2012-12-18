@@ -1,0 +1,1265 @@
+<project name="ActionScript-compile" default="compile.all">
+
+  <!-- Modules generated classes paths -->
+  <property name="codeOrchestra.actionScript.classes" value="languages/actionScript/classes_gen" />
+  <property name="codeOrchestra.actionScript.core.classes" value="languages/core/classes_gen" />  
+  <property name="codeOrchestra.actionScript.objectBuilder.classes" value="languages/objectBuilder/classes_gen" />
+  <property name="codeOrchestra.actionScript.logging.classes" value="languages/logging/classes_gen" />
+  <property name="codeOrchestra.actionScript.closures.classes" value="languages/closures/classes_gen" />  
+  <property name="codeOrchestra.actionScript.assertions.classes" value="languages/assertions/classes_gen" />    
+  <property name="codeOrchestra.actionScript.eventsFlow.classes" value="languages/eventsFlow/classes_gen" />      
+  <property name="codeOrchestra.actionScript.liveCoding.classes" value="languages/liveCoding/classes_gen" />      
+  <property name="codeOrchestra.actionScript.iosLive.classes" value="languages/iosLive/classes_gen" />      
+  <property name="codeOrchestra.actionScript.plugins.classes" value="languages/plugins/classes_gen" />
+  <property name="com.realaxy.actionScript.help.classes" value="languages/help/classes_gen" />
+  <property name="codeOrchestra.actionScript.smartVariables.classes" value="languages/smartVariables/classes_gen" />  
+  <!-- RE-3767 <property name="codeOrchestra.actionScript.tutor.classes" value="languages/tutor/classes_gen" /> -->
+  <property name="codeOrchestra.actionScript.regexp.classes" value="languages/regexp/classes_gen" />
+  <property name="codeOrchestra.actionScript.enums.classes" value="languages/enums/classes_gen" />
+  <property name="codeOrchestra.actionScript.nullable.classes" value="languages/nullable-as/classes_gen" />  
+  <property name="codeOrchestra.actionScript.css.classes" value="languages/css/classes_gen" />
+  <property name="codeOrchestra.actionScript.run.classes" value="languages/run/classes_gen" />  
+  <property name="codeOrchestra.actionScript.refactoring.classes" value="languages/refactoring/classes_gen" />
+  <property name="codeOrchestra.actionScript.generics.classes" value="languages/generics/classes_gen" />    
+  <property name="codeOrchestra.actionScript.conceptFunction.classes" value="languages/conceptFunction/classes_gen" />  
+  <property name="codeOrchestra.actionScript.overloadedOperators.classes" value="languages/overloadedOperators/classes_gen" />      
+  <property name="codeOrchestra.actionScript.overloadedMethods.classes" value="languages/overloadedMethods/classes_gen" />      
+  <property name="codeOrchestra.actionScript.traits.classes" value="languages/traits/classes_gen" />  
+  <property name="codeOrchestra.actionScript.tuples.classes" value="languages/tuples/classes_gen" />      
+  <property name="codeOrchestra.actionScript.types.classes" value="languages/types/classes_gen" />      
+  <property name="codeOrchestra.actionScript.collections.classes" value="languages/collectionsLang/classes_gen" />        
+  <property name="codeOrchestra.actionScript.mixins.classes" value="languages/mixins/classes_gen" />     
+  <!-- <property name="codeOrchestra.actionScript.mxmltoas.classes" value="languages/mxmltoas/classes_gen" />             -->
+  <property name="codeOrchestra.actionScript.extensionMethods.classes" value="languages/extensionMethods/classes_gen" />               
+  <property name="codeOrchestra.mxml.classes" value="languages/mxml/classes_gen" />  
+  <property name="codeOrchestra.projectAssets.classes" value="languages/projectAssets/classes_gen" />  
+  <property name="codeOrchestra.smallLanguage.classes" value="languages/smallLanguage/classes_gen" />    
+  <property name="gtext.ext.generatorGoodies.classes" value="languages/generatorGoodies/classes_gen" />  
+  <property name="codeOrchestra.mpsTuning.classes" value="languages/mpsTuning/classes_gen" />
+  <property name="codeOrchestra.mpsEditorTunning.classes" value="languages/mpsEditorTunning/classes_gen" />  
+  <property name="codeOrchestra.mps.editorTrigger.classes" value="languages/editorTrigger/classes_gen" />       
+  <property name="codeOrchestra.mps.smodelOperations.classes" value="languages/smodelOperations/classes_gen" />         
+  <property name="codeOrchestra.mps.extensionPoint.classes" value="languages/extensionPoint/classes_gen" />          
+  <property name="baseLanguage.ext.modelCache.classes" value="languages/modelCache/classes_gen" />
+  <property name="baseLanguage.ext.movements.classes" value="languages/movements/classes_gen" />
+  <property name="baseLanguage.ext.nullable.classes" value="languages/nullable/classes_gen" />
+  <property name="baseLanguage.ext.mpsPerformanceCheckers.classes" value="languages/mpsPerformanceCheckers/classes_gen" />  
+  <property name="codeOrchestra.mps.extensionPointRegistry.classes" value="solutions/codeOrchestra.mps.extensionPointRegistry/classes_gen" />
+  <property name="html5.api.classes" value="languages/api/classes_gen" />  
+  <property name="html5.astojs.classes" value="languages/astojs/classes_gen" />  
+  <property name="html5.jquery.classes" value="languages/jquery/classes_gen" />   
+  <property name="html5.d3.classes" value="languages/d3/classes_gen" />      
+  <property name="html5.w3c.css.classes" value="languages/w3c/css/classes_gen" />  
+  <property name="html5.w3c.dom.classes" value="languages/dom/classes_gen" />  
+  <property name="html5.w3c.html.classes" value="languages/w3c/html/classes_gen" />  
+  <property name="html5.w3c.svg.classes" value="languages/w3c/svg/classes_gen" />      
+  <property name="html5.lesscss.classes" value="languages/lesscss/classes_gen" />        
+  <property name="html5.pokki.classes" value="languages/pokki/classes_gen" />          
+  <property name="codeOrchestra.js.classes" value="languages/js/classes_gen" />       
+  <property name="codeOrchestra.jsOptimization.classes" value="languages/jsOptimization/classes_gen" />       
+  <property name="codeOrchestra.actionScript.falcon.classes" value="languages/falcon/classes_gen" />       
+  <property name="codeOrchestra.actionScript.air.classes" value="languages/air/classes_gen" />        
+  <property name="codeOrchestra.actionScript.airMobile.classes" value="languages/airMobile/classes_gen" />  
+  <property name="codeOrchestra.actionScript.asstubs.classes" value="languages/asstubs/classes_gen" />        
+
+  <!-- Modules source paths -->
+  <path id="cycle.codeOrchestra.actionScript0.src">
+    <path path="languages/actionScript/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.core0.src">
+    <path path="languages/core/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.css0.src">
+    <path path="languages/css/source_gen" />
+  </path>  
+  <path id="cycle.codeOrchestra.actionScript.run0.src">
+    <path path="languages/run/source_gen" />
+  </path>  
+  <path id="cycle.codeOrchestra.mxml0.src">
+    <path path="languages/mxml/source_gen" />
+  </path>    
+  <path id="cycle.html5.api0.src">
+    <path path="languages/api/source_gen" />
+  </path>    
+  <path id="cycle.html5.astojs0.src">
+    <path path="languages/astojs/source_gen" />
+  </path>    
+  <path id="cycle.html5.jquery0.src">
+    <path path="languages/jquery/source_gen" />
+  </path>    
+  <path id="cycle.html5.d30.src">
+    <path path="languages/d3/source_gen" />
+  </path>    
+  <path id="cycle.html5.lesscss0.src">
+    <path path="languages/lesscss/source_gen" />
+  </path>
+  <path id="cycle.html5.pokki0.src">
+    <path path="languages/pokki/source_gen" />
+  </path>  
+  <path id="cycle.html5.w3c.css0.src">
+    <path path="languages/w3c/css/source_gen" />
+  </path>  
+  <path id="cycle.html5.w3c.dom0.src">
+    <path path="languages/dom/source_gen" />
+  </path>  
+  <path id="cycle.html5.w3c.html0.src">
+    <path path="languages/w3c/html/source_gen" />
+  </path>  
+  <path id="cycle.html5.w3c.svg0.src">
+    <path path="languages/w3c/svg/source_gen" />
+  </path>  
+  <path id="cycle.codeOrchestra.js0.src">
+    <path path="languages/js/source_gen" />
+  </path>    
+  <path id="cycle.codeOrchestra.projectAssets0.src">
+    <path path="languages/projectAssets/source_gen" />
+  </path>    
+  <path id="cycle.codeOrchestra.smallLanguage0.src">
+    <path path="languages/smallLanguage/source_gen" />
+  </path>    
+  <path id="cycle.gtext.ext.generatorGoodies0.src">
+    <path path="languages/generatorGoodies/source_gen" />
+  </path>  
+  <path id="cycle.codeOrchestra.mpsTuning0.src">
+    <path path="languages/mpsTuning/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.mpsEditorTunning0.src">
+    <path path="languages/mpsEditorTunning/source_gen" />
+  </path>  
+  <path id="cycle.codeOrchestra.mps.editorTrigger0.src">
+    <path path="languages/editorTrigger/source_gen" />
+  </path>    
+  <path id="cycle.codeOrchestra.mps.smodelOperations0.src">
+    <path path="languages/smodelOperations/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.mps.extensionPoint0.src">
+    <path path="languages/extensionPoint/source_gen" />
+  </path>  
+  <path id="cycle.codeOrchestra.actionScript.core0.src">
+    <path path="languages/core/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.objectBuilder0.src">
+    <path path="languages/objectBuilder/source_gen" />
+  </path>  
+  <path id="cycle.codeOrchestra.actionScript.conceptFunction0.src">
+    <path path="languages/conceptFunction/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.overloadedOperators0.src">
+    <path path="languages/overloadedOperators/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.overloadedMethods0.src">
+    <path path="languages/overloadedMethods/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.traits0.src">
+    <path path="languages/traits/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.tuples0.src">
+    <path path="languages/tuples/source_gen" />
+  </path>  
+  <path id="cycle.codeOrchestra.actionScript.types0.src">
+    <path path="languages/types/source_gen" />
+  </path>  
+  <path id="cycle.codeOrchestra.actionScript.collections0.src">
+    <path path="languages/collectionsLang/source_gen" />
+  </path>    
+  <path id="cycle.codeOrchestra.actionScript.mixins0.src">
+    <path path="languages/mixins/source_gen" />
+  </path>    
+  <!-- <path id="cycle.codeOrchestra.actionScript.mxmltoas0.src">
+    <path path="languages/mxmltoas/source_gen" />
+  </path> -->  
+  <path id="cycle.codeOrchestra.actionScript.extensionMethods0.src">
+    <path path="languages/extensionMethods/source_gen" />
+  </path>  
+  <path id="cycle.codeOrchestra.actionScript.logging0.src">
+    <path path="languages/logging/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.closures0.src">
+    <path path="languages/closures/source_gen" />
+  </path>  
+  <path id="cycle.codeOrchestra.actionScript.nullable0.src">
+    <path path="languages/nullable-as/source_gen" />
+  </path> 
+  <path id="cycle.codeOrchestra.actionScript.assertions0.src">
+    <path path="languages/assertions/source_gen" />
+  </path>    
+  <path id="cycle.codeOrchestra.actionScript.eventsFlow0.src">
+    <path path="languages/eventsFlow/source_gen" />
+  </path>      
+  <path id="cycle.codeOrchestra.actionScript.liveCoding0.src">
+    <path path="languages/liveCoding/source_gen" />
+  </path>      
+  <path id="cycle.codeOrchestra.actionScript.iosLive0.src">
+    <path path="languages/iosLive/source_gen" />
+  </path>        
+  <path id="cycle.codeOrchestra.actionScript.plugins0.src">
+    <path path="languages/plugins/source" />
+    <path path="languages/plugins/source_gen" />
+  </path>
+  <path id="cycle.com.realaxy.actionScript.help0.src">
+    <path path="languages/help/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.smartVariables0.src">
+    <path path="languages/smartVariables/source_gen" />
+  </path>
+  <!-- RE-3767 <path id="cycle.codeOrchestra.actionScript.tutor0.src">
+    <path path="languages/tutor/source_gen" />
+  </path> -->
+  <path id="cycle.codeOrchestra.actionScript.regexp0.src">
+    <path path="languages/regexp/source_gen" />
+  </path> 
+  <path id="cycle.codeOrchestra.actionScript.enums0.src">
+    <path path="languages/enums/source_gen" />
+  </path>
+  <path id="cycle.baseLanguage.ext.movements0.src">
+    <path path="languages/movements/source_gen" />
+  </path>
+  <path id="cycle.baseLanguage.ext.mpsPerformanceCheckers0.src">
+    <path path="languages/mpsPerformanceCheckers/source_gen" />
+  </path>  
+  <path id="cycle.baseLanguage.ext.modelCache0.src">
+    <path path="languages/modelCache/source_gen" />
+  </path>
+  <path id="cycle.baseLanguage.ext.nullable0.src">
+    <path path="languages/nullable/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.refactoring0.src">
+    <path path="languages/refactoring/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.generics0.src">
+    <path path="languages/generics/source_gen" />
+  </path>
+  <path id="cycle.codeOrchestra.mps.extensionPointRegistry0.src">
+    <path path="solutions/codeOrchestra.mps.extensionPointRegistry/source_gen" />
+  </path>    
+  <path id="cycle.codeOrchestra.actionScript.air0.src">
+    <path path="languages/air/source_gen" />
+  </path>    
+  <path id="cycle.codeOrchestra.actionScript.airMobile0.src">
+    <path path="languages/airMobile/source_gen" />
+  </path>    
+  <path id="cycle.codeOrchestra.actionScript.asstubs0.src">
+    <path path="languages/asstubs/source_gen" />
+  </path>   
+  <path id="cycle.codeOrchestra.jsOptimization0.src">
+    <path path="languages/jsOptimization/source_gen" />
+  </path>   
+  <path id="cycle.codeOrchestra.actionScript.falcon0.src">
+    <path path="languages/falcon/source_gen" />
+  </path>
+
+  <!-- Classpaths -->
+  <path id="common.classpath">
+    <path path="${mps_home}/lib/mps.jar" />
+    <path path="${mps_home}/lib/jetbrains-ideframework/platform-api.jar" />
+    <path path="${mps_home}/lib/jetbrains-ideframework/platform.jar" />
+    <path path="${mps_home}/lib/jetbrains-ideframework/util.jar" />
+    <path path="${mps_home}/lib/jetbrains-ideframework/extensions.jar" />
+  </path>
+  <path id="metaas.classpath">
+    <path path="solutions/Metaas/antlr-runtime-3.0.1.jar "/>
+    <path path="solutions/Metaas/metaas-0.9-SNAPSHOT.jar"/>
+    <path path="solutions/Metaas/stringtemplate-3.1-b1.jar"/>
+  </path>
+  <path id="idea.jars">
+    <path path="${mps_home}/lib/platform-api.jar" />
+    <path path="${mps_home}/lib/util.jar" />    
+    <path path="${mps_home}/lib/extensions.jar" />        
+  </path>
+  <path id="common.jars">
+    <path refid="idea.jars" />
+    <path path="${mps_home}/lib/commons-lang-2.4.jar" />
+    <path path="${mps_home}/lib/annotations.jar" />
+    <path path="${mps_home}/lib/picocontainer.jar" />
+    <path path="${mps_home}/core/baseLanguage/MPS.Classpath.mpsarch.jar" />
+    <path path="${mps_home}/core/baseLanguage/JDK.mpsarch.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.runtime.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.collections.runtime.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.closures.runtime.jar" />
+    <path path="${mps_home}/core/baseLanguage/closures.runtime.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.editor.runtime.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.mpsarch.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.classifiers.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.dataFlow.mpsarch.jar" />
+    <path path="${mps_home}/lib/beansbinding-1.2.1.jar" />
+    <path path="${mps_home}/workbench/jetbrains.mps.ide.mpsarch.jar" />
+    <path path="${mps_home}/platform/jetbrains.mps.ypath.mpsarch.jar" />
+    
+    <path path="${mps_home}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+    
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.core.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.structure.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.behavior.mpsarch.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguageInternal.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.dataFlow.runtime.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.dataFlow.runtime.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.smodel.runtime.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.dates.runtime.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.intentions.runtime.jar" />
+    <path path="${mps_home}/lib/commons-logging-1.1.jar" />
+    <path path="${mps_home}/lib/junit-4.8.2.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.runtime.mpsarch.jar" />
+    <path path="${mps_home}/platform/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.script.runtime.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.money.runtime.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.textGen.runtime.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.typesystem.runtime.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.test.runtime.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.quotation.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.annotations.mpsarch.jar" />
+    <path path="${mps_home}/lib/jdom.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.plugin.runtime.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.findUsages.runtime.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.pattern.runtime.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.math.runtime.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.refactoring.runtime.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.typesystem.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.actions.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.sharedConcepts.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.constraints.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.refactoring.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.generator.mpsarch.jar" />
+    <path path="${mps_home}/core/jetbrains.mps.kernel.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.editor.mpsarch.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.collections.mpsarch.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.closures.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.pattern.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.smodel.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.generator.generationContext.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.plugin.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.findUsages.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.intentions.mpsarch.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.logging.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.test.mpsarch.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.unitTest.mpsarch.jar" />
+    <path path="${mps_home}/platform/jetbrains.mps.uiLanguage.runtime.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mpslite.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.nanoj.mpsarch.jar" />
+    <path path="${mps_home}/platform/jetbrains.mps.baseLanguage.regexp.mpsarch.jar" />
+    <path path="${mps_home}/platform/jetbrains.mps.ypath.runtime.jar" />
+    <path path="${mps_home}/platform/jetbrains.mps.quickQueryLanguage.mpsarch.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.test.mpsarch.jar" />
+    <path path="${mps_home}/platform/jetbrains.mps.gtext.runtime.mpsarch.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.tuples.mpsarch.jar" />
+    <path path="${mps_home}/core/languageDesign/jetbrains.mps.lang.textGen.mpsarch.jar" />
+    <path path="${mps_home}/core/baseLanguage/jetbrains.mps.baseLanguage.blTypes.mpsarch.jar" />
+  </path>
+  <path id="cycle.codeOrchestra.mpsTuning0.classpaths">
+    <path path="languages/mpsTuning/classes_gen" /> 
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.codeOrchestra.mpsEditorTunning0.classpaths">
+    <path path="languages/mpsEditorTunning/classes_gen" /> 
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>    
+  <path id="cycle.codeOrchestra.mps.editorTrigger0.classpaths">
+    <path path="languages/editorTrigger/classes_gen" /> 
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>      
+  <path id="cycle.codeOrchestra.mps.smodelOperations0.classpaths">
+    <path path="languages/smodelOperations/classes_gen" /> 
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>        
+  <path id="cycle.codeOrchestra.mps.extensionPoint0.classpaths">
+    <path path="languages/extensionPoint/classes_gen" /> 
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>          
+  <path id="cycle.codeOrchestra.actionScript0.classpaths">
+    <path path="languages/core/classes_gen" />
+    <path path="solutions/Dump/apparat-core-1.0.RC6.jar" />
+    <path path="solutions/Scala/scala-library.jar" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.core0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="solutions/XStream/xstream.jar" />
+    <path path="solutions/Dump/apparat-core-1.0.RC6.jar" />
+    <path path="solutions/Scala/scala-library.jar" />    
+    <path path="solutions/Metaas/antlr-runtime-3.0.1.jar" />        
+    <path path="solutions/Metaas/metaas-0.9-SNAPSHOT.jar" />        
+    <path path="solutions/Metaas/stringtemplate-3.1-b1.jar" />            
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.objectBuilder0.classpaths">
+    <path path="languages/objectBuilder/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path> 
+  <path id="cycle.codeOrchestra.actionScript.logging0.classpaths">
+    <path path="languages/logging/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>   
+  <path id="cycle.codeOrchestra.actionScript.closures0.classpaths">
+    <path path="languages/closures/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>   
+  <path id="cycle.codeOrchestra.actionScript.assertions0.classpaths">
+    <path path="languages/assertions/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.codeOrchestra.actionScript.eventsFlow0.classpaths">
+    <path path="languages/eventsFlow/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path path="languages/smallLanguage/classes_gen" />        
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>    
+  <path id="cycle.codeOrchestra.actionScript.liveCoding0.classpaths">
+    <path path="languages/liveCoding/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path path="languages/smallLanguage/classes_gen" />        
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.codeOrchestra.actionScript.iosLive0.classpaths">
+    <path path="languages/iosLive/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path path="languages/smallLanguage/classes_gen" />        
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>          
+  <path id="cycle.codeOrchestra.actionScript.conceptFunction0.classpaths">
+    <path path="languages/conceptFunction/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>     
+  <path id="cycle.codeOrchestra.actionScript.overloadedOperators0.classpaths">
+    <path path="languages/overloadedOperators/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>     
+  <path id="cycle.codeOrchestra.actionScript.overloadedMethods0.classpaths">
+    <path path="languages/overloadedMethods/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>       
+  <path id="cycle.codeOrchestra.actionScript.traits0.classpaths">
+    <path path="languages/traits/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>     
+  <path id="cycle.codeOrchestra.actionScript.tuples0.classpaths">
+    <path path="languages/tuples/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>    
+  <path id="cycle.codeOrchestra.actionScript.types0.classpaths">
+    <path path="languages/types/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.codeOrchestra.actionScript.collections0.classpaths">
+    <path path="languages/collectionsLang/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>    
+  <path id="cycle.codeOrchestra.actionScript.mixins0.classpaths">
+    <path path="languages/mixins/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path path="languages/smallLanguage/classes_gen" />        
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>     
+  <!-- <path id="cycle.codeOrchestra.actionScript.mxmltoas0.classpaths">
+    <path path="languages/mxmltoas/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path> -->      
+  <path id="cycle.codeOrchestra.actionScript.extensionMethods0.classpaths">
+    <path path="languages/extensionMethods/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.codeOrchestra.actionScript.plugins0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/plugins/classes_gen" />
+    <path path="languages/plugins/classes" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>
+  <path id="cycle.com.realaxy.actionScript.help0.classpaths">
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.smartVariables0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/smartVariables/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <!-- RE-3767 <path id="cycle.codeOrchestra.actionScript.tutor0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path> -->
+  <path id="cycle.codeOrchestra.actionScript.regexp0.classpaths">
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path> 
+  <path id="cycle.codeOrchestra.actionScript.enums0.classpaths">
+    <path path="languages/enums/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.nullable0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/nullable-as/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.baseLanguage.ext.movements0.classpaths">
+    <path path="languages/movements/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>
+  <path id="cycle.baseLanguage.ext.movements0.classpaths">
+    <path path="languages/movements/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.baseLanguage.ext.mpsPerformanceCheckers0.classpaths">
+    <path path="languages/mpsPerformanceCheckers/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>
+  <path id="cycle.baseLanguage.ext.nullable0.classpaths">
+    <path path="languages/nullable/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.refactoring0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/refactoring/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>    
+  <path id="cycle.codeOrchestra.actionScript.css0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/css/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.run0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/run/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.codeOrchestra.mxml0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/mxml/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.html5.api0.classpaths">
+    <path path="languages/api/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>
+  <path id="cycle.html5.astojs0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/core/classes_gen" />
+    <path path="languages/js/classes_gen" />
+    <path path="languages/astojs/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>
+  <path id="cycle.html5.jquery0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/core/classes_gen" />
+    <path path="languages/js/classes_gen" />
+    <path path="languages/jquery/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>    
+  <path id="cycle.html5.d30.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/core/classes_gen" />
+    <path path="languages/js/classes_gen" />
+    <path path="languages/d3/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>    
+  <path id="cycle.html5.lesscss0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/core/classes_gen" />
+    <path path="languages/lesscss/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.html5.pokki0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/core/classes_gen" />
+    <path path="languages/pokki/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>
+  <path id="cycle.html5.w3c.css0.classpaths">
+    <path path="languages/w3c/css/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>   
+  <path id="cycle.html5.w3c.dom0.classpaths">
+    <path path="languages/dom/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path> 
+  <path id="cycle.html5.w3c.html0.classpaths">
+    <path path="languages/w3c/html/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>       
+  <path id="cycle.html5.w3c.svg0.classpaths">
+    <path path="languages/w3c/svg/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>    
+  <path id="cycle.codeOrchestra.js0.classpaths">
+    <path path="languages/js/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.codeOrchestra.projectAssets0.classpaths">
+    <path path="languages/projectAssets/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.codeOrchestra.smallLanguage0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/smallLanguage/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.gtext.ext.generatorGoodies0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path path="languages/generatorGoodies/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.codeOrchestra.actionScript.generics0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>
+  <path id="cycle.codeOrchestra.actionScript.generics0.classpaths">
+    <path path="languages/actionScript/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>  
+  <path id="cycle.codeOrchestra.mps.extensionPointRegistry0.classpaths">
+    <path path="solutions/codeOrchestra.mps.extensionPointRegistry/classes_gen" />
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>    
+  <path id="cycle.codeOrchestra.actionScript.air0.classpaths">
+    <path path="languages/air/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>    
+  <path id="cycle.codeOrchestra.actionScript.airMobile0.classpaths">
+    <path path="languages/airMobile/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>      
+  <path id="cycle.codeOrchestra.actionScript.asstubs0.classpaths">
+    <path path="languages/asstubs/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>      
+  <path id="cycle.codeOrchestra.jsOptimization0.classpaths">
+    <path path="languages/jsOptimization/classes_gen" />
+    <path path="languages/actionScript/classes_gen" />   
+    <path path="languages/refactorings/classes_gen" />     
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>      
+  <path id="cycle.codeOrchestra.actionScript.falcon0.classpaths">
+    <path path="languages/falcon/classes_gen" />    
+    <path path="languages/actionScript/classes_gen" />    
+    <path refid="common.jars" />
+    <path refid="common.classpath" />
+  </path>        
+  
+  <!-- Compile targets -->
+  <target name="compile.all" depends="
+    compile.cycle.codeOrchestra.mpsTuning0,
+    compile.cycle.codeOrchestra.mpsEditorTunning0,    
+    compile.cycle.codeOrchestra.mps.extensionPointRegistry0,
+    compile.cycle.codeOrchestra.mps.editorTrigger0,        
+    compile.cycle.codeOrchestra.mps.smodelOperations0,            
+    compile.cycle.codeOrchestra.mps.extensionPoint0,                
+    compile.cycle.codeOrchestra.actionScript0,
+    compile.cycle.codeOrchestra.actionScript.core0,
+    compile.cycle.codeOrchestra.actionScript.plugins0,
+    compile.cycle.codeOrchestra.actionScript.regexp0,
+    compile.cycle.codeOrchestra.actionScript.enums0,
+    compile.cycle.codeOrchestra.actionScript.nullable0,
+    compile.cycle.baseLanguage.ext.movements0,
+    compile.cycle.baseLanguage.ext.mpsPerformanceCheckers0,
+    compile.cycle.baseLanguage.ext.modelCache0,
+    compile.cycle.baseLanguage.ext.nullable0,
+    compile.cycle.codeOrchestra.actionScript.refactoring0,    
+    compile.cycle.codeOrchestra.actionScript.conceptFunction0,
+    compile.cycle.codeOrchestra.actionScript.overloadedOperators0,
+    compile.cycle.codeOrchestra.actionScript.overloadedMethods0,    
+    compile.cycle.codeOrchestra.actionScript.traits0,
+    compile.cycle.codeOrchestra.actionScript.tuples0,    
+    compile.cycle.codeOrchestra.actionScript.types0,    
+    compile.cycle.codeOrchestra.actionScript.collections0,        
+    compile.cycle.codeOrchestra.actionScript.mixins0,              
+    compile.cycle.codeOrchestra.actionScript.extensionMethods0,          
+    compile.cycle.codeOrchestra.actionScript.objectBuilder0,
+    compile.cycle.codeOrchestra.actionScript.logging0,
+    compile.cycle.codeOrchestra.actionScript.closures0,
+    compile.cycle.codeOrchestra.actionScript.assertions0,
+    compile.cycle.codeOrchestra.actionScript.eventsFlow0,    
+	compile.cycle.codeOrchestra.actionScript.liveCoding0,    
+    compile.cycle.codeOrchestra.actionScript.generics0,    
+    compile.cycle.codeOrchestra.actionScript.css0,
+    compile.cycle.codeOrchestra.actionScript.run0,    
+    compile.cycle.codeOrchestra.mxml0,    
+    compile.cycle.html5.api0,    
+    compile.cycle.html5.astojs0,    
+    compile.cycle.html5.jquery0,        
+    compile.cycle.html5.d30,
+    compile.cycle.html5.lesscss0,
+    compile.cycle.html5.pokki0,   
+    compile.cycle.html5.w3c.css0,
+    compile.cycle.html5.w3c.dom0,
+    compile.cycle.html5.w3c.html0,
+    compile.cycle.html5.w3c.svg0,    
+    compile.cycle.codeOrchestra.js0,
+    compile.cycle.codeOrchestra.actionScript.air0,
+    compile.cycle.codeOrchestra.actionScript.airMobile0,
+    compile.cycle.codeOrchestra.actionScript.asstubs0,
+    compile.cycle.codeOrchestra.projectAssets0,    
+    compile.cycle.codeOrchestra.smallLanguage0,    
+    compile.cycle.gtext.ext.generatorGoodies0,    
+    compile.cycle.codeOrchestra.jsOptimization0,
+    compile.cycle.codeOrchestra.actionScript.falcon0,
+    compile.cycle.codeOrchestra.actionScript.smartVariables0" />
+ 
+  <target name="compile.cycle.codeOrchestra.mps.extensionPointRegistry0">
+    <mkdir dir="solutions/codeOrchestra.mps.extensionPointRegistry/source_gen" />
+    <mkdir dir="${codeOrchestra.mps.extensionPointRegistry.classes}" />
+    <javac classpathref="codeOrchestra.mps.extensionPointRegistry0.classpaths" destdir="${codeOrchestra.mps.extensionPointRegistry.classes}">
+      <src refid="cycle.codeOrchestra.mps.extensionPointRegistry0.src" />
+    </javac>
+  </target> 
+  <target name="compile.cycle.codeOrchestra.mpsTuning0">
+    <mkdir dir="languages/mpsTuning/source_gen" />
+    <mkdir dir="${codeOrchestra.mpsTuning.classes}" />
+    <javac classpathref="cycle.codeOrchestra.mpsTuning0.classpaths" destdir="${codeOrchestra.mpsTuning.classes}">
+      <src refid="cycle.codeOrchestra.mpsTuning0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.mpsEditorTunning0">
+    <mkdir dir="languages/mpsEditorTunning/source_gen" />
+    <mkdir dir="${codeOrchestra.mpsEditorTunning.classes}" />
+    <javac classpathref="cycle.codeOrchestra.mpsEditorTunning0.classpaths" destdir="${codeOrchestra.mpsEditorTunning.classes}">
+      <src refid="cycle.codeOrchestra.mpsEditorTunning0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.codeOrchestra.mps.editorTrigger0">
+    <mkdir dir="languages/editorTrigger/source_gen" />
+    <mkdir dir="${codeOrchestra.mps.editorTrigger.classes}" />
+    <javac classpathref="cycle.codeOrchestra.mps.editorTrigger0.classpaths" destdir="${codeOrchestra.mps.editorTrigger.classes}">
+      <src refid="cycle.codeOrchestra.mps.editorTrigger0.src" />
+    </javac>
+  </target>    
+  <target name="compile.cycle.codeOrchestra.mps.smodelOperations0">
+    <mkdir dir="languages/smodelOperations/source_gen" />
+    <mkdir dir="${codeOrchestra.mps.smodelOperations.classes}" />
+    <javac classpathref="cycle.codeOrchestra.mps.smodelOperations0.classpaths" destdir="${codeOrchestra.mps.smodelOperations.classes}">
+      <src refid="cycle.codeOrchestra.mps.smodelOperations0.src" />
+    </javac>
+  </target>      
+  <target name="compile.cycle.codeOrchestra.mps.extensionPoint0">
+    <mkdir dir="languages/extensionPoint/source_gen" />
+    <mkdir dir="${codeOrchestra.mps.extensionPoint.classes}" />
+    <javac classpathref="cycle.codeOrchestra.mps.extensionPoint0.classpaths" destdir="${codeOrchestra.mps.extensionPoint.classes}">
+      <src refid="cycle.codeOrchestra.mps.extensionPoint0.src" />
+    </javac>
+  </target>      	  
+  <target name="compile.cycle.codeOrchestra.actionScript0">
+    <mkdir dir="languages/actionScript/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript0.classpaths" destdir="${codeOrchestra.actionScript.classes}">
+      <src refid="cycle.codeOrchestra.actionScript0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.core0">
+    <mkdir dir="languages/core/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.core.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.core0.classpaths" destdir="${codeOrchestra.actionScript.core.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.core0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.codeOrchestra.actionScript.plugins0">
+    <mkdir dir="languages/plugins/source" />
+    <mkdir dir="languages/plugins/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.plugins.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.plugins0.classpaths" destdir="${codeOrchestra.actionScript.plugins.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.plugins0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.objectBuilder0">
+    <mkdir dir="languages/objectBuilder/source" />
+    <mkdir dir="languages/objectBuilder/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.objectBuilder.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.objectBuilder0.classpaths" destdir="${codeOrchestra.actionScript.objectBuilder.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.objectBuilder0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.conceptFunction0">
+    <mkdir dir="languages/conceptFunction/source" />
+    <mkdir dir="languages/conceptFunction/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.conceptFunction.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.conceptFunction0.classpaths" destdir="${codeOrchestra.actionScript.conceptFunction.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.conceptFunction0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.overloadedOperators0">
+    <mkdir dir="languages/overloadedOperators/source" />
+    <mkdir dir="languages/overloadedOperators/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.overloadedOperators.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.overloadedOperators0.classpaths" destdir="${codeOrchestra.actionScript.overloadedOperators.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.overloadedOperators0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.overloadedMethods0">
+    <mkdir dir="languages/overloadedMethods/source" />
+    <mkdir dir="languages/overloadedMethods/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.overloadedMethods.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.overloadedMethods0.classpaths" destdir="${codeOrchestra.actionScript.overloadedMethods.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.overloadedMethods0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.codeOrchestra.actionScript.traits0">
+    <mkdir dir="languages/traits/source" />
+    <mkdir dir="languages/traits/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.traits.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.traits0.classpaths" destdir="${codeOrchestra.actionScript.traits.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.traits0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.tuples0">
+    <mkdir dir="languages/tuples/source" />
+    <mkdir dir="languages/tuples/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.tuples.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.tuples0.classpaths" destdir="${codeOrchestra.actionScript.tuples.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.tuples0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.types0">
+    <mkdir dir="languages/types/source" />
+    <mkdir dir="languages/types/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.types.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.types0.classpaths" destdir="${codeOrchestra.actionScript.types.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.types0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.collections0">
+    <mkdir dir="languages/collectionsLang/source" />
+    <mkdir dir="languages/collectionsLang/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.collections.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.collections0.classpaths" destdir="${codeOrchestra.actionScript.collections.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.collections0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.codeOrchestra.actionScript.mixins0">
+    <mkdir dir="languages/mixins/source" />
+    <mkdir dir="languages/mixins/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.mixins.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.mixins0.classpaths" destdir="${codeOrchestra.actionScript.mixins.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.mixins0.src" />
+    </javac>
+  </target>  
+  <!-- <target name="compile.cycle.codeOrchestra.actionScript.mxmltoas0">
+    <mkdir dir="languages/mxmltoas/source" />
+    <mkdir dir="languages/mxmltoas/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.mxmltoas.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.mxmltoas0.classpaths" destdir="${codeOrchestra.actionScript.mxmltoas.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.mxmltoas0.src" />
+    </javac>
+  </target> -->  
+  <target name="compile.cycle.codeOrchestra.actionScript.extensionMethods0">
+    <mkdir dir="languages/extensionMethods/source" />
+    <mkdir dir="languages/extensionMethods/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.extensionMethods.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.extensionMethods0.classpaths" destdir="${codeOrchestra.actionScript.extensionMethods.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.extensionMethods0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.codeOrchestra.actionScript.logging0">
+    <mkdir dir="languages/logging/source" />
+    <mkdir dir="languages/logging/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.logging.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.logging0.classpaths" destdir="${codeOrchestra.actionScript.logging.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.logging0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.closures0">
+    <mkdir dir="languages/closures/source" />
+    <mkdir dir="languages/closures/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.closures.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.closures0.classpaths" destdir="${codeOrchestra.actionScript.closures.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.closures0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.assertions0">
+    <mkdir dir="languages/assertions/source" />
+    <mkdir dir="languages/assertions/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.assertions.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.assertions0.classpaths" destdir="${codeOrchestra.actionScript.assertions.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.assertions0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.codeOrchestra.actionScript.eventsFlow0">
+    <mkdir dir="languages/eventsFlow/source" />
+    <mkdir dir="languages/eventsFlow/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.eventsFlow.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.eventsFlow0.classpaths" destdir="${codeOrchestra.actionScript.eventsFlow.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.eventsFlow0.src" />
+    </javac>
+  </target>    
+  <target name="compile.cycle.codeOrchestra.actionScript.liveCoding0">
+    <mkdir dir="languages/liveCoding/source" />
+    <mkdir dir="languages/liveCoding/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.liveCoding.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.liveCoding0.classpaths" destdir="${codeOrchestra.actionScript.liveCoding.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.liveCoding0.src" />
+    </javac>
+  </target>    
+  <target name="compile.cycle.codeOrchestra.actionScript.iosLive0">
+    <mkdir dir="languages/iosLive/source" />
+    <mkdir dir="languages/iosLive/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.iosLive.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.iosLive0.classpaths" destdir="${codeOrchestra.actionScript.iosLive.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.iosLive0.src" />
+    </javac>
+  </target>     
+  <target name="compile.cycle.codeOrchestra.actionScript.regexp0">
+    <mkdir dir="languages/regexp/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.regexp.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.regexp0.classpaths" destdir="${codeOrchestra.actionScript.regexp.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.regexp0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.enums0">
+    <mkdir dir="languages/enums/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.enums.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.enums0.classpaths" destdir="${codeOrchestra.actionScript.enums.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.enums0.src" />
+    </javac>
+  </target> 
+  <target name="compile.cycle.codeOrchestra.actionScript.nullable0">
+    <mkdir dir="languages/nullable-as/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.nullable.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.nullable0.classpaths" destdir="${codeOrchestra.actionScript.nullable.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.nullable0.src" />
+    </javac>
+  </target>    
+  <target name="compile.cycle.baseLanguage.ext.movements0">
+    <mkdir dir="languages/movements/source_gen" />
+    <mkdir dir="${baseLanguage.ext.movements.classes}" />
+    <javac classpathref="cycle.baseLanguage.ext.movements0.classpaths" destdir="${baseLanguage.ext.movements.classes}">
+      <src refid="cycle.baseLanguage.ext.movements0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.baseLanguage.ext.mpsPerformanceCheckers0">
+    <mkdir dir="languages/mpsPerformanceCheckers/source_gen" />
+    <mkdir dir="${baseLanguage.ext.mpsPerformanceCheckers.classes}" />
+    <javac classpathref="cycle.baseLanguage.ext.mpsPerformanceCheckers0.classpaths" destdir="${baseLanguage.ext.mpsPerformanceCheckers.classes}">
+      <src refid="cycle.baseLanguage.ext.mpsPerformanceCheckers0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.baseLanguage.ext.modelCache0">
+    <mkdir dir="languages/modelCache/source_gen" />
+    <mkdir dir="${baseLanguage.ext.modelCache.classes}" />
+    <javac classpathref="cycle.baseLanguage.ext.modelCache0.classpaths" destdir="${baseLanguage.ext.modelCache.classes}">
+      <src refid="cycle.baseLanguage.ext.modelCache0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.baseLanguage.ext.nullable0">
+    <mkdir dir="languages/nullable/source_gen" />
+    <mkdir dir="${baseLanguage.ext.nullable.classes}" />
+    <javac classpathref="cycle.baseLanguage.ext.nullable0.classpaths" destdir="${baseLanguage.ext.nullable.classes}">
+      <src refid="cycle.baseLanguage.ext.nullable0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.refactoring0">
+    <mkdir dir="languages/refactoring/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.refactoring.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.refactoring0.classpaths" destdir="${codeOrchestra.actionScript.refactoring.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.refactoring0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.generics0">
+    <mkdir dir="languages/generics/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.generics.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.generics0.classpaths" destdir="${codeOrchestra.actionScript.generics.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.generics0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.css0">
+    <mkdir dir="languages/css/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.css.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.css0.classpaths" destdir="${codeOrchestra.actionScript.css.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.css0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.run0">
+    <mkdir dir="languages/run/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.run.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.run0.classpaths" destdir="${codeOrchestra.actionScript.run.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.run0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.codeOrchestra.mxml0">
+    <mkdir dir="languages/mxml/source_gen" />
+    <mkdir dir="${codeOrchestra.mxml.classes}" />
+    <javac classpathref="cycle.codeOrchestra.mxml0.classpaths" destdir="${codeOrchestra.mxml.classes}">
+      <src refid="cycle.codeOrchestra.mxml0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.html5.api0">
+    <mkdir dir="languages/api/source_gen" />
+    <mkdir dir="${html5.api.classes}" />
+    <javac classpathref="cycle.html5.api0.classpaths" destdir="${html5.api.classes}">
+      <src refid="cycle.html5.api0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.html5.astojs0">
+    <mkdir dir="languages/astojs/source_gen" />
+    <mkdir dir="${html5.astojs.classes}" />
+    <javac classpathref="cycle.html5.astojs0.classpaths" destdir="${html5.astojs.classes}">
+      <src refid="cycle.html5.astojs0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.html5.jquery0">
+    <mkdir dir="languages/jquery/source_gen" />
+    <mkdir dir="${html5.jquery.classes}" />
+    <javac classpathref="cycle.html5.jquery0.classpaths" destdir="${html5.jquery.classes}">
+      <src refid="cycle.html5.jquery0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.html5.d30">
+    <mkdir dir="languages/d3/source_gen" />
+    <mkdir dir="${html5.d3.classes}" />
+    <javac classpathref="cycle.html5.d30.classpaths" destdir="${html5.d3.classes}">
+      <src refid="cycle.html5.d30.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.html5.lesscss0">
+    <mkdir dir="languages/lesscss/source_gen" />
+    <mkdir dir="${html5.lesscss.classes}" />
+    <javac classpathref="cycle.html5.lesscss0.classpaths" destdir="${html5.lesscss.classes}">
+      <src refid="cycle.html5.lesscss0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.html5.pokki0">
+    <mkdir dir="languages/pokki/source_gen" />
+    <mkdir dir="${html5.pokki.classes}" />
+    <javac classpathref="cycle.html5.pokki0.classpaths" destdir="${html5.pokki.classes}">
+      <src refid="cycle.html5.pokki0.src" />
+    </javac>
+  </target>   
+  <target name="compile.cycle.html5.w3c.css0">
+    <mkdir dir="languages/w3c/css/source_gen" />
+    <mkdir dir="${html5.w3c.css.classes}" />
+    <javac classpathref="cycle.html5.w3c.css0.classpaths" destdir="${html5.w3c.css.classes}">
+      <src refid="cycle.html5.w3c.css0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.html5.w3c.dom0">
+    <mkdir dir="languages/dom/source_gen" />
+    <mkdir dir="${html5.w3c.dom.classes}" />
+    <javac classpathref="cycle.html5.w3c.dom0.classpaths" destdir="${html5.w3c.dom.classes}">
+      <src refid="cycle.html5.w3c.dom0.src" />
+    </javac>
+  </target> 
+  <target name="compile.cycle.html5.w3c.html0">
+    <mkdir dir="languages/w3c/html/source_gen" />
+    <mkdir dir="${html5.w3c.html.classes}" />
+    <javac classpathref="cycle.html5.w3c.html0.classpaths" destdir="${html5.w3c.html.classes}">
+      <src refid="cycle.html5.w3c.html0.src" />
+    </javac>
+  </target> 
+  <target name="compile.cycle.html5.w3c.svg0">
+    <mkdir dir="languages/w3c/svg/source_gen" />
+    <mkdir dir="${html5.w3c.svg.classes}" />
+    <javac classpathref="cycle.html5.w3c.svg0.classpaths" destdir="${html5.w3c.svg.classes}">
+      <src refid="cycle.html5.w3c.svg0.src" />
+    </javac>
+  </target>   
+  <target name="compile.cycle.codeOrchestra.js0">
+    <mkdir dir="languages/js/source_gen" />
+    <mkdir dir="${codeOrchestra.js.classes}" />
+    <javac classpathref="cycle.codeOrchestra.js0.classpaths" destdir="${codeOrchestra.js.classes}">
+      <src refid="cycle.codeOrchestra.js0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.codeOrchestra.projectAssets0">
+    <mkdir dir="languages/projectAssets/source_gen" />
+    <mkdir dir="${codeOrchestra.projectAssets.classes}" />
+    <javac classpathref="cycle.codeOrchestra.projectAssets0.classpaths" destdir="${codeOrchestra.projectAssets.classes}">
+      <src refid="cycle.codeOrchestra.projectAssets0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.codeOrchestra.smallLanguage0">
+    <mkdir dir="languages/smallLanguage/source_gen" />
+    <mkdir dir="${codeOrchestra.smallLanguage.classes}" />
+    <javac classpathref="cycle.codeOrchestra.smallLanguage0.classpaths" destdir="${codeOrchestra.smallLanguage.classes}">
+      <src refid="cycle.codeOrchestra.smallLanguage0.src" />
+    </javac>
+  </target>   
+  <target name="compile.cycle.gtext.ext.generatorGoodies0">
+    <mkdir dir="languages/generatorGoodies/source_gen" />
+    <mkdir dir="${gtext.ext.generatorGoodies.classes}" />
+    <javac classpathref="cycle.gtext.ext.generatorGoodies0.classpaths" destdir="${gtext.ext.generatorGoodies.classes}">
+      <src refid="cycle.gtext.ext.generatorGoodies0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.com.realaxy.actionScript.help0">
+    <mkdir dir="languages/help/source_gen" />
+    <mkdir dir="${com.realaxy.actionScript.help.classes}" />
+    <javac classpathref="cycle.com.realaxy.actionScript.help0.classpaths" destdir="${com.realaxy.actionScript.help.classes}">
+      <src refid="cycle.com.realaxy.actionScript.help0.src" />
+    </javac>
+  </target>
+  <target name="compile.cycle.codeOrchestra.actionScript.smartVariables0">
+    <mkdir dir="languages/smartVariables/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.smartVariables.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.smartVariables0.classpaths" destdir="${codeOrchestra.actionScript.smartVariables.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.smartVariables0.src" />
+    </javac>
+  </target>  
+  <!-- RE-3767 <target name="compile.cycle.codeOrchestra.actionScript.tutor0">
+    <mkdir dir="languages/tutor/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.tutor.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.tutor0.classpaths" destdir="${codeOrchestra.actionScript.tutor.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.tutor0.src" />
+    </javac>
+  </target> -->  
+  <target name="compile.cycle.codeOrchestra.actionScript.air0">
+    <mkdir dir="languages/air/source" />
+    <mkdir dir="languages/air/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.air.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.air0.classpaths" destdir="${codeOrchestra.actionScript.air.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.air0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.codeOrchestra.actionScript.airMobile0">
+    <mkdir dir="languages/airMobile/source" />
+    <mkdir dir="languages/airMobile/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.airMobile.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.airMobile0.classpaths" destdir="${codeOrchestra.actionScript.airMobile.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.airMobile0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.codeOrchestra.actionScript.asstubs0">
+    <mkdir dir="languages/asstubs/source" />
+    <mkdir dir="languages/asstubs/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.asstubs.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.asstubs0.classpaths" destdir="${codeOrchestra.actionScript.asstubs.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.asstubs0.src" />
+    </javac>
+  </target>  
+  <target name="compile.cycle.codeOrchestra.jsOptimization0">
+    <mkdir dir="languages/jsOptimization/source" />
+    <mkdir dir="languages/jsOptimization/source_gen" />
+    <mkdir dir="${codeOrchestra.jsOptimization.classes}" />
+    <javac classpathref="cycle.codeOrchestra.jsOptimization0.classpaths" destdir="${codeOrchestra.jsOptimization.classes}">
+      <src refid="cycle.codeOrchestra.jsOptimization0.src" />
+    </javac>
+  </target>    
+  <target name="compile.cycle.codeOrchestra.actionScript.falcon0">
+    <mkdir dir="languages/falcon/source" />
+    <mkdir dir="languages/falcon/source_gen" />
+    <mkdir dir="${codeOrchestra.actionScript.falcon.classes}" />
+    <javac classpathref="cycle.codeOrchestra.actionScript.falcon0.classpaths" destdir="${codeOrchestra.actionScript.falcon.classes}">
+      <src refid="cycle.codeOrchestra.actionScript.falcon0.src" />
+    </javac>
+  </target>   
+
+  <!-- Clean -->
+  <target name="clean.classes">
+    <delete dir="${codeOrchestra.mps.extensionPointRegistry.classes}" />
+    <delete dir="${codeOrchestra.mpsTuning.classes}" />
+    <delete dir="${codeOrchestra.mpsEditorTunning.classes}" />    
+    <delete dir="${codeOrchestra.mps.editorTrigger.classes}" />    	    
+    <delete dir="${codeOrchestra.mps.smodelOperations.classes}" />    	        
+    <delete dir="${codeOrchestra.mps.extensionPoint.classes}" />    	            
+    <delete dir="${codeOrchestra.actionScript.classes}" />
+    <delete dir="${codeOrchestra.actionScript.plugins.classes}" />
+    <delete dir="${codeOrchestra.actionScript.objectBuilder.classes}" />
+    <delete dir="${codeOrchestra.actionScript.logging.classes}" />
+    <delete dir="${codeOrchestra.actionScript.closures.classes}" />    
+    <delete dir="${codeOrchestra.actionScript.assertions.classes}" />        
+    <delete dir="${codeOrchestra.actionScript.eventsFlow.classes}" />            
+    <delete dir="${codeOrchestra.actionScript.liveCoding.classes}" />                
+    <delete dir="${codeOrchestra.actionScript.iosLive.classes}" />                
+    <delete dir="${codeOrchestra.actionScript.regexp.classes}" />
+    <delete dir="${codeOrchestra.actionScript.enums.classes}" />
+    <delete dir="${codeOrchestra.actionScript.nullable.classes}" />           
+    <delete dir="${codeOrchestra.actionScript.conceptFunction.classes}" />       
+    <delete dir="${codeOrchestra.actionScript.overloadedOperators.classes}" />           
+    <delete dir="${codeOrchestra.actionScript.overloadedMethods.classes}" />               
+    <delete dir="${codeOrchestra.actionScript.traits.classes}" />       
+    <delete dir="${codeOrchestra.actionScript.tuples.classes}" />    
+    <delete dir="${codeOrchestra.actionScript.types.classes}" />    
+    <delete dir="${codeOrchestra.actionScript.collections.classes}" />        
+    <delete dir="${codeOrchestra.actionScript.mixins.classes}" />          
+    <!-- <delete dir="${codeOrchestra.actionScript.mxmltoas.classes}" />  -->            
+    <delete dir="${codeOrchestra.actionScript.extensionMethods.classes}" />          
+    <delete dir="${baseLanguage.ext.modelCache.classes}" />
+    <delete dir="${baseLanguage.ext.movements.classes}" />
+    <delete dir="${baseLanguage.ext.mpsPerformanceCheckers.classes}" />    
+    <delete dir="${baseLanguage.ext.nullable.classes}" />
+    <delete dir="${codeOrchestra.actionScript.refactoring.classes}" />
+    <delete dir="${codeOrchestra.actionScript.core.classes}" />
+    <delete dir="${codeOrchestra.actionScript.generics.classes}" />
+    <delete dir="${com.realaxy.actionScript.help.classes}" />
+    <delete dir="${codeOrchestra.actionScript.smartVariables.classes}" />    
+    <!-- RE-3767 <delete dir="${codeOrchestra.actionScript.tutor.classes}" /> -->
+    <delete dir="${codeOrchestra.actionScript.sandbox.classes}" />      
+    <delete dir="${codeOrchestra.actionScript.air.classes}" />        
+    <delete dir="${codeOrchestra.actionScript.airMobile.classes}" />     
+    <delete dir="${codeOrchestra.actionScript.asstubs.classes}" />    
+    <delete dir="${codeOrchestra.jsOptimization.classes}" />    
+    <delete dir="${codeOrchestra.actionScript.falcon.classes}" />    
+  </target>
+</project>
