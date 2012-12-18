@@ -92,7 +92,6 @@
       <modulePath path="${project}/solutions/playerglobal_swc/playerglobal_swc.msd" folder="Flash Libraries" />
       <modulePath path="${project}/solutions/rpc_swc/rpc_swc.msd" folder="Flash Libraries" />
       <modulePath path="${project}/solutions/spark_swc/spark_swc.msd" folder="Flash Libraries" />
-      <modulePath path="${project}/modules/MyASModule/MyASModule.msd" />
     </projectModules>
     <genConfs />
   </component>
