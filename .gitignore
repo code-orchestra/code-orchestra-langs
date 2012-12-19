@@ -1,6 +1,7 @@
 .DS_Store
 classes_gen
 source_gen
+source_gen.caches
 testclasses
 *.iws
 *.class
