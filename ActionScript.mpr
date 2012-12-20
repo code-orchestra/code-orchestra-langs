@@ -76,12 +76,11 @@
       <modulePath path="${project}/languages/w3c/css/css.mpl" folder="Languages.W3C" />
       <modulePath path="${project}/languages/w3c/html/html.mpl" folder="Languages.W3C" />
       <modulePath path="${project}/languages/w3c/svg/svg.mpl" folder="Languages.W3C" />
-      <modulePath path="${project}/modules/ActionScript_liveCoding/ActionScript_liveCoding.msd" />
-      <modulePath path="${project}/modules/Operators/Operators.msd" />
-      <modulePath path="${project}/modules/casalib/Casalib.msd" />
+      <modulePath path="${project}/modules/casalib/сasalib.msd" />
       <modulePath path="${project}/modules/jangaroo-browser/jangaroo-browser.msd" />
       <modulePath path="${project}/modules/jangaroo-runtime/jangaroo-runtime.msd" folder="Flash Libraries.js" />
       <modulePath path="${project}/modules/jooflash/jooflash.msd" />
+      <modulePath path="${project}/modules/operators/operators.msd" />
       <modulePath path="${project}/solutions/Batik/Batik.msd" folder="Java Libraries" />
       <modulePath path="${project}/solutions/Dump/Dump.msd" folder="Java Libraries" />
       <modulePath path="${project}/solutions/Metaas/Metaas.msd" folder="Java Libraries" />
