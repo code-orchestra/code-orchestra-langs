@@ -513,16 +513,16 @@
   </target>        
   <!-- Packing Casalib -->
   <target name="pack.Casalib0">
-    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/Casalib.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
-      <zipfileset file="modules/casalib/Casalib.msd" prefix="module" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/casalib.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="modules/casalib/casalib.msd" prefix="module" />
       <zipfileset dir="modules/casalib" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
     </jar>
   </target>        
   <!-- Packing Operators -->
   <target name="pack.Operators0">
-    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/Operators.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
-      <zipfileset file="modules/Operators/Operators.msd" prefix="module" />
-      <zipfileset dir="modules/Operators" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
+    <jar destfile="${deploy.dir}/ActionScript.zip.tmp/ActionScript/Flash Libraries/operators.mpsarch.jar" compress="true" duplicate="preserve" filesonly="true">
+      <zipfileset file="modules/operators/operators.msd" prefix="module" />
+      <zipfileset dir="modules/operators" excludes="**/*.iml, **/*.java, **/*.class, **/*.mpr, **/*.mws, **/*.mpl, **/*.msd, **/*.devkit, **/*.ipr" prefix="module" />
     </jar>
   </target>         
 
