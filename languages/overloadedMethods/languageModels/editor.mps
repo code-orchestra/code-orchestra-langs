@@ -8,9 +8,13 @@
   <import index="ndwn" modelUID="r:81f0ca78-d516-436f-b54b-8970fc616f40(codeOrchestra.actionScript.editor)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="-1" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
+  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <roots>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8277746827654897030">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="iqyc.8277746827654839141" resolveInfo="OverloadMethodAnnotation" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2018184498259257823">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="iqyc.2018184498259257818" resolveInfo="EnumConstantType" />
     </node>
   </roots>
   <root id="8277746827654897030">
@@ -116,6 +120,35 @@
         <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="ndwn.1241021640713" resolveInfo="Annotation" />
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="8530922048463199308">
           <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="2018184498259257823">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2018184498259257824">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2018184498259257825" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="2018184498259257826">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="iqyc.2018184498259257821" />
+        <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="2018184498259257827">
+          <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2018184498259257828">
+            <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
+            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+          </node>
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2018184498259257829">
+        <property name="text" nameId="tpc2.1073389577007" value="." />
+        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="ndwn.1241021640753" resolveInfo="Dot" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="2018184498259257830">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="iqyc.2018184498259257822" />
+        <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="2018184498259257831">
+          <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2018184498259257832">
+            <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
+            <property name="attractsFocus" nameId="tpc2.1130859485024" value="2" />
+            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+            <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="ndwn.1241021640700" resolveInfo="StaticField" />
+          </node>
         </node>
       </node>
     </node>

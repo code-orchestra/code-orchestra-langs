@@ -8,6 +8,7 @@
   <language namespace="4ccc7985-cbd1-4af4-a0be-6c0449d5e673(codeOrchestra.actionScript.closures)" />
   <language namespace="bc24470f-6fe0-49d1-8324-930227a4f989(codeOrchestra.actionScript.collections)" />
   <language namespace="68b7b8e2-9291-492e-8a01-35739a859ad4(html5.astojs)" />
+  <language namespace="cbd2a870-1b01-42c0-9278-dffe24cdc713(codeOrchestra.actionScript.overloadedMethods)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="rapp" modelUID="r:daf493b5-218e-417c-9030-7283f5e021b7(html5.socket_io.structure)" version="-1" />
   <import index="1k6w" modelUID="f:swc_stub#(@swc_stub)" version="-1" />
@@ -20,6 +21,7 @@
   <import index="3vt2" modelUID="r:49784cba-a384-4286-b969-08d540fbc32f(codeOrchestra.actionScript.structure)" version="81" implicit="yes" />
   <import index="k2ls" modelUID="r:a515a607-b683-410e-b576-8fb6fe47b78f(codeOrchestra.actionScript.enums.util)" version="-1" implicit="yes" />
   <import index="m5sl" modelUID="r:93390832-59c0-4190-943c-43f11a357c86(codeOrchestra.actionScript.collections.structure)" version="-1" implicit="yes" />
+  <import index="iqyc" modelUID="r:ed9a21db-f353-4be2-b2f3-97b3988cdb7e(codeOrchestra.actionScript.overloadedMethods.structure)" version="-1" implicit="yes" />
   <roots>
     <node type="3vt2.ClassConcept" typeId="3vt2.1237644023270" id="6376721462182392287">
       <property name="sourceModule" value="acd17ba7-5aba-4e27-b022-bbd8b8726efc" />
@@ -228,29 +230,83 @@
     <node role="method" roleId="3vt2.1238599729748" type="3vt2.InstanceMethodDeclaration" typeId="3vt2.1237644241500" id="6376721462182392364">
       <property name="name" nameId="tpck.1169194664001" value="on" />
       <property name="isNative" nameId="3vt2.3838062322761349206" value="true" />
-      <node role="parameter" roleId="3vt2.3618339097803723485" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="6376721462182392365">
-        <property name="name" nameId="tpck.1169194664001" value="event" />
-        <node role="type" roleId="3vt2.1238708772985" type="kgp.JoinType" typeId="kgp.3761556299512345726" id="6376721462182392366">
-          <node role="argument" roleId="kgp.3761556299512345727" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="6376721462182392367">
-            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
-          </node>
-          <node role="argument" roleId="kgp.3761556299512345727" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="6376721462182392368">
-            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6376721462182392405" resolveInfo="SocketEvent" />
-          </node>
-        </node>
-      </node>
-      <node role="parameter" roleId="3vt2.3618339097803723485" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="6376721462182392369">
-        <property name="name" nameId="tpck.1169194664001" value="callback" />
-        <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="6376721462182392370">
-          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Function" resolveInfo="Function" />
-        </node>
-      </node>
       <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="6376721462182392371">
         <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="6376721462182392372" />
       </node>
       <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="6376721462182392373" />
       <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="6376721462182392374">
         <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6376721462182392308" resolveInfo="Socket" />
+      </node>
+      <node role="annotation" roleId="3vt2.455913868588249145" type="iqyc.OverloadMethodAnnotation" typeId="iqyc.8277746827654839141" id="2018184498259372644">
+        <node role="parameter" roleId="iqyc.8277746827654846980" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="6376721462182392365">
+          <property name="name" nameId="tpck.1169194664001" value="event" />
+          <node role="type" roleId="3vt2.1238708772985" type="iqyc.EnumConstantType" typeId="iqyc.2018184498259257818" id="2018184498259372653">
+            <link role="enum" roleId="iqyc.2018184498259257821" targetNodeId="6376721462182392405" resolveInfo="SocketEvent" />
+            <link role="constant" roleId="iqyc.2018184498259257822" targetNodeId="6376721462182392406" resolveInfo="CONNECT" />
+          </node>
+        </node>
+        <node role="parameter" roleId="iqyc.8277746827654846980" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="6376721462182392369">
+          <property name="name" nameId="tpck.1169194664001" value="callback" />
+          <node role="type" roleId="3vt2.1238708772985" type="tkzo.FunctionType" typeId="tkzo.3691842890462754013" id="2018184498259372654">
+            <node role="resultType" roleId="tkzo.3691842890462754018" type="3vt2.VoidType" typeId="3vt2.1237649329996" id="2018184498259372656" />
+          </node>
+        </node>
+      </node>
+      <node role="annotation" roleId="3vt2.455913868588249145" type="iqyc.OverloadMethodAnnotation" typeId="iqyc.8277746827654839141" id="2018184498259372889">
+        <node role="parameter" roleId="iqyc.8277746827654846980" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="2018184498259372890">
+          <property name="name" nameId="tpck.1169194664001" value="event" />
+          <node role="type" roleId="3vt2.1238708772985" type="iqyc.EnumConstantType" typeId="iqyc.2018184498259257818" id="2018184498259372891">
+            <link role="enum" roleId="iqyc.2018184498259257821" targetNodeId="6376721462182392405" resolveInfo="SocketEvent" />
+            <link role="constant" roleId="iqyc.2018184498259257822" targetNodeId="6376721462182392427" resolveInfo="CLOSE" />
+          </node>
+        </node>
+        <node role="parameter" roleId="iqyc.8277746827654846980" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="2018184498259372892">
+          <property name="name" nameId="tpck.1169194664001" value="callback" />
+          <node role="type" roleId="3vt2.1238708772985" type="tkzo.FunctionType" typeId="tkzo.3691842890462754013" id="2018184498259372893">
+            <node role="parameterType" roleId="tkzo.3691842890462754017" type="tkzo.NamedType" typeId="tkzo.8274101492593574778" id="2018184498259372897">
+              <property name="name" nameId="tpck.1169194664001" value="msg" />
+              <node role="type" roleId="tkzo.8274101492593574779" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="2018184498259372896">
+                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
+              </node>
+            </node>
+            <node role="resultType" roleId="tkzo.3691842890462754018" type="3vt2.VoidType" typeId="3vt2.1237649329996" id="2018184498259372894" />
+          </node>
+        </node>
+      </node>
+      <node role="annotation" roleId="3vt2.455913868588249145" type="iqyc.OverloadMethodAnnotation" typeId="iqyc.8277746827654839141" id="2018184498259372899">
+        <node role="parameter" roleId="iqyc.8277746827654846980" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="2018184498259372900">
+          <property name="name" nameId="tpck.1169194664001" value="event" />
+          <node role="type" roleId="3vt2.1238708772985" type="iqyc.EnumConstantType" typeId="iqyc.2018184498259257818" id="2018184498259372908">
+            <link role="enum" roleId="iqyc.2018184498259257821" targetNodeId="6376721462182392405" resolveInfo="SocketEvent" />
+            <link role="constant" roleId="iqyc.2018184498259257822" targetNodeId="6376721462182392420" resolveInfo="MESSAGE" />
+          </node>
+        </node>
+        <node role="parameter" roleId="iqyc.8277746827654846980" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="2018184498259372902">
+          <property name="name" nameId="tpck.1169194664001" value="callback" />
+          <node role="type" roleId="3vt2.1238708772985" type="tkzo.FunctionType" typeId="tkzo.3691842890462754013" id="2018184498259372903">
+            <node role="parameterType" roleId="tkzo.3691842890462754017" type="tkzo.NamedType" typeId="tkzo.8274101492593574778" id="2018184498259372904">
+              <property name="name" nameId="tpck.1169194664001" value="msg" />
+              <node role="type" roleId="tkzo.8274101492593574779" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="2018184498259372905">
+                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
+              </node>
+            </node>
+            <node role="resultType" roleId="tkzo.3691842890462754018" type="3vt2.VoidType" typeId="3vt2.1237649329996" id="2018184498259372906" />
+          </node>
+        </node>
+      </node>
+      <node role="annotation" roleId="3vt2.455913868588249145" type="iqyc.OverloadMethodAnnotation" typeId="iqyc.8277746827654839141" id="2018184498259372647">
+        <node role="parameter" roleId="iqyc.8277746827654846980" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="2018184498259372648">
+          <property name="name" nameId="tpck.1169194664001" value="event" />
+          <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="2018184498259372649">
+            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
+          </node>
+        </node>
+        <node role="parameter" roleId="iqyc.8277746827654846980" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="2018184498259372650">
+          <property name="name" nameId="tpck.1169194664001" value="callback" />
+          <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="2018184498259372651">
+            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Function" resolveInfo="Function" />
+          </node>
+        </node>
       </node>
     </node>
     <node role="method" roleId="3vt2.1238599729748" type="3vt2.InstanceMethodDeclaration" typeId="3vt2.1237644241500" id="6376721462182392375">
