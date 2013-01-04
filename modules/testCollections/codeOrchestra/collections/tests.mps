@@ -229,8 +229,12 @@
                               </node>
                             </node>
                             <node role="expression" roleId="3vt2.7078864938167502024" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="1448843094172796689">
-                              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="1448843094172796690">
-                                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1448843094172796632" resolveInfo="leftSorted" />
+                              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.OperationExpressionSurroundWrapper" typeId="3vt2.3085388214689306031" id="491229564300984767">
+                                <node role="wrappedNode" roleId="3vt2.4569870924333180050" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="491229564300984768">
+                                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="491229564300984769">
+                                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1448843094172796646" resolveInfo="rightSorted" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
