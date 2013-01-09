@@ -2956,6 +2956,26 @@
             </node>
           </node>
         </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5506749402409719837" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="5506749402409719839">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="5506749402409719840">
+            <property name="text" nameId="tpee.6329021646629104958" value="RF-1230" />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5506749402409718966">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5506749402409718968">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="5506749402409718967">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8960401284240894141" resolveInfo="selectionManager" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5506749402409719833">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="65zp.~SelectionManager%dremoveSelectionListener(jetbrains%dmps%dnodeEditor%dselection%dSelectionListener)%cvoid" resolveInfo="removeSelectionListener" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalInstanceFieldReference" typeId="tpee.7785501532031639928" id="5506749402409719834">
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6996115244088861771" resolveInfo="autoFoldSelectionListener" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5506749402409719835" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6996115244088848797">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6996115244088848798">
             <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="8960401284240894146">
