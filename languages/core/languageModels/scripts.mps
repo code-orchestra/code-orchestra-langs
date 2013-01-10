@@ -295,8 +295,8 @@
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6340032328963986191">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5291601703689563122">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="iduq.6340032328963986038" resolveInfo="getGlobalMethods" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="iduq.5291601703689563075" resolveInfo="JavaScriptParser" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="iduq.2352531883719449881" resolveInfo="ASJavaScriptStatementsPaster" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="iduq.2352531883719450329" resolveInfo="getGlobalMethods" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6340032328963986196">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2tgk.~Map%dget(java%dlang%dObject)%cjava%dlang%dObject" resolveInfo="get" />
@@ -512,8 +512,8 @@
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6340032328963986182">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5291601703689563120">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="iduq.6340032328963986038" resolveInfo="getGlobalMethods" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="iduq.5291601703689563075" resolveInfo="JavaScriptParser" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="iduq.2352531883719449881" resolveInfo="ASJavaScriptStatementsPaster" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="iduq.2352531883719450329" resolveInfo="getGlobalMethods" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6340032328963986186">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2tgk.~Map%dkeySet()%cjava%dutil%dSet" resolveInfo="keySet" />
@@ -659,8 +659,8 @@
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6340032328964215204">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5291601703689563141">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="iduq.6340032328964215154" resolveInfo="getGlobalGetters" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="iduq.5291601703689563075" resolveInfo="JavaScriptParser" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="iduq.2352531883719449881" resolveInfo="ASJavaScriptStatementsPaster" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="iduq.2352531883719450337" resolveInfo="getGlobalGetters" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6340032328964215206">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2tgk.~Map%dget(java%dlang%dObject)%cjava%dlang%dObject" resolveInfo="get" />
@@ -823,8 +823,8 @@
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6340032328964215022">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5291601703689563139">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="iduq.6340032328964215154" resolveInfo="getGlobalGetters" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="iduq.5291601703689563075" resolveInfo="JavaScriptParser" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="iduq.2352531883719449881" resolveInfo="ASJavaScriptStatementsPaster" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="iduq.2352531883719450337" resolveInfo="getGlobalGetters" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6340032328964215024">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2tgk.~Map%dkeySet()%cjava%dutil%dSet" resolveInfo="keySet" />
