@@ -14,6 +14,7 @@
     <dependency reexport="false" exclude="false">4254d1c2-5edf-418c-b55f-8fbd21d4cbb5(rpc_swc)</dependency>
     <dependency reexport="false" exclude="false">1b4a95ec-3105-427f-a610-5a39bd1ed18b(spark_swc)</dependency>
     <dependency reexport="false" exclude="false">a8156806-35df-46b1-8806-0a7f48598d17(testCollections)</dependency>
+    <dependency reexport="false" exclude="false">62c1458d-347e-41d8-91c4-b00cce515dab(testAs)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce(codeOrchestra.actionScript)</usedLanguage>

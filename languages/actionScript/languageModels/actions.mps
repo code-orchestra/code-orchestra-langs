@@ -40,7 +40,7 @@
   <import index="6i5f" modelUID="f:java_stub#com.intellij.openapi.project(com.intellij.openapi.project@java_stub)" version="-1" />
   <import index="1lc7" modelUID="f:java_stub#com.intellij.openapi.components(com.intellij.openapi.components@java_stub)" version="-1" />
   <import index="2vau" modelUID="f:swc_stub#flash.events(flash.events@swc_stub)" version="-1" />
-  <import index="fbuv" modelUID="f:java_stub#codeOrchestra.actionScript.scope(codeOrchestra.actionScript.scope@java_stub)" version="-1" />
+  <import index="hoe9" modelUID="f:java_stub#codeOrchestra.actionScript.scope(codeOrchestra.actionScript.scope@java_stub)" version="-1" />
   <import index="n95n" modelUID="r:d878dda8-9f0b-442b-b45d-b84e09f5fbd6(codeOrchestra.actionScript.plugin)" version="1" />
   <import index="ye7y" modelUID="r:b88459da-c976-4bbf-b2aa-166bb45fa470(codeOrchestra.smallLanguage.actions)" version="-1" />
   <import index="tpdu" modelUID="r:00000000-0000-4000-0000-011c895902de(jetbrains.mps.baseLanguage.blTypes.primitiveDescriptors)" version="-1" />
@@ -8885,8 +8885,8 @@
                     <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4390605446801887008">
                       <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4390605446801887009">
                         <node role="operand" roleId="tpee.1197027771414" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4390605446801887010">
-                          <node role="creator" roleId="tpee.1145553007750" type="tpdg.SNodeCreatorAndInitializer" typeId="tpdg.5979988948250981289" id="4390605446801887011">
-                            <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="4390605446801887012">
+                          <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="7064076622042191893">
+                            <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="7064076622042191894">
                               <link role="concept" roleId="tp25.1138405853777" targetNodeId="3vt2.1237649696613" resolveInfo="ClassifierType" />
                             </node>
                           </node>
@@ -27423,8 +27423,8 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="2616072935110859371">
           <node role="expression" roleId="tpee.1068581517676" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2616072935110859391">
-            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="fbuv.~ActionScriptScopes" resolveInfo="ActionScriptScopes" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fbuv.~ActionScriptScopes%dgetActionScriptSolutionScope(jetbrains%dmps%dsmodel%dIScope,boolean,jetbrains%dmps%dsmodel%dSNode)%cjetbrains%dmps%dsmodel%dIScope" resolveInfo="getActionScriptSolutionScope" />
+            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="hoe9.~ActionScriptScopes" resolveInfo="ActionScriptScopes" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hoe9.~ActionScriptScopes%dgetActionScriptSolutionScope(jetbrains%dmps%dsmodel%dIScope,boolean,jetbrains%dmps%dsmodel%dSNode)%cjetbrains%dmps%dsmodel%dIScope" resolveInfo="getActionScriptSolutionScope" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalStaticMethodCall" typeId="tpee.1172058436953" id="8378988433732469576">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1285302235683762533" resolveInfo="getProjectScope" />
             </node>
@@ -27458,8 +27458,8 @@
                   <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ik8z.~IScope" resolveInfo="IScope" />
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7767146959556839174">
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="fbuv.~ActionScriptScopes" resolveInfo="ActionScriptScopes" />
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fbuv.~ActionScriptScopes%dgetActionScriptSolutionScope(jetbrains%dmps%dsmodel%dIScope,boolean,jetbrains%dmps%dsmodel%dSNode)%cjetbrains%dmps%dsmodel%dIScope" resolveInfo="getActionScriptSolutionScope" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="hoe9.~ActionScriptScopes" resolveInfo="ActionScriptScopes" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hoe9.~ActionScriptScopes%dgetActionScriptSolutionScope(jetbrains%dmps%dsmodel%dIScope,boolean,jetbrains%dmps%dsmodel%dSNode)%cjetbrains%dmps%dsmodel%dIScope" resolveInfo="getActionScriptSolutionScope" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalStaticMethodCall" typeId="tpee.1172058436953" id="8378988433732469578">
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1285302235683762533" resolveInfo="getProjectScope" />
                   </node>
@@ -27691,8 +27691,8 @@
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="2616072935110848996">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2616072935110859413">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2616072935110859418">
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fbuv.~ActionScriptScopes%dgetActionScriptLanguageScope(jetbrains%dmps%dsmodel%dIScope)%cjetbrains%dmps%dsmodel%dIScope" resolveInfo="getActionScriptLanguageScope" />
-            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="fbuv.~ActionScriptScopes" resolveInfo="ActionScriptScopes" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hoe9.~ActionScriptScopes%dgetActionScriptLanguageScope(jetbrains%dmps%dsmodel%dIScope)%cjetbrains%dmps%dsmodel%dIScope" resolveInfo="getActionScriptLanguageScope" />
+            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="hoe9.~ActionScriptScopes" resolveInfo="ActionScriptScopes" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2616072935110859424">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxfs.~GlobalScope%dgetInstance()%cjetbrains%dmps%dproject%dGlobalScope" resolveInfo="getInstance" />
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="fxfs.~GlobalScope" resolveInfo="GlobalScope" />
@@ -29146,14 +29146,14 @@
                 <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3298521854800904374">
                   <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3298521854800904368">
                     <node role="operand" roleId="tpee.1197027771414" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="3298521854800904364">
-                      <node role="creator" roleId="tpee.1145553007750" type="tpdg.SNodeCreatorAndInitializer" typeId="tpdg.5979988948250981289" id="2880850462147151201">
-                        <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="2880850462147151202">
-                          <link role="concept" roleId="tp25.1138405853777" targetNodeId="3vt2.1237649696613" resolveInfo="ClassifierType" />
+                      <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="7064076622042339947">
+                        <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="7064076622042339948">
+                          <link role="concept" roleId="tp25.1138405853777" targetNodeId="3vt2.1237741824320" resolveInfo="ClassExpression" />
                         </node>
                       </node>
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3298521854800904372">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.7468626380153048840" resolveInfo="getVisibleClassifiers" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.2640298253496961883" resolveInfo="getClassifierForSubtitute" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpdg.ConceptFunctionParameter_sourceNode" typeId="tpdg.1177497140107" id="3298521854800904373" />
                     </node>
                   </node>
