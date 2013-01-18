@@ -56,9 +56,6 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="2136186081531858773" resolveInfo="EnumConstantDeclaration" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1147196932622637661">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3vt2.1147196932622637660" resolveInfo="IFinalizeIntentionBlock" />
-    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4001825123211673282">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3vt2.4001825123211070080" resolveInfo="IBlockCreation" />
     </node>

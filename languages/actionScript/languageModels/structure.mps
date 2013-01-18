@@ -664,7 +664,7 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="function" />
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1147196932622637660">
-      <property name="name" nameId="tpck.1169194664001" value="IFinalizeIntentionBlock" />
+      <property name="name" nameId="tpck.1169194664001" value="IBlockFinalize" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="finalized" />
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="834120875328601867">
