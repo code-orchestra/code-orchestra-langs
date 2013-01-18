@@ -22,7 +22,7 @@
   <languageAspect modelUID="f:java_stub#jetbrains.mps.project.structure.modules(jetbrains.mps.project.structure.modules@java_stub)" version="-1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <maxImportIndex value="19" />
+  <maxImportIndex value="20" />
   <import index="1" modelUID="r:f79c3368-067e-46d1-9cca-d316e401153a(codeOrchestra.actionScript.asstubs.structure)" version="-1" />
   <import index="2" modelUID="f:java_stub#jetbrains.mps.stubs(jetbrains.mps.stubs@java_stub)" version="-1" />
   <import index="3" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
@@ -42,6 +42,7 @@
   <import index="17" modelUID="f:java_stub#codeOrchestra.actionscript.stubs(codeOrchestra.actionscript.stubs@java_stub)" version="-1" />
   <import index="18" modelUID="f:java_stub#jetbrains.mps.project(jetbrains.mps.project@java_stub)" version="-1" />
   <import index="19" modelUID="f:java_stub#jetbrains.mps.kernel.model(jetbrains.mps.kernel.model@java_stub)" version="-1" />
+  <import index="20" modelUID="f:java_stub#codeOrchestra.actionScript.stubs(codeOrchestra.actionScript.stubs@java_stub)" version="-1" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="5453681662270823572">
     <property name="sourceModule:3" value="245456ae-b11f-4439-b991-ffed67bf9f97" />
     <property name="name:3" value="ASStubModelHelper" />
@@ -2851,8 +2852,8 @@
             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="1472771874747556414">
               <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1472771874747556415">
-                <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706715992" resolveInfo="getClassNodeId" />
-                <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+                <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getClassNodeId(java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getClassNodeId" />
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1472771874747556419">
                   <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="1472771874747556418">
                     <link role="variableDeclaration:3" targetNodeId="1472771874747556364" resolveInfo="asType" />
@@ -3653,8 +3654,8 @@
                 <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="5442421842246115939">
                   <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
                   <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="5442421842246115940">
-                    <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
-                    <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706715910" resolveInfo="getMemberNodeId" />
+                    <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getMemberNodeId(jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode,java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getMemberNodeId" />
                     <node role="actualArgument:3" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression:16" id="5442421842246115941">
                       <link role="concept:16" targetNodeId="5.1239704033029:81" resolveInfo="IClassifierMember" />
                       <node role="leftExpression:16" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5442421842246116818">
@@ -4667,8 +4668,8 @@
                   <link role="classifier:3" targetNodeId="3.~SNodeId" resolveInfo="SNodeId" />
                 </node>
                 <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="7999906442059227157">
-                  <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706716065" resolveInfo="getNSNodeId" />
-                  <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+                  <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                  <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getNSNodeId(java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getNSNodeId" />
                   <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="7999906442059227161">
                     <link role="variableDeclaration:3" targetNodeId="7999906442059093476" resolveInfo="namespaceFqName" />
                   </node>
@@ -5201,8 +5202,8 @@
             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="7999906442059236323">
               <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="7999906442059236324">
-                <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706715992" resolveInfo="getClassNodeId" />
-                <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+                <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getClassNodeId(java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getClassNodeId" />
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7999906442059236325">
                   <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="7999906442059236326">
                     <link role="variableDeclaration:3" targetNodeId="6056705291682109227" resolveInfo="asType" />
@@ -5715,8 +5716,8 @@
             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="8853950649706721261">
               <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="8853950649706721262">
-                <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706716037" resolveInfo="getGlobalFunctionNodeId" />
-                <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+                <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getGlobalFunctionNodeId(java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getGlobalFunctionNodeId" />
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5442421842246098209">
                   <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="5442421842246098210">
                     <link role="variableDeclaration:3" targetNodeId="5442421842246098168" resolveInfo="asMethod" />
@@ -6115,8 +6116,8 @@
             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="7855611600676940998">
               <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="7855611600677044830">
-                <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706715979" resolveInfo="getId" />
-                <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+                <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getId(java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getId" />
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="7855611600677044831">
                   <link role="variableDeclaration:3" targetNodeId="2962195224242693936" resolveInfo="fqName" />
                 </node>
@@ -6167,8 +6168,8 @@
             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="7855611600677082883">
               <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="7855611600677082884">
-                <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
-                <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706715979" resolveInfo="getId" />
+                <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getId(java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getId" />
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="7855611600677082885">
                   <link role="variableDeclaration:3" targetNodeId="2962195224242693936" resolveInfo="fqName" />
                 </node>
@@ -6405,8 +6406,8 @@
             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="8853950649706721179">
               <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="8853950649706721180">
-                <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706716050" resolveInfo="getGlobalNSNodeId" />
-                <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+                <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getGlobalNSNodeId(java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getGlobalNSNodeId" />
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7999906442059227019">
                   <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="7999906442059227020">
                     <link role="variableDeclaration:3" targetNodeId="6056705291682109061" resolveInfo="asNamespaceDeclaration" />
@@ -6531,8 +6532,8 @@
             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="8853950649706721206">
               <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="8853950649706721207">
-                <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
-                <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706716065" resolveInfo="getNSNodeId" />
+                <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getNSNodeId(java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getNSNodeId" />
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7999906442059227047">
                   <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="7999906442059227048">
                     <link role="variableDeclaration:3" targetNodeId="6056705291682109061" resolveInfo="asNamespaceDeclaration" />
@@ -7066,8 +7067,8 @@
                 <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="8853950649706720315">
                   <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
                   <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="8853950649706720316">
-                    <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706715910" resolveInfo="getMemberNodeId" />
-                    <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+                    <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getMemberNodeId(jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode,java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getMemberNodeId" />
                     <node role="actualArgument:3" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression:16" id="8853950649706720317">
                       <link role="concept:16" targetNodeId="5.1239704033029:81" resolveInfo="IClassifierMember" />
                       <node role="leftExpression:16" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="8853950649706720318">
@@ -7174,8 +7175,8 @@
                   <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="5442421842246107459">
                     <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="5442421842246107460">
-                      <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706715910" resolveInfo="getMemberNodeId" />
-                      <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+                      <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                      <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getMemberNodeId(jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode,java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getMemberNodeId" />
                       <node role="actualArgument:3" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression:16" id="5442421842246107461">
                         <link role="concept:16" targetNodeId="5.1239704033029:81" resolveInfo="IClassifierMember" />
                         <node role="leftExpression:16" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5442421842246107462">
@@ -7748,8 +7749,8 @@
                 <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="8853950649706719833">
                   <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
                   <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="8853950649706719834">
-                    <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706715910" resolveInfo="getMemberNodeId" />
-                    <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+                    <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getMemberNodeId(jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode,java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getMemberNodeId" />
                     <node role="actualArgument:3" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression:16" id="8853950649706719835">
                       <link role="concept:16" targetNodeId="5.1239704033029:81" resolveInfo="IClassifierMember" />
                       <node role="leftExpression:16" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5442421842246103415">
@@ -7900,8 +7901,8 @@
                   <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="5442421842246106034">
                     <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="5442421842246106035">
-                      <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706715910" resolveInfo="getMemberNodeId" />
-                      <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+                      <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                      <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getMemberNodeId(jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode,java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getMemberNodeId" />
                       <node role="actualArgument:3" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression:16" id="5442421842246106036">
                         <link role="concept:16" targetNodeId="5.1239704033029:81" resolveInfo="IClassifierMember" />
                         <node role="leftExpression:16" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5442421842246106037">
@@ -8752,8 +8753,8 @@
                             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="8853950649706718721">
                               <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
                               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="8853950649706718722">
-                                <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706716005" resolveInfo="getAnnotationNodeId" />
-                                <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+                                <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                                <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getAnnotationNodeId(java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getAnnotationNodeId" />
                                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="8059095974595739880">
                                   <link role="variableDeclaration:3" targetNodeId="6056705291682116761" resolveInfo="metatagName" />
                                 </node>
@@ -8898,8 +8899,8 @@
                 <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="3902916341282094298">
                   <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
                   <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="3902916341282094408">
-                    <link role="baseMethodDeclaration:3" targetNodeId="4.3902916341282094327" resolveInfo="getAnnotationInstanceNodeId" />
-                    <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+                    <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getAnnotationInstanceNodeId(java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getAnnotationInstanceNodeId" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="3902916341282094436">
                       <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression:3" id="3902916341282094452">
                         <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression:3" id="3902916341282094468">
@@ -9303,8 +9304,8 @@
                             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="8853950649706718668">
                               <link role="baseMethodDeclaration:3" targetNodeId="3.~SNode.setId(jetbrains.mps.smodel.SNodeId):void" resolveInfo="setId" />
                               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="8853950649706718669">
-                                <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706716018" resolveInfo="getAnnotationPropertyNodeId" />
-                                <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+                                <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+                                <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getAnnotationPropertyNodeId(java.lang.String,java.lang.String):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getAnnotationPropertyNodeId" />
                                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5442421842246099998">
                                   <link role="variableDeclaration:3" targetNodeId="6056705291682116761" resolveInfo="metatagName" />
                                 </node>
@@ -10585,8 +10586,8 @@
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="5442421842246119584" />
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="5442421842246119586">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="5442421842246119625">
-            <link role="baseMethodDeclaration:3" targetNodeId="4.8853950649706716080" resolveInfo="getMethodNodeId" />
-            <link role="classConcept:3" targetNodeId="4.8853950649706715909" resolveInfo="SWCNodeIds" />
+            <link role="classConcept:3" targetNodeId="20.~ASForeignNodeIds" resolveInfo="ASForeignNodeIds" />
+            <link role="baseMethodDeclaration:3" targetNodeId="20.~ASForeignNodeIds.getMethodNodeId(java.lang.String,java.lang.String,boolean):jetbrains.mps.smodel.SNodeId$Foreign" resolveInfo="getMethodNodeId" />
             <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="5442421842246119634">
               <link role="variableDeclaration:3" targetNodeId="5442421842246119539" resolveInfo="className" />
             </node>
