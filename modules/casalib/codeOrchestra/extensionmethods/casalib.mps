@@ -4700,11 +4700,11 @@
           <node role="localVariableDeclaration" roleId="3vt2.4231115217454705796" type="3vt2.LocalVariableDeclaration" typeId="3vt2.1241453544092" id="6396145087216831761">
             <property name="name" nameId="tpck.1169194664001" value="bar" />
             <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="6396145087216831762">
-              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6396145087216253003" resolveInfo="CasalibTest.Bar" />
+              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6396145087216253003" resolveInfo="Bar" />
             </node>
             <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.GenericNewExpression" typeId="3vt2.1630592743144645284" id="6396145087216831763">
               <node role="creator" roleId="3vt2.1630592743144645285" type="3vt2.ClassCreator" typeId="3vt2.1630592743144645279" id="6396145087216831764">
-                <link role="classConcept" roleId="3vt2.2024767275314988180" targetNodeId="6396145087216253003" resolveInfo="CasalibTest.Bar" />
+                <link role="classConcept" roleId="3vt2.2024767275314988180" targetNodeId="6396145087216253003" resolveInfo="Bar" />
               </node>
             </node>
           </node>
@@ -4833,11 +4833,11 @@
           <node role="localVariableDeclaration" roleId="3vt2.4231115217454705796" type="3vt2.LocalVariableDeclaration" typeId="3vt2.1241453544092" id="6396145087216831815">
             <property name="name" nameId="tpck.1169194664001" value="circle" />
             <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="6396145087216831816">
-              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3298141394849441237" resolveInfo="CasalibTest.Circle" />
+              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3298141394849441237" resolveInfo="Circle" />
             </node>
             <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.GenericNewExpression" typeId="3vt2.1630592743144645284" id="6396145087216831817">
               <node role="creator" roleId="3vt2.1630592743144645285" type="3vt2.ClassCreator" typeId="3vt2.1630592743144645279" id="6396145087216831818">
-                <link role="classConcept" roleId="3vt2.2024767275314988180" targetNodeId="3298141394849441237" resolveInfo="CasalibTest.Circle" />
+                <link role="classConcept" roleId="3vt2.2024767275314988180" targetNodeId="3298141394849441237" resolveInfo="Circle" />
                 <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="6396145087216831819">
                   <property name="value" nameId="3vt2.1241004569844" value="0xFF" />
                 </node>
@@ -4933,7 +4933,7 @@
             <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.AssignmentExpression" typeId="3vt2.1237753163044" id="6396145087216831859">
               <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.GenericNewExpression" typeId="3vt2.1630592743144645284" id="6396145087216831860">
                 <node role="creator" roleId="3vt2.1630592743144645285" type="3vt2.ClassCreator" typeId="3vt2.1630592743144645279" id="6396145087216831861">
-                  <link role="classConcept" roleId="3vt2.2024767275314988180" targetNodeId="3298141394849441237" resolveInfo="CasalibTest.Circle" />
+                  <link role="classConcept" roleId="3vt2.2024767275314988180" targetNodeId="3298141394849441237" resolveInfo="Circle" />
                   <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="6396145087216831862">
                     <property name="value" nameId="3vt2.1241004569844" value="0xFF00" />
                   </node>
@@ -5001,7 +5001,7 @@
             <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.AssignmentExpression" typeId="3vt2.1237753163044" id="6396145087216831890">
               <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.GenericNewExpression" typeId="3vt2.1630592743144645284" id="6396145087216831891">
                 <node role="creator" roleId="3vt2.1630592743144645285" type="3vt2.ClassCreator" typeId="3vt2.1630592743144645279" id="6396145087216831892">
-                  <link role="classConcept" roleId="3vt2.2024767275314988180" targetNodeId="3298141394849441237" resolveInfo="CasalibTest.Circle" />
+                  <link role="classConcept" roleId="3vt2.2024767275314988180" targetNodeId="3298141394849441237" resolveInfo="Circle" />
                   <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="6396145087216831893">
                     <property name="value" nameId="3vt2.1241004569844" value="0x3F3F00" />
                   </node>
@@ -5096,7 +5096,7 @@
             <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.AssignmentExpression" typeId="3vt2.1237753163044" id="6396145087216831930">
               <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.GenericNewExpression" typeId="3vt2.1630592743144645284" id="6396145087216831931">
                 <node role="creator" roleId="3vt2.1630592743144645285" type="3vt2.ClassCreator" typeId="3vt2.1630592743144645279" id="6396145087216831932">
-                  <link role="classConcept" roleId="3vt2.2024767275314988180" targetNodeId="3298141394849441237" resolveInfo="CasalibTest.Circle" />
+                  <link role="classConcept" roleId="3vt2.2024767275314988180" targetNodeId="3298141394849441237" resolveInfo="Circle" />
                   <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="6396145087216831933">
                     <property name="value" nameId="3vt2.1241004569844" value="0xFF0000" />
                   </node>
@@ -6841,7 +6841,7 @@
         </node>
         <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="6396145087216959122" />
         <node role="statement" roleId="3vt2.1237648447990" type="3vt2.RemarkStatement" typeId="3vt2.1630592743144646086" id="6396145087216959121">
-          <property name="value" nameId="3vt2.1630592743144646089" value="realaxy patch: default behavior is expensive (creates array copy)" />
+          <property name="value" nameId="3vt2.1630592743144646089" value="codeorchestra patch: default behavior is expensive (creates array copy)" />
         </node>
         <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ReturnStatement" typeId="3vt2.3391459608350013428" id="6396145087216959124">
           <node role="expression" roleId="3vt2.3391459608350013430" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="6396145087216959125">
