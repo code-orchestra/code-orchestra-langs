@@ -20,3 +20,21 @@ ActionScript.mpr
 ActionScript.mpr
 
 *.history
+
+*.metadata
+
+*.metadata
+
+.gitignore
+
+modules/testAs/testAs.mps
+
+modules/testAs/testAs.msd
+
+.gitignore
+
+*.metadata
+
+languages/actionScript/languageModels/behavior.metadata
+
+.gitignore
