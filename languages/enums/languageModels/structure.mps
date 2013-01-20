@@ -40,6 +40,13 @@
       <property name="iconPath" nameId="tpce.1160488491229" value="/Users/john/Projects/RASE/languages/actionScript/icons/constant.png" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3530315819920811419">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="classifier.enum" />
+      <property name="sourceModule" value="b7189d41-b93c-4ffa-ab10-12b334c0bb92" />
+      <property name="name" nameId="tpck.1169194664001" value="EnumValuesOpearation" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="/Users/john/Projects/RASE/languages/actionScript/icons/constant.png" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
   </roots>
   <root id="2136186081531835963">
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="2136186081532408450">
@@ -152,10 +159,23 @@
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
     <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="7774020833308274766">
-      <property name="value" nameId="tpce.1105725733873" value="enum constants names array" />
+      <property name="value" nameId="tpce.1105725733873" value="enum constants names" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7774020833308274762">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3vt2.1242234196502" resolveInfo="IOperation" />
+    </node>
+  </root>
+  <root id="3530315819920811419">
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="3530315819920811420">
+      <property name="value" nameId="tpce.1105725733873" value="VALUES" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="3530315819920811421">
+      <property name="value" nameId="tpce.1105725733873" value="enum constants values" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3530315819920811422">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3vt2.1242234196502" resolveInfo="IOperation" />
     </node>
   </root>

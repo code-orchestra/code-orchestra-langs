@@ -45,6 +45,10 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="classifier.enum" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ug4l.7774020833308274761" resolveInfo="EnumNamesOpearation" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3530315819920926710">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="classifier.enum" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ug4l.3530315819920811419" resolveInfo="EnumValuesOpearation" />
+    </node>
   </roots>
   <root id="2136186081531944890">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1147196932620417813">
@@ -873,6 +877,15 @@
       <property name="text" nameId="tpc2.1073389577007" value="NAMES" />
       <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="ndwn.1241021640700" resolveInfo="StaticField" />
       <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="7774020833308274770">
+        <property name="flag" nameId="tpc2.1186414551515" value="true" />
+      </node>
+    </node>
+  </root>
+  <root id="3530315819920926710">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3530315819920926712">
+      <property name="text" nameId="tpc2.1073389577007" value="VALUES" />
+      <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="ndwn.1241021640700" resolveInfo="StaticField" />
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="3530315819920926713">
         <property name="flag" nameId="tpc2.1186414551515" value="true" />
       </node>
     </node>
