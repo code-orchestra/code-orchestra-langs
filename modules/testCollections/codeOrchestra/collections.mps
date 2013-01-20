@@ -60,8 +60,8 @@
           <property name="isVerticalLayout" nameId="3vt2.8284300288290314122" value="true" />
           <node role="localVariableDeclaration" roleId="3vt2.4231115217454705796" type="3vt2.LocalVariableDeclaration" typeId="3vt2.1241453544092" id="7064076622042191754">
             <property name="name" nameId="tpck.1169194664001" value="a" />
-            <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="7064076622042191756">
-              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="qrjf.1849509414550747072" resolveInfo="MyClass" />
+            <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="7143872650492632405">
+              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="2vau.~IEventDispatcher" resolveInfo="IEventDispatcher" />
             </node>
           </node>
         </node>
