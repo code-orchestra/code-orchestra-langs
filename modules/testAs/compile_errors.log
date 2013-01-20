@@ -3,12 +3,12 @@
   public final class MyEnum extends EnumBase {
                                     ^
 
-/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/MyEnum.as(22): col: 34 Error: Method marked override must override another method.
+/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/MyEnum.as(21): col: 34 Error: Method marked override must override another method.
 
     override public function get name (  ) : String {
                                  ^
 
-/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/MyEnum.as(25): col: 34 Error: Method marked override must override another method.
+/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/MyEnum.as(24): col: 34 Error: Method marked override must override another method.
 
     override public function get index (  ) : int {
                                  ^
