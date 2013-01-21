@@ -1,0 +1,13 @@
+.DS_Store
+classes_gen
+source_gen
+source_gen.caches
+testclasses
+*.iws
+*.class
+mps/MPS-artifacts.zip
+artifacts/ActionScript.zip
+modules/jsTest/jsTest.msd
+modules/jsTest/my.mps
+ActionScript.mpr
+*.history
