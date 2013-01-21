@@ -45,6 +45,10 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="classifier.enum" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ug4l.7774020833308274761" resolveInfo="EnumNamesOpearation" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3530315819920926710">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="classifier.enum" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="ug4l.3530315819920811419" resolveInfo="EnumValuesOpearation" />
+    </node>
   </roots>
   <root id="2136186081531944890">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1147196932620417813">
@@ -104,6 +108,34 @@
             </node>
           </node>
         </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="929483298434063082">
+        <property name="vertical" nameId="tpc2.1073389446425" value="false" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SideTransformAnchorTagStyleClassItem" typeId="tpc2.1214320119173" id="929483298434063083">
+          <property name="tag" nameId="tpc2.1214320119174" value="ext_1_RTransform" />
+        </node>
+        <node role="renderingCondition" roleId="tpc2.1142887637401" type="tpc2.QueryFunction_NodeCondition" typeId="tpc2.1142886221719" id="929483298434063084">
+          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="929483298434063085">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="929483298434063086">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="929483298434063087">
+                <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="929483298434063088" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="929483298434063089">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="3vt2.6630917355460277112" resolveInfo="isFinal" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="929483298434063090">
+          <property name="text" nameId="tpc2.1073389577007" value="final" />
+          <link role="actionMap" roleId="tpc2.1139959269582" targetNodeId="ndwn.1240611351377" resolveInfo="removeFinalModifier" />
+          <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="ndwn.1239802460967" resolveInfo="Keyword" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SideTransformAnchorTagStyleClassItem" typeId="tpc2.1214320119173" id="929483298434063091">
+            <property name="tag" nameId="tpc2.1214320119174" value="ext_1_RTransform" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="929483298434063092" />
+        </node>
+        <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="929483298434063093" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="2627253240086531312">
         <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="ndwn.1240402387461" resolveInfo="_Component_Visibility_" />
@@ -845,6 +877,15 @@
       <property name="text" nameId="tpc2.1073389577007" value="NAMES" />
       <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="ndwn.1241021640700" resolveInfo="StaticField" />
       <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="7774020833308274770">
+        <property name="flag" nameId="tpc2.1186414551515" value="true" />
+      </node>
+    </node>
+  </root>
+  <root id="3530315819920926710">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3530315819920926712">
+      <property name="text" nameId="tpc2.1073389577007" value="VALUES" />
+      <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="ndwn.1241021640700" resolveInfo="StaticField" />
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="3530315819920926713">
         <property name="flag" nameId="tpc2.1186414551515" value="true" />
       </node>
     </node>

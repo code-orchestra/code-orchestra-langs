@@ -59,10 +59,6 @@
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="1241453703105">
       <link role="concept" roleId="tp1t.1213093996982" targetNodeId="3vt2.1241453544092" resolveInfo="LocalVariableDeclaration" />
     </node>
-    <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="1242747490600">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="expression.operation" />
-      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="3vt2.1237741945198" resolveInfo="ThisExpression" />
-    </node>
     <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="6630917355460980739">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="classifier" />
       <link role="concept" roleId="tp1t.1213093996982" targetNodeId="3vt2.1237644023270" resolveInfo="ClassConcept" />
@@ -484,7 +480,6 @@
       </node>
     </node>
   </root>
-  <root id="1242747490600" />
   <root id="6630917355460980739">
     <node role="property" roleId="tp1t.1213098023997" type="tp1t.NodePropertyConstraint" typeId="tp1t.1147467115080" id="6749141634415658482">
       <link role="applicableProperty" roleId="tp1t.1147467295099" targetNodeId="3vt2.2754450778135916617" resolveInfo="isMainClass" />

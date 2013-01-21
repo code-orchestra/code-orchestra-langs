@@ -176,6 +176,9 @@
       <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="2900612951961963615">
         <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Boolean" resolveInfo="Boolean" />
       </node>
+      <node role="annotation" roleId="3vt2.455913868588249145" type="3vt2.AnnotationInstance" typeId="3vt2.1630592743144475974" id="7064076622042849144">
+        <link role="annotation" roleId="3vt2.1624755644612062310" targetNodeId="4131090024143472274" resolveInfo="InheritExtensionMethod" />
+      </node>
     </node>
     <node role="method" roleId="3vt2.1238599729748" type="3vt2.InstanceGetterDeclaration" typeId="3vt2.1238599790300" id="2900612951961963638">
       <property name="name" nameId="tpck.1169194664001" value="isNotNull" />
@@ -199,6 +202,9 @@
       </node>
       <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="2900612951961963650">
         <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Boolean" resolveInfo="Boolean" />
+      </node>
+      <node role="annotation" roleId="3vt2.455913868588249145" type="3vt2.AnnotationInstance" typeId="3vt2.1630592743144475974" id="7064076622042849145">
+        <link role="annotation" roleId="3vt2.1624755644612062310" targetNodeId="4131090024143472274" resolveInfo="InheritExtensionMethod" />
       </node>
     </node>
     <node role="outOfPackageButton" roleId="3vt2.5096339543744144377" type="3vt2.OutOfPackageAddButton" typeId="3vt2.5096339543744144378" id="2900612951961963595" />
