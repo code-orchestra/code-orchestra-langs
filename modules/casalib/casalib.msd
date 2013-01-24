@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="сasalib" uuid="dfdc7fd8-d82b-4ca4-9dd0-748ecb8d6f8e" compileInMPS="true" outputTypeIndex="0" useDefaultSDKConfiguration="true" useCustomSDKConfiguration="false" compilerConfigurationFile="" mainClassNodeId="3298141394849441192" mainClassModelUID="r:c0ba38c5-765c-41a6-a90f-5e172354be1e(codeOrchestra.extensionmethods.casalib)" outputFileName="Casalib.swf" inheritProjectOutputPath="true" moduleOutputPath="" playerVersion="11.0.0" useFrameworkAsRSL="false" checkModels="false" includeResources="false" compilerOptions="" localeOptions="en_US">
+<solution name="casalib" uuid="dfdc7fd8-d82b-4ca4-9dd0-748ecb8d6f8e" compileInMPS="true" outputTypeIndex="0" useDefaultSDKConfiguration="true" useCustomSDKConfiguration="false" compilerConfigurationFile="" mainClassNodeId="3298141394849441192" mainClassModelUID="r:c0ba38c5-765c-41a6-a90f-5e172354be1e(codeOrchestra.extensionmethods.casalib)" outputFileName="Casalib.swf" inheritProjectOutputPath="true" moduleOutputPath="" playerVersion="11.0.0" useFrameworkAsRSL="false" checkModels="false" includeResources="false" compilerOptions="" localeOptions="en_US">
   <models>
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>
