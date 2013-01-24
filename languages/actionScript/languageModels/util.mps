@@ -42,6 +42,22 @@
       <property name="sourceModule" value="a540fd57-0e8e-4a41-b5a0-5eb74e58a302" />
       <property name="name" nameId="tpck.1169194664001" value="Live" />
     </node>
+    <node type="3vt2.AnnotationDeclaration" typeId="3vt2.1630592743144475980" id="1087336113942795838">
+      <property name="sourceModule" value="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce" />
+      <property name="name" nameId="tpck.1169194664001" value="AddedToStageListener" />
+    </node>
+    <node type="3vt2.AnnotationDeclaration" typeId="3vt2.1630592743144475980" id="1087336113942795839">
+      <property name="sourceModule" value="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce" />
+      <property name="name" nameId="tpck.1169194664001" value="RemoveFromStageListener" />
+    </node>
+    <node type="3vt2.AnnotationDeclaration" typeId="3vt2.1630592743144475980" id="1087336113942795840">
+      <property name="sourceModule" value="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce" />
+      <property name="name" nameId="tpck.1169194664001" value="EnterFrameListener" />
+    </node>
+    <node type="3vt2.AnnotationDeclaration" typeId="3vt2.1630592743144475980" id="1087336113942795841">
+      <property name="sourceModule" value="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce" />
+      <property name="name" nameId="tpck.1169194664001" value="Timer" />
+    </node>
   </roots>
   <root id="3055059035958419817">
     <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="3055059035958419819">
@@ -128,6 +144,17 @@
   </root>
   <root id="600140203015164189">
     <node role="outOfPackageButton" roleId="3vt2.5096339543744144377" type="3vt2.OutOfPackageAddButton" typeId="3vt2.5096339543744144378" id="600140203015164196" />
+  </root>
+  <root id="1087336113942795838" />
+  <root id="1087336113942795839" />
+  <root id="1087336113942795840" />
+  <root id="1087336113942795841">
+    <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="1087336113942803780">
+      <property name="name" nameId="tpck.1169194664001" value="delay" />
+      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="1087336113942803782">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~int" resolveInfo="int" />
+      </node>
+    </node>
   </root>
 </model>
 

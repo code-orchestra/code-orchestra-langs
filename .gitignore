@@ -11,3 +11,10 @@ modules/jsTest/jsTest.msd
 modules/jsTest/my.mps
 ActionScript.mpr
 *.history
+modules/testAs/output_swf/testAs.swf
+
+modules/testAs/b.mps
+
+modules/testAs/testAs.mps
+
+modules/testAs/testAs.msd
