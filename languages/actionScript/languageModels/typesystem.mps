@@ -15496,8 +15496,7 @@
                 <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="694172971196698780">
                   <link role="concept" roleId="tp25.1138405853777" targetNodeId="3vt2.1237644055347" resolveInfo="Type" />
                 </node>
-                <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="694172971196698882">
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="6392007320131403082" resolveInfo="OperatorsUtil" />
+                <node role="initializer" roleId="tpee.1068431790190" type="tpee.LocalStaticMethodCall" typeId="tpee.1172058436953" id="5714443973650236524">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="694172971196698866" resolveInfo="getCachedValue" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="694172971196698883">
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="694172971196698747" resolveInfo="op" />
@@ -23838,7 +23837,7 @@
               <link role="quickFixArgument" roleId="tpd4.1216390348810" targetNodeId="3122840214854970193" resolveInfo="cl" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1087336113942890355">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.1087336113942814417" resolveInfo="createDefaultConstructor" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.1087336113942814417" resolveInfo="getOrCreateConstructor" />
             </node>
           </node>
         </node>
@@ -24844,7 +24843,7 @@
             <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="600140203015170097">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.2760140803099099000" resolveInfo="getAnnotationByAnnotation" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tp25.NodeRefExpression" typeId="tp25.1219352745532" id="600140203015170098">
-                <link role="referentNode" roleId="tp25.1219352800908" targetNodeId="29it.5573603667458783778" resolveInfo="LiveWatcher" />
+                <link role="referentNode" roleId="tp25.1219352800908" targetNodeId="29it.5573603667458783778" resolveInfo="CodeUpdateListener" />
               </node>
             </node>
           </node>

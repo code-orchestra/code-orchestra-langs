@@ -986,7 +986,6 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="719028015085649278" />
       </node>
       <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="1448843094172797012" />
       <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.VoidType" typeId="3vt2.1237649329996" id="1448843094172797013" />
@@ -8136,8 +8135,6 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="719028015086487784" />
-        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="719028015086487785" />
       </node>
       <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="1448843094172799920" />
     </node>

@@ -36,7 +36,7 @@
     </node>
     <node type="3vt2.AnnotationDeclaration" typeId="3vt2.1630592743144475980" id="5573603667458783778">
       <property name="sourceModule" value="a540fd57-0e8e-4a41-b5a0-5eb74e58a302" />
-      <property name="name" nameId="tpck.1169194664001" value="LiveWatcher" />
+      <property name="name" nameId="tpck.1169194664001" value="CodeUpdateListener" />
     </node>
     <node type="3vt2.AnnotationDeclaration" typeId="3vt2.1630592743144475980" id="600140203015164189">
       <property name="sourceModule" value="a540fd57-0e8e-4a41-b5a0-5eb74e58a302" />
@@ -129,9 +129,8 @@
     </node>
     <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="4968841509786481620">
       <property name="name" nameId="tpck.1169194664001" value="weak" />
-      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="4968841509786481621">
-        <property name="name" nameId="tpck.1169194664001" value="String" />
-        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
+      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="5714443973649381747">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Boolean" resolveInfo="Boolean" />
       </node>
     </node>
     <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="600140203015164197">
