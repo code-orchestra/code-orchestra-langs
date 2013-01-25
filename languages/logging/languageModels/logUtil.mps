@@ -375,10 +375,7 @@
                           <node role="statementBody" roleId="3vt2.1630592743144646085" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="7878790320736279455">
                             <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="7878790320736279478">
                               <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="7878790320736279479">
-                                <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="7377524470435842086">
-                                  <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="7377524470435842089">
-                                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9011142108075089309" resolveInfo="LogUtil" />
-                                  </node>
+                                <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="2032256696960869079">
                                   <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.StaticMethodCallOperation" typeId="3vt2.7909581671864979853" id="7878790320736279484">
                                     <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
                                     <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3889275043215803143" resolveInfo="pong" />
