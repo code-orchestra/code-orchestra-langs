@@ -5916,15 +5916,6 @@
               </node>
             </node>
           </node>
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="411908748947087855">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="411908748947087856">
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="8669710939318008428" resolveInfo="RulesFunctions_ActionScript" />
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8669710939318009074" resolveInfo="checkFunctionReturnsType" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="411908748947087857">
-                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="7998113344126606006" resolveInfo="baseMethodDeclaration" />
-              </node>
-            </node>
-          </node>
         </node>
         <node role="condition" roleId="tpee.1068580123160" type="tpee.NotExpression" typeId="tpee.1081516740877" id="4390605446800696181">
           <node role="expression" roleId="tpee.1081516765348" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7998113344126606002">
@@ -5934,6 +5925,15 @@
             <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4390605446800696180">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.4390605446799941218" resolveInfo="isEmpty" />
             </node>
+          </node>
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="411908748947087855">
+        <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="411908748947087856">
+          <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="8669710939318008428" resolveInfo="RulesFunctions_ActionScript" />
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8669710939318009074" resolveInfo="checkFunctionReturnsType" />
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="411908748947087857">
+            <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="7998113344126606006" resolveInfo="baseMethodDeclaration" />
           </node>
         </node>
       </node>
