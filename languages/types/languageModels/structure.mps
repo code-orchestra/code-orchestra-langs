@@ -21,12 +21,6 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="types" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="3vt2.1237644055347" resolveInfo="Type" />
     </node>
-    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6376721462181883694">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="types" />
-      <property name="sourceModule" value="9307bead-1d29-4b9c-acd5-4bac916276e4" />
-      <property name="name" nameId="tpck.1169194664001" value="CallChainArgumentType" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    </node>
   </roots>
   <root id="3761556299512345726">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3761556299512345727">
@@ -62,12 +56,6 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3761556299512345735">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3vt2.4956122497430295779" resolveInfo="ICompositeType" />
-    </node>
-  </root>
-  <root id="6376721462181883694">
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6376721462181883695">
-      <property name="name" nameId="tpck.1169194664001" value="argumentIndex" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     </node>
   </root>
 </model>

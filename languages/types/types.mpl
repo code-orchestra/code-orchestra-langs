@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="codeOrchestra.actionScript.types" uuid="9307bead-1d29-4b9c-acd5-4bac916276e4" compileInMPS="true" doNotGenerateAdapters="false" engageOnImport="false">
+<language namespace="codeOrchestra.actionScript.types" uuid="9307bead-1d29-4b9c-acd5-4bac916276e4" compileInMPS="true" doNotGenerateAdapters="false" engageOnImport="false" globalEngage="false">
   <models>
     <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="codeOrchestra.actionScript.types" />
   </models>
@@ -38,7 +38,8 @@
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">9307bead-1d29-4b9c-acd5-4bac916276e4(codeOrchestra.actionScript.types)</dependency>
+    <dependency reexport="false" exclude="false">9307bead-1d29-4b9c-acd5-4bac916276e4(codeOrchestra.actionScript.types)</dependency>
+    <dependency reexport="false" exclude="false">0e8294a0-6472-4631-961f-334ff054ba95(html5.api)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>99be9759-931f-4cb7-87af-307e252f4737(baseLanguage.ext.modelCache)</usedLanguage>

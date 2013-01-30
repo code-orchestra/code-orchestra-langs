@@ -5,6 +5,7 @@
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="kgp" modelUID="r:ab677c48-ca2f-46de-8109-398818259887(codeOrchestra.actionScript.types.structure)" version="-1" />
+  <import index="9bgq" modelUID="r:eb966d23-62f9-4326-9ac9-bfdb28b12194(html5.api.structure)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="-1" implicit="yes" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" implicit="yes" />
@@ -22,10 +23,6 @@
     <node type="tpc2.CellActionMapDeclaration" typeId="tpc2.1139535219966" id="3761556299512377865">
       <property name="name" nameId="tpck.1169194664001" value="addDefaultType" />
       <link role="applicableConcept" roleId="tpc2.1139535219968" targetNodeId="kgp.3761556299512345730" resolveInfo="MutableType" />
-    </node>
-    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6376721462181883696">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="types" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="kgp.6376721462181883694" resolveInfo="CallChainArgumentType" />
     </node>
   </roots>
   <root id="3761556299512345736">
@@ -133,26 +130,6 @@
           </node>
         </node>
       </node>
-    </node>
-  </root>
-  <root id="6376721462181883696">
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6376721462181883698">
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6376721462181883701">
-        <property name="text" nameId="tpc2.1073389577007" value="chain" />
-        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="ndwn.1239802460967" resolveInfo="Keyword" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6376721462181883703">
-        <property name="text" nameId="tpc2.1073389577007" value="[" />
-        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="ndwn.1241021640723" resolveInfo="LeftParenAfterName" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="6376721462181883705">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="kgp.6376721462181883695" resolveInfo="argumentIndex" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6376721462181883707">
-        <property name="text" nameId="tpc2.1073389577007" value="]" />
-        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="ndwn.1241021640726" resolveInfo="RightParen" />
-      </node>
-      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="6376721462181883700" />
     </node>
   </root>
 </model>

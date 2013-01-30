@@ -233,6 +233,11 @@
       <property name="isDynamic" nameId="3vt2.1003657255945148876" value="true" />
       <property name="isFinal" nameId="3vt2.6630917355460277112" value="true" />
     </node>
+    <node type="3vt2.ClassConcept" typeId="3vt2.1237644023270" id="3545830895964390385">
+      <property name="sourceModule" value="e5f7cdc9-b037-45b7-b458-e595780f6b53" />
+      <property name="name" nameId="tpck.1169194664001" value="WebSocket" />
+      <property name="isDynamic" nameId="3vt2.1003657255945148876" value="true" />
+    </node>
   </roots>
   <root id="9027924984699858696">
     <node role="outOfPackageButton" roleId="3vt2.5096339543744144377" type="3vt2.OutOfPackageAddButton" typeId="3vt2.5096339543744144378" id="9027924984699858697" />
@@ -23300,6 +23305,182 @@
           <property name="value" nameId="3vt2.3043663067530529475" value=" @see http://help.adobe.com/en_US/as3/dev/WS5b3ccc516d4fbf351e63e3d118a9b90204-7e70.html XMLList objects" />
         </node>
       </node>
+    </node>
+  </root>
+  <root id="3545830895964390385">
+    <node role="method" roleId="3vt2.1238599729748" type="3vt2.InstanceMethodDeclaration" typeId="3vt2.1237644241500" id="3545830895964390449">
+      <property name="name" nameId="tpck.1169194664001" value="close" />
+      <node role="parameter" roleId="3vt2.3618339097803723485" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="3545830895964390454">
+        <property name="name" nameId="tpck.1169194664001" value="code" />
+        <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390456">
+          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~uint" resolveInfo="uint" />
+        </node>
+        <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="3545830895964390458">
+          <property name="value" nameId="3vt2.1241004569844" value="0" />
+        </node>
+      </node>
+      <node role="parameter" roleId="3vt2.3618339097803723485" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="3545830895964390459">
+        <property name="name" nameId="tpck.1169194664001" value="reason" />
+        <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390461">
+          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699864196" resolveInfo="String" />
+        </node>
+        <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.NullLiteral" typeId="3vt2.1237732826761" id="3545830895964390463" />
+      </node>
+      <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="3545830895964390450">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="3545830895964390451" />
+      </node>
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3545830895964390452" />
+      <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.VoidType" typeId="3vt2.1237649329996" id="3545830895964390453" />
+    </node>
+    <node role="method" roleId="3vt2.1238599729748" type="3vt2.InstanceMethodDeclaration" typeId="3vt2.1237644241500" id="3545830895964390490">
+      <property name="name" nameId="tpck.1169194664001" value="send" />
+      <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="3545830895964390491">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="3545830895964390492" />
+      </node>
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3545830895964390493" />
+      <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.VoidType" typeId="3vt2.1237649329996" id="3545830895964390494" />
+      <node role="parameter" roleId="3vt2.3618339097803723485" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="3545830895964390495">
+        <property name="name" nameId="tpck.1169194664001" value="data" />
+        <node role="type" roleId="3vt2.1238708772985" type="3vt2.WildCardType" typeId="3vt2.1237727522379" id="3545830895964390497" />
+      </node>
+    </node>
+    <node role="field" roleId="3vt2.1239651982107" type="3vt2.FieldDeclaration" typeId="3vt2.1239652032087" id="3545830895964390423">
+      <property name="name" nameId="tpck.1169194664001" value="readyState" />
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3545830895964390430" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390426">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699862785" resolveInfo="int" />
+      </node>
+    </node>
+    <node role="field" roleId="3vt2.1239651982107" type="3vt2.FieldDeclaration" typeId="3vt2.1239652032087" id="3545830895964390419">
+      <property name="name" nameId="tpck.1169194664001" value="bufferedAmount" />
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3545830895964390431" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390422">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699862785" resolveInfo="int" />
+      </node>
+    </node>
+    <node role="field" roleId="3vt2.1239651982107" type="3vt2.FieldEmptyLine" typeId="3vt2.4466097035028333762" id="3545830895964390473">
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PrivateVisibility" typeId="3vt2.1237671687576" id="3545830895964390474" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="3545830895964390475" />
+    </node>
+    <node role="field" roleId="3vt2.1239651982107" type="3vt2.FieldDeclaration" typeId="3vt2.1239652032087" id="3545830895964390427">
+      <property name="name" nameId="tpck.1169194664001" value="onopen" />
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3545830895964390432" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390433">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699862654" resolveInfo="Function" />
+      </node>
+    </node>
+    <node role="field" roleId="3vt2.1239651982107" type="3vt2.FieldDeclaration" typeId="3vt2.1239652032087" id="3545830895964390434">
+      <property name="name" nameId="tpck.1169194664001" value="onerror" />
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3545830895964390435" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390436">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699862654" resolveInfo="Function" />
+      </node>
+    </node>
+    <node role="field" roleId="3vt2.1239651982107" type="3vt2.FieldDeclaration" typeId="3vt2.1239652032087" id="3545830895964390437">
+      <property name="name" nameId="tpck.1169194664001" value="onclose" />
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3545830895964390438" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390439">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699862654" resolveInfo="Function" />
+      </node>
+    </node>
+    <node role="field" roleId="3vt2.1239651982107" type="3vt2.FieldEmptyLine" typeId="3vt2.4466097035028333762" id="3545830895964390467">
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PrivateVisibility" typeId="3vt2.1237671687576" id="3545830895964390468" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="3545830895964390469" />
+    </node>
+    <node role="field" roleId="3vt2.1239651982107" type="3vt2.FieldDeclaration" typeId="3vt2.1239652032087" id="3545830895964390476">
+      <property name="name" nameId="tpck.1169194664001" value="onmessage" />
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PrivateVisibility" typeId="3vt2.1237671687576" id="3545830895964390477" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390479">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699862654" resolveInfo="Function" />
+      </node>
+    </node>
+    <node role="field" roleId="3vt2.1239651982107" type="3vt2.FieldDeclaration" typeId="3vt2.1239652032087" id="3545830895964390486">
+      <property name="name" nameId="tpck.1169194664001" value="binaryType" />
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PrivateVisibility" typeId="3vt2.1237671687576" id="3545830895964390487" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390489">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699864196" resolveInfo="String" />
+      </node>
+    </node>
+    <node role="field" roleId="3vt2.1239651982107" type="3vt2.FieldEmptyLine" typeId="3vt2.4466097035028333762" id="3545830895964390483">
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PrivateVisibility" typeId="3vt2.1237671687576" id="3545830895964390484" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="3545830895964390485" />
+    </node>
+    <node role="field" roleId="3vt2.1239651982107" type="3vt2.FieldDeclaration" typeId="3vt2.1239652032087" id="3545830895964390440">
+      <property name="name" nameId="tpck.1169194664001" value="extensions" />
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PrivateVisibility" typeId="3vt2.1237671687576" id="3545830895964390441" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390448">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699864196" resolveInfo="String" />
+      </node>
+    </node>
+    <node role="field" roleId="3vt2.1239651982107" type="3vt2.FieldDeclaration" typeId="3vt2.1239652032087" id="3545830895964390444">
+      <property name="name" nameId="tpck.1169194664001" value="protocol" />
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PrivateVisibility" typeId="3vt2.1237671687576" id="3545830895964390445" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390447">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699864196" resolveInfo="String" />
+      </node>
+    </node>
+    <node role="staticField" roleId="3vt2.1239652787843" type="3vt2.StaticFieldDeclaration" typeId="3vt2.1239652745040" id="3545830895964390396">
+      <property name="name" nameId="tpck.1169194664001" value="CONNECTING" />
+      <property name="isFinal" nameId="3vt2.525509775922074545" value="true" />
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3545830895964390402" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390415">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699864785" resolveInfo="uint" />
+      </node>
+      <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="3545830895964390401">
+        <property name="value" nameId="3vt2.1241004569844" value="0" />
+      </node>
+    </node>
+    <node role="staticField" roleId="3vt2.1239652787843" type="3vt2.StaticFieldDeclaration" typeId="3vt2.1239652745040" id="3545830895964390403">
+      <property name="name" nameId="tpck.1169194664001" value="OPEN" />
+      <property name="isFinal" nameId="3vt2.525509775922074545" value="true" />
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3545830895964390404" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390416">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699864785" resolveInfo="uint" />
+      </node>
+      <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="3545830895964390406">
+        <property name="value" nameId="3vt2.1241004569844" value="1" />
+      </node>
+    </node>
+    <node role="staticField" roleId="3vt2.1239652787843" type="3vt2.StaticFieldDeclaration" typeId="3vt2.1239652745040" id="3545830895964390407">
+      <property name="name" nameId="tpck.1169194664001" value="CLOSING" />
+      <property name="isFinal" nameId="3vt2.525509775922074545" value="true" />
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3545830895964390408" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390417">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699864785" resolveInfo="uint" />
+      </node>
+      <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="3545830895964390410">
+        <property name="value" nameId="3vt2.1241004569844" value="2" />
+      </node>
+    </node>
+    <node role="staticField" roleId="3vt2.1239652787843" type="3vt2.StaticFieldDeclaration" typeId="3vt2.1239652745040" id="3545830895964390411">
+      <property name="name" nameId="tpck.1169194664001" value="CLOSED" />
+      <property name="isFinal" nameId="3vt2.525509775922074545" value="true" />
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3545830895964390412" />
+      <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390418">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9027924984699864785" resolveInfo="uint" />
+      </node>
+      <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="3545830895964390414">
+        <property name="value" nameId="3vt2.1241004569844" value="3" />
+      </node>
+    </node>
+    <node role="constructor" roleId="3vt2.1239652818186" type="3vt2.ConstructorDeclaration" typeId="3vt2.1237644154612" id="3545830895964390386">
+      <node role="parameter" roleId="3vt2.3618339097803723485" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="3545830895964390392">
+        <property name="name" nameId="tpck.1169194664001" value="url" />
+        <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3545830895964390394">
+          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
+        </node>
+      </node>
+      <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="3545830895964390387">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="3545830895964390388" />
+      </node>
+      <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="3545830895964390395" />
+    </node>
+    <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3545830895964390389" />
+    <node role="superclass" roleId="3vt2.1239652892079" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="3545830895964390390">
+      <property name="isAllowEmpty" nameId="3vt2.169389546812107517" value="true" />
+    </node>
+    <node role="implementedInterface" roleId="3vt2.1239652910735" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="3545830895964390391">
+      <property name="isAllowEmpty" nameId="3vt2.169389546812107517" value="true" />
     </node>
   </root>
 </model>
