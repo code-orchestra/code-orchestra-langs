@@ -1,15 +1,15 @@
-/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/MyEnum.as(5): col: 37 Error: The definition of base class EnumBase was not found.
+/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/MyClass.as(14): col: 7 Error: Function does not return a value.
 
-  public final class MyEnum extends EnumBase {
-                                    ^
+      }, this, false)) && (CollectionsLanguageUtil.all(CollectionsLanguageUtil.mapValues(Dictionary(this)),       function ( it : *, stops : Object ) : Boolean {
+      ^
 
-/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/MyEnum.as(21): col: 34 Error: Method marked override must override another method.
+/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/MyClass.as(16): col: 7 Error: Function does not return a value.
 
-    override public function get name (  ) : String {
-                                 ^
+      }, this, false))) ) {
+      ^
 
-/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/MyEnum.as(24): col: 34 Error: Method marked override must override another method.
+/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/MyClass.as(21): col: 7 Error: Function does not return a value.
 
-    override public function get index (  ) : int {
-                                 ^
+      }, this, false)) ) {
+      ^
 

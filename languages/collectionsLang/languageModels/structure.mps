@@ -2045,6 +2045,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4144789857666788238">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4144789857666788191" resolveInfo="ICollectionsDependencies" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5989170518995166279">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3vt2.989481811334007999" resolveInfo="ITypeExpression" />
+    </node>
   </root>
   <root id="4144789857666788191">
     <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4144789857666788192">
