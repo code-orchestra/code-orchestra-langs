@@ -18003,11 +18003,13 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5067222303157611837" resolveInfo="mSort" />
             </node>
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5067222303157611846">
-              <property name="value" nameId="tpee.1070475926801" value="comparefn" />
+              <property name="value" nameId="tpee.1070475926801" value="sortBehavior" />
             </node>
-            <node role="actualArgument" roleId="tpee.1068499141038" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="5067222303157611847">
-              <node role="quotedNode" roleId="tp3r.1196350785114" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="7393941437548983023">
-                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Function" resolveInfo="Function" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="3460586981517599541">
+              <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="3460586981517599542">
+                <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3460586981517599543">
+                  <link role="concept" roleId="tp25.1138405853777" targetNodeId="3vt2.1237727522379" resolveInfo="WildCardType" />
+                </node>
               </node>
             </node>
           </node>
