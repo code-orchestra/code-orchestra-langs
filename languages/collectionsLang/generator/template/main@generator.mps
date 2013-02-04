@@ -420,10 +420,12 @@
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="6444161552520936441">
       <property name="name" nameId="tpck.1169194664001" value="reduce_IsExpression_list" />
+      <property name="sourceModule" value="2816682c-4fd6-410e-a972-44a7244a0d8f" />
       <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="3vt2.6028963895468775338" resolveInfo="IsExpression" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="3217244300473221665">
       <property name="name" nameId="tpck.1169194664001" value="reduce_IsExpression_map" />
+      <property name="sourceModule" value="2816682c-4fd6-410e-a972-44a7244a0d8f" />
       <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="3vt2.6028963895468775338" resolveInfo="IsExpression" />
     </node>
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="4002860602623102836">
@@ -8082,18 +8084,6 @@
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="3vt2.6028963895468775338" resolveInfo="IsExpression" />
       <node role="conditionFunction" roleId="tpf8.1167169362365" type="tpf8.BaseMappingRule_Condition" typeId="tpf8.1167168920554" id="6444161552520897439">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6444161552520897440">
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5989170518995428399">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5989170518995432133">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="d7bu.7210201768083021726" resolveInfo="trace" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="d7bu.7210201768083021720" resolveInfo="TraceUtil" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="5989170518995464317">
-                <node role="rightExpression" roleId="tpee.1081773367579" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="5989170518995464320" />
-                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5989170518995432134">
-                  <property name="value" nameId="tpee.1070475926801" value="[!] " />
-                </node>
-              </node>
-            </node>
-          </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6444161552520904814">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.AndExpression" typeId="tpee.1080120340718" id="6444161552520936547">
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6444161552520936556">
@@ -8198,10 +8188,10 @@
                         </node>
                       </node>
                     </node>
-                    <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="6505057392086577269">
-                      <node role="operand" roleId="3vt2.1242234170112" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="6648758124355588040">
-                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.OperationExpressionSurroundWrapper" typeId="3vt2.3085388214689306031" id="6648758124355589085">
-                          <node role="wrappedNode" roleId="3vt2.4569870924333180050" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="6648758124355589102">
+                    <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="6648758124355588040">
+                      <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.OperationExpressionSurroundWrapper" typeId="3vt2.3085388214689306031" id="6648758124355589085">
+                        <node role="wrappedNode" roleId="3vt2.4569870924333180050" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="4151451152114121920">
+                          <node role="operand" roleId="3vt2.1242234170112" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="6648758124355589102">
                             <node role="operand" roleId="3vt2.1242234170112" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="6648758124355589087">
                               <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="6648758124355589086">
                                 <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="j4ot.6648758124355493179" resolveInfo="CastUtil" />
@@ -8231,77 +8221,63 @@
                               <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.Expression" typeId="3vt2.1237728250359" id="6648758124355589108" />
                             </node>
                           </node>
-                        </node>
-                      </node>
-                      <node role="operation" roleId="3vt2.8480212669356024585" type="m5sl.AllOperation" typeId="m5sl.5561394839982268083" id="6648758124355589112">
-                        <node role="closure" roleId="m5sl.5561394839982268118" type="tkzo.ClosureLiteral" typeId="tkzo.3691842890462456355" id="6648758124355589113">
-                          <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="6648758124355589114">
-                            <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="6648758124355589115">
-                              <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="6648758124355589116">
-                                <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.IsExpression" typeId="3vt2.6028963895468775338" id="6648758124355589117">
-                                  <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.NullLiteral" typeId="3vt2.1237732826761" id="6648758124355589118">
-                                    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.MapSrcNodeMacro" typeId="tpf8.1131073187192" id="6648758124355589119">
-                                      <node role="mapperFunction" roleId="tpf8.1170725844563" type="tpf8.MapSrcMacro_MapperFunction" typeId="tpf8.1170725621272" id="6648758124355589120">
-                                        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6648758124355589121">
-                                          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6648758124355589122">
-                                            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6648758124355589123">
-                                              <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6648758124355589124">
-                                                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6648758124355589125">
-                                                  <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="6648758124355589126">
-                                                    <link role="concept" roleId="tp25.1140138128738" targetNodeId="m5sl.4927441030181638167" resolveInfo="ListTypeExpression" />
-                                                    <node role="leftExpression" roleId="tp25.1140138123956" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6648758124355589127">
-                                                      <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="6648758124355589128" />
-                                                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6648758124355589129">
-                                                        <link role="link" roleId="tp25.1138056516764" targetNodeId="3vt2.6028963895468775340" />
+                          <node role="operation" roleId="3vt2.8480212669356024585" type="m5sl.AllOperation" typeId="m5sl.5561394839982268083" id="4151451152114121924">
+                            <node role="closure" roleId="m5sl.5561394839982268118" type="tkzo.ClosureLiteral" typeId="tkzo.3691842890462456355" id="4151451152114121925">
+                              <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="4151451152114121926">
+                                <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ReturnStatement" typeId="3vt2.3391459608350013428" id="4151451152114121931">
+                                  <node role="expression" roleId="3vt2.3391459608350013430" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="4151451152114121932">
+                                    <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.IsExpression" typeId="3vt2.6028963895468775338" id="4151451152114121936">
+                                      <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.NullLiteral" typeId="3vt2.1237732826761" id="4151451152114121939">
+                                        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.MapSrcNodeMacro" typeId="tpf8.1131073187192" id="4151451152114121941">
+                                          <node role="mapperFunction" roleId="tpf8.1170725844563" type="tpf8.MapSrcMacro_MapperFunction" typeId="tpf8.1170725621272" id="4151451152114121942">
+                                            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4151451152114121943">
+                                              <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6648758124355589122">
+                                                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6648758124355589123">
+                                                  <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6648758124355589124">
+                                                    <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6648758124355589125">
+                                                      <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="6648758124355589126">
+                                                        <link role="concept" roleId="tp25.1140138128738" targetNodeId="m5sl.4927441030181638167" resolveInfo="ListTypeExpression" />
+                                                        <node role="leftExpression" roleId="tp25.1140138123956" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6648758124355589127">
+                                                          <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="6648758124355589128" />
+                                                          <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6648758124355589129">
+                                                            <link role="link" roleId="tp25.1138056516764" targetNodeId="3vt2.6028963895468775340" />
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6648758124355589130">
+                                                        <link role="link" roleId="tp25.1138056516764" targetNodeId="m5sl.4927441030181638170" />
                                                       </node>
                                                     </node>
+                                                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6648758124355589131">
+                                                      <link role="link" roleId="tp25.1138056516764" targetNodeId="m5sl.5561394839982267769" />
+                                                    </node>
                                                   </node>
-                                                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6648758124355589130">
-                                                    <link role="link" roleId="tp25.1138056516764" targetNodeId="m5sl.4927441030181638170" />
+                                                  <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6648758124355589132">
+                                                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.6444161552520980381" resolveInfo="getTypeExpression" />
                                                   </node>
                                                 </node>
-                                                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6648758124355589131">
-                                                  <link role="link" roleId="tp25.1138056516764" targetNodeId="m5sl.5561394839982267769" />
-                                                </node>
-                                              </node>
-                                              <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6648758124355589132">
-                                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.6444161552520980381" resolveInfo="getTypeExpression" />
                                               </node>
                                             </node>
                                           </node>
                                         </node>
                                       </node>
-                                    </node>
-                                  </node>
-                                  <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="6648758124355589133">
-                                    <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.OperationExpressionSurroundWrapper" typeId="3vt2.3085388214689306031" id="6648758124355589134">
-                                      <node role="wrappedNode" roleId="3vt2.4569870924333180050" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="6648758124355589135">
-                                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.OperationExpressionSurroundWrapper" typeId="3vt2.3085388214689306031" id="6648758124355589136">
-                                          <node role="wrappedNode" roleId="3vt2.4569870924333180050" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="6648758124355589137">
-                                            <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="6648758124355589138">
-                                              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6648758124355589139" resolveInfo="it" />
-                                            </node>
-                                          </node>
+                                      <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="4151451152114121934">
+                                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="4151451152114121935">
+                                          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="4151451152114121929" resolveInfo="it" />
                                         </node>
                                       </node>
                                     </node>
                                   </node>
                                 </node>
                               </node>
+                              <node role="parameter" roleId="3vt2.3618339097803723485" type="tkzo.ClosureParameterDeclaration" typeId="tkzo.3691842890462754162" id="4151451152114121929">
+                                <property name="name" nameId="tpck.1169194664001" value="it" />
+                                <node role="type" roleId="3vt2.1238708772985" type="3vt2.WildCardType" typeId="3vt2.1237727522379" id="4151451152114121930" />
+                              </node>
+                              <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="4151451152114295698">
+                                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Boolean" resolveInfo="Boolean" />
+                              </node>
                             </node>
-                          </node>
-                          <node role="parameter" roleId="3vt2.3618339097803723485" type="tkzo.ClosureParameterDeclaration" typeId="tkzo.3691842890462754162" id="6648758124355589139">
-                            <property name="name" nameId="tpck.1169194664001" value="it" />
-                            <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="6648758124355589140">
-                              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Object" resolveInfo="Object" />
-                            </node>
-                          </node>
-                          <node role="lastStatementCache" roleId="tkzo.3655889998735347415" type="tkzo.ClosureLiteralStatementCache" typeId="tkzo.3655889998735347413" id="6648758124355589141">
-                            <link role="statement" roleId="tkzo.3655889998735347414" targetNodeId="6648758124355589115" />
-                          </node>
-                          <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="6648758124355589142">
-                            <property name="name" nameId="tpck.1169194664001" value="Boolean" />
-                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3217244300473221727" resolveInfo="Boolean" />
                           </node>
                         </node>
                       </node>
@@ -8369,7 +8345,7 @@
                       </node>
                       <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.ParenthesizedExpression" typeId="3vt2.1630592743144887776" id="3217244300473221687">
                         <node role="expression" roleId="3vt2.4871971097877898664" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="3217244300473221688">
-                          <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="3217244300473221689">
+                          <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="4151451152114269389">
                             <node role="operand" roleId="3vt2.1242234170112" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="3217244300473221865">
                               <node role="operand" roleId="3vt2.1242234170112" type="3vt2.CastExpression" typeId="3vt2.1237741639905" id="3217244300473221690">
                                 <node role="expression" roleId="3vt2.7685438071509449394" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="3217244300473221691">
@@ -8398,18 +8374,17 @@
                               </node>
                               <node role="operation" roleId="3vt2.8480212669356024585" type="m5sl.GetKeysOperation" typeId="m5sl.5561394839982267889" id="3217244300473221869" />
                             </node>
-                            <node role="operation" roleId="3vt2.8480212669356024585" type="m5sl.AllOperation" typeId="m5sl.5561394839982268083" id="3217244300473221702">
-                              <node role="closure" roleId="m5sl.5561394839982268118" type="tkzo.ClosureLiteral" typeId="tkzo.3691842890462456355" id="3217244300473221703">
-                                <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="3217244300473221704">
-                                  <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="3217244300473221705">
-                                    <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="3217244300473221706">
-                                      <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.IsExpression" typeId="3vt2.6028963895468775338" id="3217244300473221707">
-                                        <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="3217244300473221708">
-                                          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1540121765288836306" resolveInfo="Object" />
-                                          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.MapSrcNodeMacro" typeId="tpf8.1131073187192" id="3217244300473595044">
-                                            <node role="mapperFunction" roleId="tpf8.1170725844563" type="tpf8.MapSrcMacro_MapperFunction" typeId="tpf8.1170725621272" id="3217244300473595045">
-                                              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3217244300473595046">
-                                                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3217244300473595047">
+                            <node role="operation" roleId="3vt2.8480212669356024585" type="m5sl.AllOperation" typeId="m5sl.5561394839982268083" id="4151451152114269393">
+                              <node role="closure" roleId="m5sl.5561394839982268118" type="tkzo.ClosureLiteral" typeId="tkzo.3691842890462456355" id="4151451152114269394">
+                                <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="4151451152114269395">
+                                  <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ReturnStatement" typeId="3vt2.3391459608350013428" id="4151451152114269404">
+                                    <node role="expression" roleId="3vt2.3391459608350013430" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="4151451152114269405">
+                                      <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.IsExpression" typeId="3vt2.6028963895468775338" id="4151451152114269409">
+                                        <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.NullLiteral" typeId="3vt2.1237732826761" id="4151451152114269412">
+                                          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.MapSrcNodeMacro" typeId="tpf8.1131073187192" id="4151451152114269417">
+                                            <node role="mapperFunction" roleId="tpf8.1170725844563" type="tpf8.MapSrcMacro_MapperFunction" typeId="tpf8.1170725621272" id="4151451152114269418">
+                                              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4151451152114269419">
+                                                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4151451152114269420">
                                                   <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3217244300473595048">
                                                     <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3217244300473595049">
                                                       <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3217244300473595050">
@@ -8439,29 +8414,21 @@
                                             </node>
                                           </node>
                                         </node>
-                                        <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="3217244300473221723">
-                                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.OperationExpressionSurroundWrapper" typeId="3vt2.3085388214689306031" id="3217244300473247968">
-                                            <node role="wrappedNode" roleId="3vt2.4569870924333180050" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="3217244300473247969">
-                                              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="3217244300473247970">
-                                                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3217244300473553943" resolveInfo="it" />
-                                              </node>
-                                            </node>
+                                        <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="4151451152114269407">
+                                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="4151451152114269408">
+                                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="4151451152114269398" resolveInfo="it" />
                                           </node>
                                         </node>
                                       </node>
                                     </node>
                                   </node>
                                 </node>
-                                <node role="parameter" roleId="3vt2.3618339097803723485" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="3217244300473553943">
+                                <node role="parameter" roleId="3vt2.3618339097803723485" type="tkzo.ClosureParameterDeclaration" typeId="tkzo.3691842890462754162" id="4151451152114269398">
                                   <property name="name" nameId="tpck.1169194664001" value="it" />
-                                  <node role="type" roleId="3vt2.1238708772985" type="3vt2.WildCardType" typeId="3vt2.1237727522379" id="3217244300473553947" />
+                                  <node role="type" roleId="3vt2.1238708772985" type="3vt2.WildCardType" typeId="3vt2.1237727522379" id="4151451152114269399" />
                                 </node>
-                                <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3217244300473221727">
-                                  <property name="name" nameId="tpck.1169194664001" value="Boolean" />
-                                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3217244300473221727" resolveInfo="Boolean" />
-                                </node>
-                                <node role="lastStatementCache" roleId="tkzo.3655889998735347415" type="tkzo.ClosureLiteralStatementCache" typeId="tkzo.3655889998735347413" id="3217244300473221728">
-                                  <link role="statement" roleId="tkzo.3655889998735347414" targetNodeId="3217244300473221705" />
+                                <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="4151451152114295699">
+                                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Boolean" resolveInfo="Boolean" />
                                 </node>
                               </node>
                             </node>
@@ -8471,7 +8438,7 @@
                     </node>
                     <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.ParenthesizedExpression" typeId="3vt2.1630592743144887776" id="3217244300473221879">
                       <node role="expression" roleId="3vt2.4871971097877898664" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="3217244300473221880">
-                        <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="3217244300473221881">
+                        <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="4151451152113906794">
                           <node role="operand" roleId="3vt2.1242234170112" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="3217244300473221882">
                             <node role="operand" roleId="3vt2.1242234170112" type="3vt2.CastExpression" typeId="3vt2.1237741639905" id="3217244300473221883">
                               <node role="expression" roleId="3vt2.7685438071509449394" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="3217244300473221884">
@@ -8500,17 +8467,16 @@
                             </node>
                             <node role="operation" roleId="3vt2.8480212669356024585" type="m5sl.GetValuesOperation" typeId="m5sl.5561394839982267891" id="3217244300473247971" />
                           </node>
-                          <node role="operation" roleId="3vt2.8480212669356024585" type="m5sl.AllOperation" typeId="m5sl.5561394839982268083" id="3217244300473221897">
-                            <node role="closure" roleId="m5sl.5561394839982268118" type="tkzo.ClosureLiteral" typeId="tkzo.3691842890462456355" id="3217244300473221898">
-                              <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="3217244300473221899">
-                                <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="3217244300473221900">
-                                  <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="3217244300473221901">
-                                    <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.IsExpression" typeId="3vt2.6028963895468775338" id="3217244300473221902">
-                                      <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="3217244300473221903">
-                                        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1540121765288836306" resolveInfo="Object" />
-                                        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.MapSrcNodeMacro" typeId="tpf8.1131073187192" id="3217244300473595058">
-                                          <node role="mapperFunction" roleId="tpf8.1170725844563" type="tpf8.MapSrcMacro_MapperFunction" typeId="tpf8.1170725621272" id="3217244300473595059">
-                                            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3217244300473595060">
+                          <node role="operation" roleId="3vt2.8480212669356024585" type="m5sl.AllOperation" typeId="m5sl.5561394839982268083" id="4151451152113906798">
+                            <node role="closure" roleId="m5sl.5561394839982268118" type="tkzo.ClosureLiteral" typeId="tkzo.3691842890462456355" id="4151451152113906799">
+                              <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="4151451152113906800">
+                                <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ReturnStatement" typeId="3vt2.3391459608350013428" id="4151451152113862903">
+                                  <node role="expression" roleId="3vt2.3391459608350013430" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="4151451152113862904">
+                                    <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.IsExpression" typeId="3vt2.6028963895468775338" id="4151451152113862933">
+                                      <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.NullLiteral" typeId="3vt2.1237732826761" id="4151451152113862939">
+                                        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.MapSrcNodeMacro" typeId="tpf8.1131073187192" id="4151451152113862954">
+                                          <node role="mapperFunction" roleId="tpf8.1170725844563" type="tpf8.MapSrcMacro_MapperFunction" typeId="tpf8.1170725621272" id="4151451152113862958">
+                                            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4151451152113862959">
                                               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3217244300473595061">
                                                 <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3217244300473595062">
                                                   <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3217244300473595063">
@@ -8541,15 +8507,11 @@
                                           </node>
                                         </node>
                                       </node>
-                                      <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="3217244300473221918">
-                                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.OperationExpressionSurroundWrapper" typeId="3vt2.3085388214689306031" id="3217244300473247965">
-                                          <node role="wrappedNode" roleId="3vt2.4569870924333180050" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="3217244300473247966">
-                                            <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.OperationExpressionSurroundWrapper" typeId="3vt2.3085388214689306031" id="3217244300473279589">
-                                              <node role="wrappedNode" roleId="3vt2.4569870924333180050" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="3217244300473279590">
-                                                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="3217244300473279591">
-                                                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3217244300473553943" resolveInfo="it" />
-                                                </node>
-                                              </node>
+                                      <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="4151451152113862921">
+                                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.OperationExpressionSurroundWrapper" typeId="3vt2.3085388214689306031" id="4151451152113906805">
+                                          <node role="wrappedNode" roleId="3vt2.4569870924333180050" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="4151451152113906806">
+                                            <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="4151451152113906807">
+                                              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="4151451152113906803" resolveInfo="it" />
                                             </node>
                                           </node>
                                         </node>
@@ -8558,16 +8520,12 @@
                                   </node>
                                 </node>
                               </node>
-                              <node role="parameter" roleId="3vt2.3618339097803723485" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="3217244300473553958">
+                              <node role="parameter" roleId="3vt2.3618339097803723485" type="tkzo.ClosureParameterDeclaration" typeId="tkzo.3691842890462754162" id="4151451152113906803">
                                 <property name="name" nameId="tpck.1169194664001" value="it" />
-                                <node role="type" roleId="3vt2.1238708772985" type="3vt2.WildCardType" typeId="3vt2.1237727522379" id="3217244300473553961" />
+                                <node role="type" roleId="3vt2.1238708772985" type="3vt2.WildCardType" typeId="3vt2.1237727522379" id="4151451152113906804" />
                               </node>
-                              <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3217244300473221922">
-                                <property name="name" nameId="tpck.1169194664001" value="Boolean" />
-                                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3217244300473221922" resolveInfo="Boolean" />
-                              </node>
-                              <node role="lastStatementCache" roleId="tkzo.3655889998735347415" type="tkzo.ClosureLiteralStatementCache" typeId="tkzo.3655889998735347413" id="3217244300473221923">
-                                <link role="statement" roleId="tkzo.3655889998735347414" targetNodeId="3217244300473221900" />
+                              <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="4151451152114295700">
+                                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Boolean" resolveInfo="Boolean" />
                               </node>
                             </node>
                           </node>
