@@ -14,27 +14,27 @@
   <import index="tff4" modelUID="f:java_stub#jetbrains.mps.execution.api.configurations(jetbrains.mps.execution.api.configurations@java_stub)" version="-1" />
   <import index="fmc9" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
   <import index="1lc7" modelUID="f:java_stub#com.intellij.openapi.components(com.intellij.openapi.components@java_stub)" version="-1" />
-  <import index="1q31" modelUID="f:java_stub#codeOrchestra.actionscript.modulemaker.view(codeOrchestra.actionscript.modulemaker.view@java_stub)" version="-1" />
+  <import index="hdzy" modelUID="f:java_stub#codeOrchestra.actionscript.modulemaker.view(codeOrchestra.actionscript.modulemaker.view@java_stub)" version="-1" />
   <import index="tzv" modelUID="f:java_stub#com.intellij.execution(com.intellij.execution@java_stub)" version="-1" />
   <import index="ftnz" modelUID="f:java_stub#org.apache.commons.lang(org.apache.commons.lang@java_stub)" version="-1" />
-  <import index="gwck" modelUID="f:java_stub#codeOrchestra.actionscript.liveCoding.run.config.ios(codeOrchestra.actionscript.liveCoding.run.config.ios@java_stub)" version="-1" />
+  <import index="iaj1" modelUID="f:java_stub#codeOrchestra.actionscript.liveCoding.run.config.ios(codeOrchestra.actionscript.liveCoding.run.config.ios@java_stub)" version="-1" />
   <import index="6m4m" modelUID="f:java_stub#org.jetbrains.annotations(org.jetbrains.annotations@java_stub)" version="-1" />
-  <import index="21hc" modelUID="f:java_stub#codeOrchestra.actionscript.liveCoding.run.config(codeOrchestra.actionscript.liveCoding.run.config@java_stub)" version="-1" />
-  <import index="elep" modelUID="f:java_stub#codeOrchestra.actionscript.liveCoding(codeOrchestra.actionscript.liveCoding@java_stub)" version="-1" />
-  <import index="ah3i" modelUID="f:java_stub#codeOrchestra.actionscript.liveCoding.run.view.ios(codeOrchestra.actionscript.liveCoding.run.view.ios@java_stub)" version="-1" />
+  <import index="bzft" modelUID="f:java_stub#codeOrchestra.actionscript.liveCoding.run.config(codeOrchestra.actionscript.liveCoding.run.config@java_stub)" version="-1" />
+  <import index="s24k" modelUID="f:java_stub#codeOrchestra.actionscript.liveCoding(codeOrchestra.actionscript.liveCoding@java_stub)" version="-1" />
+  <import index="b4tc" modelUID="f:java_stub#codeOrchestra.actionscript.liveCoding.run.view.ios(codeOrchestra.actionscript.liveCoding.run.view.ios@java_stub)" version="-1" />
   <import index="31xm" modelUID="f:java_stub#jetbrains.mps.execution.api.settings(jetbrains.mps.execution.api.settings@java_stub)" version="-1" />
   <import index="ik8z" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
   <import index="h52d" modelUID="f:java_stub#jetbrains.mps.ide.messages(jetbrains.mps.ide.messages@java_stub)" version="-1" />
   <import index="4jdw" modelUID="r:a74d132c-54c4-4bbd-a6e6-e1bd76b5d808(codeOrchestra.actionScript.run.plugin)" version="-1" />
-  <import index="pg1a" modelUID="f:java_stub#codeOrchestra.ios(codeOrchestra.ios@java_stub)" version="-1" />
-  <import index="av4s" modelUID="f:java_stub#codeOrchestra.generator.listener(codeOrchestra.generator.listener@java_stub)" version="-1" />
+  <import index="f2gm" modelUID="f:java_stub#codeOrchestra.ios(codeOrchestra.ios@java_stub)" version="-1" />
+  <import index="2kh" modelUID="f:java_stub#codeOrchestra.generator.listener(codeOrchestra.generator.listener@java_stub)" version="-1" />
   <import index="wqwp" modelUID="f:java_stub#jetbrains.mps.project.structure.modules(jetbrains.mps.project.structure.modules@java_stub)" version="-1" />
-  <import index="fbm7" modelUID="f:java_stub#codeOrchestra.actionscript.view.utils(codeOrchestra.actionscript.view.utils@java_stub)" version="-1" />
-  <import index="cjoq" modelUID="f:java_stub#codeOrchestra.utils(codeOrchestra.utils@java_stub)" version="-1" />
+  <import index="cjil" modelUID="f:java_stub#codeOrchestra.actionscript.view.utils(codeOrchestra.actionscript.view.utils@java_stub)" version="-1" />
+  <import index="37bc" modelUID="f:java_stub#codeOrchestra.utils(codeOrchestra.utils@java_stub)" version="-1" />
   <import index="gs4a" modelUID="f:java_stub#jetbrains.mps.util(jetbrains.mps.util@java_stub)" version="-1" />
   <import index="fxfs" modelUID="f:java_stub#jetbrains.mps.project(jetbrains.mps.project@java_stub)" version="-1" />
-  <import index="z0ac" modelUID="f:java_stub#codeOrchestra.actionscript.run.compiler.properties(codeOrchestra.actionscript.run.compiler.properties@java_stub)" version="-1" />
-  <import index="2u3q" modelUID="f:java_stub#codeOrchestra.actionscript.socket(codeOrchestra.actionscript.socket@java_stub)" version="-1" />
+  <import index="7jb9" modelUID="f:java_stub#codeOrchestra.actionscript.run.compiler.properties(codeOrchestra.actionscript.run.compiler.properties@java_stub)" version="-1" />
+  <import index="k35m" modelUID="f:java_stub#codeOrchestra.actionscript.socket(codeOrchestra.actionscript.socket@java_stub)" version="-1" />
   <import index="jeyo" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
@@ -239,12 +239,12 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="7915603605881240377">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7915603605881240368">
               <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7915603605881240369">
-                <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7915603605881240370">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="elep.~LiveCodingManager%dinstance()%ccom%drealaxy%dactionscript%dliveCoding%dLiveCodingManager" resolveInfo="instance" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="elep.~LiveCodingManager" resolveInfo="LiveCodingManager" />
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1531557541620319907">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s24k.~LiveCodingManager%dinstance()%ccodeOrchestra%dactionscript%dliveCoding%dLiveCodingManager" resolveInfo="instance" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="s24k.~LiveCodingManager" resolveInfo="LiveCodingManager" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7915603605881240371">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="elep.~LiveCodingManager%dremoveArtifactListener(com%drealaxy%dactionscript%dliveCoding%dLiveCodingArtifactListener)%cvoid" resolveInfo="removeArtifactListener" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s24k.~LiveCodingManager%dremoveArtifactListener(codeOrchestra%dactionscript%dliveCoding%dLiveCodingArtifactListener)%cvoid" resolveInfo="removeArtifactListener" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7915603605881240372">
                     <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="7915603605881240373" />
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.FieldReferenceOperation" typeId="tpee.1197029447546" id="7915603605881240374">
@@ -277,7 +277,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6872080755760667413" resolveInfo="iosConnector" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6872080755760667457">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="pg1a.~iOSConnector%ddispose()%cvoid" resolveInfo="dispose" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="f2gm.~iOSConnector%ddispose()%cvoid" resolveInfo="dispose" />
                 </node>
               </node>
             </node>
@@ -318,7 +318,7 @@
             </node>
             <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="6872080755760591838">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="6872080755760591839">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="pg1a.~iOSConnector%d&lt;init&gt;(com%drealaxy%dios%diOSLogger,java%dlang%dString,java%dlang%dString)" resolveInfo="iOSConnector" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="f2gm.~iOSConnector%d&lt;init&gt;(codeOrchestra%dios%diOSLogger,java%dlang%dString,java%dlang%dString)" resolveInfo="iOSConnector" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="6872080755760662703" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalInstanceFieldReference" typeId="tpee.7785501532031639928" id="6872080755760662705">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3957165581920814942" resolveInfo="bundleId" />
@@ -373,7 +373,7 @@
                                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6872080755760667413" resolveInfo="iosConnector" />
                               </node>
                               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7915603605881275678">
-                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="pg1a.~iOSConnector%dstartListening()%cvoid" resolveInfo="startListening" />
+                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="f2gm.~iOSConnector%dstartListening()%cvoid" resolveInfo="startListening" />
                               </node>
                             </node>
                           </node>
@@ -382,7 +382,7 @@
                           <node role="throwable" roleId="tpee.1164903359217" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="7915603605881275680">
                             <property name="name" nameId="tpck.1169194664001" value="exception" />
                             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7915603605881275681">
-                              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="pg1a.~iOSException" resolveInfo="iOSException" />
+                              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="f2gm.~iOSException" resolveInfo="iOSException" />
                             </node>
                           </node>
                           <node role="catchBody" roleId="tpee.1164903359218" type="tpee.StatementList" typeId="tpee.1068580123136" id="7915603605881275682">
@@ -430,7 +430,7 @@
               <node role="creator" roleId="tpee.1145553007750" type="tpee.AnonymousClassCreator" typeId="tpee.1182160077978" id="687185812556633849">
                 <node role="cls" roleId="tpee.1182160096073" type="tpee.AnonymousClass" typeId="tpee.1170345865475" id="687185812556633850">
                   <property name="nonStatic" nameId="tpee.521412098689998745" value="true" />
-                  <link role="classifier" roleId="tpee.1170346070688" targetNodeId="elep.~LiveCodingArtifactListener" resolveInfo="LiveCodingArtifactListener" />
+                  <link role="classifier" roleId="tpee.1170346070688" targetNodeId="s24k.~LiveCodingArtifactListener" resolveInfo="LiveCodingArtifactListener" />
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jeyo.~Object%d&lt;init&gt;()" resolveInfo="Object" />
                   <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="687185812556633851" />
                   <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="687185812556633852">
@@ -494,7 +494,7 @@
                                     </node>
                                   </node>
                                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7915603605881276737">
-                                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="pg1a.~iOSConnector%dcopyFileToApplicationRoot(java%dlang%dString)%cvoid" resolveInfo="copyFileToApplicationRoot" />
+                                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="f2gm.~iOSConnector%dcopyFileToApplicationRoot(java%dlang%dString)%cvoid" resolveInfo="copyFileToApplicationRoot" />
                                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="7915603605881276738">
                                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="687185812556633855" resolveInfo="artifactPath" />
                                     </node>
@@ -583,7 +583,7 @@
                               </node>
                             </node>
                             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7915603605881276727">
-                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="pg1a.~iOSConnector%disConnected()%cboolean" resolveInfo="isConnected" />
+                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="f2gm.~iOSConnector%disConnected()%cboolean" resolveInfo="isConnected" />
                             </node>
                           </node>
                         </node>
@@ -633,12 +633,12 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="687185812556553138">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="687185812556554002">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="687185812556554001">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="elep.~LiveCodingManager%dinstance()%ccom%drealaxy%dactionscript%dliveCoding%dLiveCodingManager" resolveInfo="instance" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="elep.~LiveCodingManager" resolveInfo="LiveCodingManager" />
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1531557541620319908">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s24k.~LiveCodingManager%dinstance()%ccodeOrchestra%dactionscript%dliveCoding%dLiveCodingManager" resolveInfo="instance" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="s24k.~LiveCodingManager" resolveInfo="LiveCodingManager" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="687185812556554006">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="elep.~LiveCodingManager%daddArtifactListener(com%drealaxy%dactionscript%dliveCoding%dLiveCodingArtifactListener)%cvoid" resolveInfo="addArtifactListener" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s24k.~LiveCodingManager%daddArtifactListener(codeOrchestra%dactionscript%dliveCoding%dLiveCodingArtifactListener)%cvoid" resolveInfo="addArtifactListener" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="687185812556633858">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="687185812556633859" />
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.FieldReferenceOperation" typeId="tpee.1197029447546" id="687185812556633860">
@@ -672,11 +672,11 @@
       <property name="name" nameId="tpck.1169194664001" value="iosConnector" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="6872080755760667414" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6872080755760667416">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="pg1a.~iOSConnector" resolveInfo="iOSConnector" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="f2gm.~iOSConnector" resolveInfo="iOSConnector" />
       </node>
     </node>
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6872080755760596853">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="pg1a.~iOSLogger" resolveInfo="iOSLogger" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="f2gm.~iOSLogger" resolveInfo="iOSLogger" />
     </node>
     <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="6872080755760596854">
       <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
@@ -748,7 +748,7 @@
       <property name="name" nameId="tpck.1169194664001" value="liveCodingArtifactListener" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="687185812556633841" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="687185812556633842">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="elep.~LiveCodingArtifactListener" resolveInfo="LiveCodingArtifactListener" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="s24k.~LiveCodingArtifactListener" resolveInfo="LiveCodingArtifactListener" />
       </node>
     </node>
     <node role="field" roleId="tpee.1068390468199" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="7915603605881275653">
@@ -811,12 +811,12 @@
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4738432738047147028">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4738432738047147029">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4738432738047147030">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="elep.~LiveCodingManager%dinstance()%ccom%drealaxy%dactionscript%dliveCoding%dLiveCodingManager" resolveInfo="instance" />
-                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="elep.~LiveCodingManager" resolveInfo="LiveCodingManager" />
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1531557541620314994">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s24k.~LiveCodingManager%dinstance()%ccodeOrchestra%dactionscript%dliveCoding%dLiveCodingManager" resolveInfo="instance" />
+                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="s24k.~LiveCodingManager" resolveInfo="LiveCodingManager" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4738432738047147031">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="elep.~LiveCodingManager%dgetOrCreateLiveCodingModule()%cjetbrains%dmps%dproject%dSolution" resolveInfo="getOrCreateLiveCodingModule" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s24k.~LiveCodingManager%dgetOrCreateLiveCodingModule()%cjetbrains%dmps%dproject%dSolution" resolveInfo="getOrCreateLiveCodingModule" />
               </node>
             </node>
           </node>
@@ -968,7 +968,7 @@
     <node role="parameter" roleId="uhxm.6550182048787568298" type="uhxm.BeforeTaskParameter" typeId="uhxm.6550182048787562516" id="4738432738047221758">
       <property name="name" nameId="tpck.1169194664001" value="runConfigurationWrapper" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4738432738047221760">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gwck.~iOSLiveCodingRunConfiguration" resolveInfo="iOSLiveCodingRunConfiguration" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="iaj1.~iOSLiveCodingRunConfiguration" resolveInfo="iOSLiveCodingRunConfiguration" />
       </node>
     </node>
     <node role="execute" roleId="uhxm.2454261876037700497" type="uhxm.ExecuteBeforeTask_ConceptFunction" typeId="uhxm.2454261876037468744" id="4738432738047221752">
@@ -1046,12 +1046,12 @@
             <property name="name" nameId="tpck.1169194664001" value="sdkPath" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="4738432738047221793" />
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4738432738047221794">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4738432738047221795">
-                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="1q31.~FlexSDKSettings" resolveInfo="FlexSDKSettings" />
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1q31.~FlexSDKSettings%dgetInstance()%ccom%drealaxy%dactionscript%dmodulemaker%dview%dFlexSDKSettings" resolveInfo="getInstance" />
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1531557541620319314">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hdzy.~FlexSDKSettings%dgetInstance()%ccodeOrchestra%dactionscript%dmodulemaker%dview%dFlexSDKSettings" resolveInfo="getInstance" />
+                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="hdzy.~FlexSDKSettings" resolveInfo="FlexSDKSettings" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4738432738047221796">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1q31.~FlexSDKSettings%dgetFlexSDKPath()%cjava%dlang%dString" resolveInfo="getFlexSDKPath" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hdzy.~FlexSDKSettings%dgetFlexSDKPath()%cjava%dlang%dString" resolveInfo="getFlexSDKPath" />
               </node>
             </node>
           </node>
@@ -1105,7 +1105,7 @@
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4738432738047221758" resolveInfo="runConfigurationWrapper" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4738432738047221817">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dgetModuleName()%cjava%dlang%dString" resolveInfo="getModuleName" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dgetModuleName()%cjava%dlang%dString" resolveInfo="getModuleName" />
               </node>
             </node>
           </node>
@@ -1222,12 +1222,12 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="9132717313369944713">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="9132717313369944716">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="9132717313369944715">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="elep.~LiveCodingManager%dinstance()%ccom%drealaxy%dactionscript%dliveCoding%dLiveCodingManager" resolveInfo="instance" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="elep.~LiveCodingManager" resolveInfo="LiveCodingManager" />
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1531557541620391284">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s24k.~LiveCodingManager%dinstance()%ccodeOrchestra%dactionscript%dliveCoding%dLiveCodingManager" resolveInfo="instance" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="s24k.~LiveCodingManager" resolveInfo="LiveCodingManager" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="9132717313369944720">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="elep.~LiveCodingManager%dprepareNextSession(jetbrains%dmps%dproject%dstructure%dmodules%dModuleReference,com%drealaxy%dactionscript%dliveCoding%drun%dconfig%dILiveCodingRunConfiguration)%cvoid" resolveInfo="prepareNextSession" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s24k.~LiveCodingManager%dprepareNextSession(jetbrains%dmps%dproject%dstructure%dmodules%dModuleReference,codeOrchestra%dactionscript%dliveCoding%drun%dconfig%dILiveCodingRunConfiguration)%cvoid" resolveInfo="prepareNextSession" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="9132717313369944722">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="9132717313369944721">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4738432738047221832" resolveInfo="module" />
@@ -1255,7 +1255,7 @@
     <node role="methods" roleId="fb9u.946964771156066339" type="fb9u.PersistentConfigurationMethod" typeId="fb9u.946964771156066331" id="1797703376552103900">
       <property name="name" nameId="tpck.1169194664001" value="getiOSRunConfigurationWrapper" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1797703376552113874">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gwck.~iOSLiveCodingRunConfiguration" resolveInfo="iOSLiveCodingRunConfiguration" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="iaj1.~iOSLiveCodingRunConfiguration" resolveInfo="iOSLiveCodingRunConfiguration" />
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1797703376552103902">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1797703376552103903">
@@ -1263,11 +1263,11 @@
             <property name="name" nameId="tpck.1169194664001" value="runConfigurationWrapper" />
             <property name="isFinal" nameId="tpee.1176718929932" value="true" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1797703376552113870">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gwck.~iOSLiveCodingRunConfiguration" resolveInfo="iOSLiveCodingRunConfiguration" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="iaj1.~iOSLiveCodingRunConfiguration" resolveInfo="iOSLiveCodingRunConfiguration" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1797703376552103906">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1797703376552103907">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="gwck.~iOSLiveCodingRunConfiguration%d&lt;init&gt;(java%dlang%dString,java%dlang%dString,java%dlang%dString)" resolveInfo="iOSLiveCodingRunConfiguration" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="iaj1.~iOSLiveCodingRunConfiguration%d&lt;init&gt;(java%dlang%dString,java%dlang%dString,java%dlang%dString)" resolveInfo="iOSLiveCodingRunConfiguration" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552103908">
                   <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="1797703376552103909" />
                   <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552103910">
@@ -1297,9 +1297,9 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552103904" resolveInfo="runConfigurationWrapper" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552103936">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dsetMode(com%drealaxy%dactionscript%dliveCoding%drun%dconfig%dLiveCodingMode)%cvoid" resolveInfo="setMode" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dsetMode(codeOrchestra%dactionscript%dliveCoding%drun%dconfig%dLiveCodingMode)%cvoid" resolveInfo="setMode" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumValueOfExpression" typeId="tpee.1224575136086" id="1797703376552103937">
-                <link role="enumClass" roleId="tpee.1224575174120" targetNodeId="21hc.~LiveCodingMode" resolveInfo="LiveCodingMode" />
+                <link role="enumClass" roleId="tpee.1224575174120" targetNodeId="bzft.~LiveCodingMode" resolveInfo="LiveCodingMode" />
                 <node role="value" roleId="tpee.1224575157853" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552103938">
                   <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="1797703376552103939" />
                   <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552103940">
@@ -1316,7 +1316,7 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552103904" resolveInfo="runConfigurationWrapper" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552103944">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dsetGettersAndSettersLive(boolean)%cvoid" resolveInfo="setGettersAndSettersLive" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dsetGettersAndSettersLive(boolean)%cvoid" resolveInfo="setGettersAndSettersLive" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552103945">
                 <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="1797703376552103946" />
                 <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552103947">
@@ -1332,7 +1332,7 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552103904" resolveInfo="runConfigurationWrapper" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552103951">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dsetMaxLoopIterations(int)%cvoid" resolveInfo="setMaxLoopIterations" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dsetMaxLoopIterations(int)%cvoid" resolveInfo="setMaxLoopIterations" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552103952">
                 <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="1797703376552103953" />
                 <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552103954">
@@ -1348,7 +1348,7 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552103904" resolveInfo="runConfigurationWrapper" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552103958">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dsetMaxRecursionDepth(int)%cvoid" resolveInfo="setMaxRecursionDepth" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dsetMaxRecursionDepth(int)%cvoid" resolveInfo="setMaxRecursionDepth" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552103959">
                 <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="1797703376552103960" />
                 <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552103961">
@@ -1371,11 +1371,11 @@
       <node role="propertyDeclaration" roleId="fb9u.946964771156066626" type="fb9u.EditorPropertyDeclaration" typeId="fb9u.946964771156066610" id="1797703376552103967">
         <property name="name" nameId="tpck.1169194664001" value="runConfigurationComponent" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1797703376552113828">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ah3i.~iOSLiveCodingRunConfigurationComponent" resolveInfo="iOSLiveCodingRunConfigurationComponent" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="b4tc.~iOSLiveCodingRunConfigurationComponent" resolveInfo="iOSLiveCodingRunConfigurationComponent" />
         </node>
         <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1797703376552103969">
           <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1797703376552103970">
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ah3i.~iOSLiveCodingRunConfigurationComponent%d&lt;init&gt;()" resolveInfo="iOSLiveCodingRunConfigurationComponent" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="b4tc.~iOSLiveCodingRunConfigurationComponent%d&lt;init&gt;()" resolveInfo="iOSLiveCodingRunConfigurationComponent" />
           </node>
         </node>
       </node>
@@ -1395,11 +1395,11 @@
               <property name="name" nameId="tpck.1169194664001" value="runConfigurationWrapper" />
               <property name="isFinal" nameId="tpee.1176718929932" value="true" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1797703376552113825">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gwck.~iOSLiveCodingRunConfiguration" resolveInfo="iOSLiveCodingRunConfiguration" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="iaj1.~iOSLiveCodingRunConfiguration" resolveInfo="iOSLiveCodingRunConfiguration" />
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1797703376552103980">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1797703376552103981">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="gwck.~iOSLiveCodingRunConfiguration%d&lt;init&gt;(java%dlang%dString,java%dlang%dString,java%dlang%dString)" resolveInfo="iOSLiveCodingRunConfiguration" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="iaj1.~iOSLiveCodingRunConfiguration%d&lt;init&gt;(java%dlang%dString,java%dlang%dString,java%dlang%dString)" resolveInfo="iOSLiveCodingRunConfiguration" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552103982">
                     <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="1797703376552103983" />
                     <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552103984">
@@ -1431,9 +1431,9 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552103978" resolveInfo="runConfigurationWrapper" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104013">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dsetMode(com%drealaxy%dactionscript%dliveCoding%drun%dconfig%dLiveCodingMode)%cvoid" resolveInfo="setMode" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dsetMode(codeOrchestra%dactionscript%dliveCoding%drun%dconfig%dLiveCodingMode)%cvoid" resolveInfo="setMode" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumValueOfExpression" typeId="tpee.1224575136086" id="1797703376552104014">
-                      <link role="enumClass" roleId="tpee.1224575174120" targetNodeId="21hc.~LiveCodingMode" resolveInfo="LiveCodingMode" />
+                      <link role="enumClass" roleId="tpee.1224575174120" targetNodeId="bzft.~LiveCodingMode" resolveInfo="LiveCodingMode" />
                       <node role="value" roleId="tpee.1224575157853" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104015">
                         <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="1797703376552104016" />
                         <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552104017">
@@ -1450,7 +1450,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552103978" resolveInfo="runConfigurationWrapper" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104021">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dsetGettersAndSettersLive(boolean)%cvoid" resolveInfo="setGettersAndSettersLive" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dsetGettersAndSettersLive(boolean)%cvoid" resolveInfo="setGettersAndSettersLive" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104022">
                       <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="1797703376552104023" />
                       <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552104024">
@@ -1466,7 +1466,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552103978" resolveInfo="runConfigurationWrapper" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104028">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dsetMaxLoopIterations(int)%cvoid" resolveInfo="setMaxLoopIterations" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dsetMaxLoopIterations(int)%cvoid" resolveInfo="setMaxLoopIterations" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104029">
                       <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="1797703376552104030" />
                       <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552104031">
@@ -1482,7 +1482,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552103978" resolveInfo="runConfigurationWrapper" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104035">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dsetMaxRecursionDepth(int)%cvoid" resolveInfo="setMaxRecursionDepth" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dsetMaxRecursionDepth(int)%cvoid" resolveInfo="setMaxRecursionDepth" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104036">
                       <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="1797703376552104037" />
                       <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552104038">
@@ -1510,7 +1510,7 @@
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552103967" resolveInfo="runConfigurationComponent" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104048">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ah3i.~iOSLiveCodingRunConfigurationComponent%dreset(com%drealaxy%dactionscript%dliveCoding%drun%dconfig%dios%diOSLiveCodingRunConfiguration)%cvoid" resolveInfo="reset" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="b4tc.~iOSLiveCodingRunConfigurationComponent%dreset(codeOrchestra%dactionscript%dliveCoding%drun%dconfig%dios%diOSLiveCodingRunConfiguration)%cvoid" resolveInfo="reset" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1797703376552104049">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552103978" resolveInfo="runConfigurationWrapper" />
                 </node>
@@ -1526,11 +1526,11 @@
               <property name="name" nameId="tpck.1169194664001" value="runConfigurationWrapper" />
               <property name="isFinal" nameId="tpee.1176718929932" value="true" />
               <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1797703376552113829">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gwck.~iOSLiveCodingRunConfiguration" resolveInfo="iOSLiveCodingRunConfiguration" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="iaj1.~iOSLiveCodingRunConfiguration" resolveInfo="iOSLiveCodingRunConfiguration" />
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1797703376552104055">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1797703376552104056">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="gwck.~iOSLiveCodingRunConfiguration%d&lt;init&gt;(java%dlang%dString,java%dlang%dString,java%dlang%dString)" resolveInfo="iOSLiveCodingRunConfiguration" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="iaj1.~iOSLiveCodingRunConfiguration%d&lt;init&gt;(java%dlang%dString,java%dlang%dString,java%dlang%dString)" resolveInfo="iOSLiveCodingRunConfiguration" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104057">
                     <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="1797703376552104058" />
                     <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552104059">
@@ -1562,9 +1562,9 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552104053" resolveInfo="runConfigurationWrapper" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104088">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dsetMode(com%drealaxy%dactionscript%dliveCoding%drun%dconfig%dLiveCodingMode)%cvoid" resolveInfo="setMode" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dsetMode(codeOrchestra%dactionscript%dliveCoding%drun%dconfig%dLiveCodingMode)%cvoid" resolveInfo="setMode" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumValueOfExpression" typeId="tpee.1224575136086" id="1797703376552104089">
-                      <link role="enumClass" roleId="tpee.1224575174120" targetNodeId="21hc.~LiveCodingMode" resolveInfo="LiveCodingMode" />
+                      <link role="enumClass" roleId="tpee.1224575174120" targetNodeId="bzft.~LiveCodingMode" resolveInfo="LiveCodingMode" />
                       <node role="value" roleId="tpee.1224575157853" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104090">
                         <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="1797703376552104091" />
                         <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552104092">
@@ -1581,7 +1581,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552104053" resolveInfo="runConfigurationWrapper" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104096">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dsetGettersAndSettersLive(boolean)%cvoid" resolveInfo="setGettersAndSettersLive" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dsetGettersAndSettersLive(boolean)%cvoid" resolveInfo="setGettersAndSettersLive" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104097">
                       <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="1797703376552104098" />
                       <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552104099">
@@ -1597,7 +1597,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552104053" resolveInfo="runConfigurationWrapper" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104103">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dsetMaxLoopIterations(int)%cvoid" resolveInfo="setMaxLoopIterations" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dsetMaxLoopIterations(int)%cvoid" resolveInfo="setMaxLoopIterations" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104104">
                       <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="1797703376552104105" />
                       <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552104106">
@@ -1613,7 +1613,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552104053" resolveInfo="runConfigurationWrapper" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104110">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dsetMaxRecursionDepth(int)%cvoid" resolveInfo="setMaxRecursionDepth" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dsetMaxRecursionDepth(int)%cvoid" resolveInfo="setMaxRecursionDepth" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104111">
                       <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="1797703376552104112" />
                       <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="1797703376552104113">
@@ -1641,7 +1641,7 @@
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552103967" resolveInfo="runConfigurationComponent" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104123">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ah3i.~iOSLiveCodingRunConfigurationComponent%dapply(com%drealaxy%dactionscript%dliveCoding%drun%dconfig%dios%diOSLiveCodingRunConfiguration)%cvoid" resolveInfo="apply" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="b4tc.~iOSLiveCodingRunConfigurationComponent%dapply(codeOrchestra%dactionscript%dliveCoding%drun%dconfig%dios%diOSLiveCodingRunConfiguration)%cvoid" resolveInfo="apply" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1797703376552104124">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552104053" resolveInfo="runConfigurationWrapper" />
                 </node>
@@ -1656,7 +1656,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552104053" resolveInfo="runConfigurationWrapper" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104166">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dgetModuleName()%cjava%dlang%dString" resolveInfo="getModuleName" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dgetModuleName()%cjava%dlang%dString" resolveInfo="getModuleName" />
                 </node>
               </node>
               <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104167">
@@ -1674,7 +1674,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552104053" resolveInfo="runConfigurationWrapper" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552113869">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="gwck.~iOSLiveCodingRunConfiguration%dgetApplicationName()%cjava%dlang%dString" resolveInfo="getApplicationName" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="iaj1.~iOSLiveCodingRunConfiguration%dgetApplicationName()%cjava%dlang%dString" resolveInfo="getApplicationName" />
                 </node>
               </node>
               <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552113856">
@@ -1692,7 +1692,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552104053" resolveInfo="runConfigurationWrapper" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552113852">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="gwck.~iOSLiveCodingRunConfiguration%dgetBundleId()%cjava%dlang%dString" resolveInfo="getBundleId" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="iaj1.~iOSLiveCodingRunConfiguration%dgetBundleId()%cjava%dlang%dString" resolveInfo="getBundleId" />
                 </node>
               </node>
               <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552113839">
@@ -1711,7 +1711,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552104053" resolveInfo="runConfigurationWrapper" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104218">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dgetMode()%ccom%drealaxy%dactionscript%dliveCoding%drun%dconfig%dLiveCodingMode" resolveInfo="getMode" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dgetMode()%ccodeOrchestra%dactionscript%dliveCoding%drun%dconfig%dLiveCodingMode" resolveInfo="getMode" />
                   </node>
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104219">
@@ -1733,7 +1733,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552104053" resolveInfo="runConfigurationWrapper" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104227">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%disGettersAndSettersLive()%cboolean" resolveInfo="isGettersAndSettersLive" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%disGettersAndSettersLive()%cboolean" resolveInfo="isGettersAndSettersLive" />
                 </node>
               </node>
               <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104228">
@@ -1751,7 +1751,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552104053" resolveInfo="runConfigurationWrapper" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104235">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dgetMaxLoopIterations()%cint" resolveInfo="getMaxLoopIterations" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dgetMaxLoopIterations()%cint" resolveInfo="getMaxLoopIterations" />
                 </node>
               </node>
               <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104236">
@@ -1769,7 +1769,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552104053" resolveInfo="runConfigurationWrapper" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104243">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="21hc.~AbstractLiveCodingRunConfiguration%dgetMaxRecursionDepth()%cint" resolveInfo="getMaxRecursionDepth" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~AbstractLiveCodingRunConfiguration%dgetMaxRecursionDepth()%cint" resolveInfo="getMaxRecursionDepth" />
                 </node>
               </node>
               <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104244">
@@ -1790,7 +1790,7 @@
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1797703376552103967" resolveInfo="runConfigurationComponent" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104252">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ah3i.~iOSLiveCodingRunConfigurationComponent%ddispose()%cvoid" resolveInfo="dispose" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="b4tc.~iOSLiveCodingRunConfigurationComponent%ddispose()%cvoid" resolveInfo="dispose" />
               </node>
             </node>
           </node>
@@ -1820,8 +1820,8 @@
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="1797703376552104266" />
       <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1797703376552104267">
         <node role="operand" roleId="tpee.1197027771414" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="1797703376552104268">
-          <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="21hc.~LiveCodingMode%dALL_METHODS" resolveInfo="ALL_METHODS" />
-          <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="21hc.~LiveCodingMode" resolveInfo="LiveCodingMode" />
+          <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bzft.~LiveCodingMode%dALL_METHODS" resolveInfo="ALL_METHODS" />
+          <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bzft.~LiveCodingMode" resolveInfo="LiveCodingMode" />
         </node>
         <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1797703376552104269">
           <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jeyo.~Enum%dname()%cjava%dlang%dString" resolveInfo="name" />
@@ -1907,15 +1907,15 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="687185812556746344">
             <property name="name" nameId="tpck.1169194664001" value="liveSession" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="687185812556746345">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="elep.~LiveCodingSession" resolveInfo="LiveCodingSession" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="s24k.~LiveCodingSession" resolveInfo="LiveCodingSession" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="687185812556746346">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="687185812556746347">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="elep.~LiveCodingManager%dinstance()%ccom%drealaxy%dactionscript%dliveCoding%dLiveCodingManager" resolveInfo="instance" />
-                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="elep.~LiveCodingManager" resolveInfo="LiveCodingManager" />
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1531557541620301473">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s24k.~LiveCodingManager%dinstance()%ccodeOrchestra%dactionscript%dliveCoding%dLiveCodingManager" resolveInfo="instance" />
+                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="s24k.~LiveCodingManager" resolveInfo="LiveCodingManager" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="687185812556746348">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="elep.~LiveCodingManager%dgetCurrentSession()%ccom%drealaxy%dactionscript%dliveCoding%dLiveCodingSession" resolveInfo="getCurrentSession" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s24k.~LiveCodingManager%dgetCurrentSession()%ccodeOrchestra%dactionscript%dliveCoding%dLiveCodingSession" resolveInfo="getCurrentSession" />
               </node>
             </node>
           </node>
@@ -1924,12 +1924,12 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="687185812556746351">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="687185812556746359">
               <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="687185812556746362">
-                <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="687185812556746361">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="elep.~LiveCodingManager%dinstance()%ccom%drealaxy%dactionscript%dliveCoding%dLiveCodingManager" resolveInfo="instance" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="elep.~LiveCodingManager" resolveInfo="LiveCodingManager" />
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1531557541620301474">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s24k.~LiveCodingManager%dinstance()%ccodeOrchestra%dactionscript%dliveCoding%dLiveCodingManager" resolveInfo="instance" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="s24k.~LiveCodingManager" resolveInfo="LiveCodingManager" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="687185812556746366">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="elep.~LiveCodingManager%dstartSession(java%dlang%dString,com%drealaxy%dactionscript%dsocket%dSocketWriter)%cvoid" resolveInfo="startSession" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s24k.~LiveCodingManager%dstartSession(java%dlang%dString,codeOrchestra%dactionscript%dsocket%dSocketWriter)%cvoid" resolveInfo="startSession" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="687185812556746367">
                     <property name="value" nameId="tpee.1070475926801" value="test_session" />
                   </node>
@@ -1937,7 +1937,7 @@
                     <node role="creator" roleId="tpee.1145553007750" type="tpee.AnonymousClassCreator" typeId="tpee.1182160077978" id="687185812556746371">
                       <node role="cls" roleId="tpee.1182160096073" type="tpee.AnonymousClass" typeId="tpee.1170345865475" id="687185812556746372">
                         <property name="nonStatic" nameId="tpee.521412098689998745" value="true" />
-                        <link role="classifier" roleId="tpee.1170346070688" targetNodeId="2u3q.~SocketWriter" resolveInfo="SocketWriter" />
+                        <link role="classifier" roleId="tpee.1170346070688" targetNodeId="k35m.~SocketWriter" resolveInfo="SocketWriter" />
                         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jeyo.~Object%d&lt;init&gt;()" resolveInfo="Object" />
                         <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="687185812556746373" />
                         <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="687185812556746374">
@@ -2004,12 +2004,12 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="687185812556693874">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="687185812556693877">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="687185812556693876">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="av4s.~BuildBroadcaster%dgetInstance()%ccom%drealaxy%dgenerator%dlistener%dBuildBroadcaster" resolveInfo="getInstance" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="av4s.~BuildBroadcaster" resolveInfo="BuildBroadcaster" />
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="1531557541620301475">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2kh.~BuildBroadcaster%dgetInstance()%ccodeOrchestra%dgenerator%dlistener%dBuildBroadcaster" resolveInfo="getInstance" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="2kh.~BuildBroadcaster" resolveInfo="BuildBroadcaster" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="687185812556694793">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="av4s.~BuildBroadcaster%dfireBuildEvent(jetbrains%dmps%dproject%dstructure%dmodules%dModuleReference,com%drealaxy%dactionscript%drun%dcompiler%dproperties%dOutputType,com%drealaxy%dgenerator%dlistener%dBuildProvider,boolean)%cvoid" resolveInfo="fireBuildEvent" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2kh.~BuildBroadcaster%dfireBuildEvent(jetbrains%dmps%dproject%dstructure%dmodules%dModuleReference,codeOrchestra%dactionscript%drun%dcompiler%dproperties%dOutputType,codeOrchestra%dgenerator%dlistener%dBuildProvider,boolean)%cvoid" resolveInfo="fireBuildEvent" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="687185812556735045">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="687185812556735043">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="687185812556735037" resolveInfo="liveSolution" />
@@ -2019,12 +2019,12 @@
                 </node>
               </node>
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="687185812556746325">
-                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="z0ac.~OutputType%dFLEX_LIBRARY" resolveInfo="FLEX_LIBRARY" />
-                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="z0ac.~OutputType" resolveInfo="OutputType" />
+                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="7jb9.~OutputType%dFLEX_LIBRARY" resolveInfo="FLEX_LIBRARY" />
+                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="7jb9.~OutputType" resolveInfo="OutputType" />
               </node>
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="687185812556746331">
-                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="av4s.~BuildProvider%dLIVE_CODING_INCREMENTAL" resolveInfo="LIVE_CODING_INCREMENTAL" />
-                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="av4s.~BuildProvider" resolveInfo="BuildProvider" />
+                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="2kh.~BuildProvider%dLIVE_CODING_INCREMENTAL" resolveInfo="LIVE_CODING_INCREMENTAL" />
+                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="2kh.~BuildProvider" resolveInfo="BuildProvider" />
               </node>
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="687185812556746332">
                 <property name="value" nameId="tpee.1068580123138" value="true" />
