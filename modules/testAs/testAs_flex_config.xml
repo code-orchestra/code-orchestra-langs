@@ -6,13 +6,10 @@
 <path-element>/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen</path-element>
 </source-path>
 <library-path append="true">
-<path-element>/Applications/CodeOrchestra.app/flex_sdk/frameworks/libs/spark.swc</path-element>
 <path-element>/Applications/CodeOrchestra.app/flex_sdk/frameworks/libs/framework.swc</path-element>
-<path-element>/Applications/CodeOrchestra.app/flex_sdk/frameworks/libs/rpc.swc</path-element>
 </library-path>
 <keep-as3-metadata>
 <name>MixinReplacement</name>
-<name>AlwaysUsed</name>
 </keep-as3-metadata>
 </compiler>
 <static-link-runtime-shared-libraries>true</static-link-runtime-shared-libraries>

@@ -22,7 +22,7 @@
     </node>
     <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="210491942337578994">
       <property name="sourceModule" value="d12d2c5b-de93-4e77-ab04-e03f18295844" />
-      <property name="name" nameId="tpck.1169194664001" value="check_class_misin_editable" />
+      <property name="name" nameId="tpck.1169194664001" value="check_class_mixin_editable" />
     </node>
     <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="1878135177960172304">
       <property name="name" nameId="tpck.1169194664001" value="check_AnnotationMixinReference" />
@@ -231,8 +231,8 @@
                 <link role="link" roleId="tp25.1138056516764" targetNodeId="3vt2.1240407839920" />
               </node>
             </node>
-            <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="210491942337579052">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.2870280853550468738" resolveInfo="isStub" />
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4151451152114739441">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.4151451152114566600" resolveInfo="isStub" />
             </node>
           </node>
           <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.AndExpression" typeId="tpee.1080120340718" id="210491942337579012">
