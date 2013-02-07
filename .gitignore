@@ -18,3 +18,7 @@ modules/testAs/b.mps
 modules/testAs/testAs.mps
 
 modules/testAs/testAs.msd
+
+*.log
+
+modules/testCollections/testCollections_flex_config.xml
