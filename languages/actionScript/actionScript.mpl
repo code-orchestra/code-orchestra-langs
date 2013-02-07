@@ -17,6 +17,8 @@
         <dependency reexport="false" exclude="false">MPS.Classpath</dependency>
         <dependency reexport="false" exclude="false">baseLanguage.ext.nullable</dependency>
         <dependency reexport="false" exclude="false">codeOrchestra.actionScript#1876716203901413928</dependency>
+        <dependency reexport="false" exclude="false">codeOrchestra.actionScript.falcon#5560046671744079858</dependency>
+        <dependency reexport="false" exclude="false">codeOrchestra.mps.extensionPoint</dependency>
         <dependency reexport="false" exclude="false">codeOrchestra.mxml</dependency>
         <dependency reexport="false" exclude="false">codeOrchestra.mxml#8557467791350393756</dependency>
         <dependency reexport="false" exclude="false">codeOrchestra.smallLanguage</dependency>
@@ -31,19 +33,17 @@
         <dependency reexport="false" exclude="false">jetbrains.mps.lang.structure</dependency>
         <dependency reexport="false" exclude="false">jetbrains.mps.lang.typesystem</dependency>
         <dependency reexport="false" exclude="false">playerglobal_swc</dependency>
-        <dependency reexport="false" exclude="false">codeOrchestra.mps.extensionPoint</dependency>
         <dependency reexport="false" exclude="false">rpc_swc</dependency>
         <dependency reexport="false" exclude="false">spark_swc</dependency>
-        <dependency reexport="false" exclude="false">codeOrchestra.actionScript.falcon#5560046671744079858</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>baseLanguage.ext.modelCache</usedLanguage>
         <usedLanguage>baseLanguage.ext.nullable</usedLanguage>
+        <usedLanguage>codeOrchestra.mps.extensionPoint</usedLanguage>
+        <usedLanguage>codeOrchestra.mps.smodelOperations</usedLanguage>
         <usedLanguage>gtext.ext.generatorGoodies</usedLanguage>
         <usedLanguage>jetbrains.mps.gtext</usedLanguage>
         <usedLanguage>jetbrains.mps.lang.behavior</usedLanguage>
-        <usedLanguage>codeOrchestra.mps.extensionPoint</usedLanguage>
-        <usedLanguage>codeOrchestra.mps.smodelOperations</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>jetbrains.mps.devkit.language-design</usedDevKit>
@@ -59,7 +59,35 @@
           <lesser-priority-mapping>
             <generator generatorUID="28b08ee2-e6bf-406d-8c0a-da12f6f3d117(codeOrchestra.actionScript#1876716203901413928)" />
             <external-mapping>
-              <mapping-node modelUID="r:17c64e8a-36f2-432d-b7e8-561c142847a4(codeOrchestra.actionScript.generator.template.main@generator)" nodeID="755791679786408266" />
+              <mapping-set>
+                <mapping-set-element>
+                  <mapping-node modelUID="r:17c64e8a-36f2-432d-b7e8-561c142847a4(codeOrchestra.actionScript.generator.template.main@generator)" nodeID="755791679786408266" />
+                </mapping-set-element>
+                <mapping-set-element>
+                  <mapping-node modelUID="r:17c64e8a-36f2-432d-b7e8-561c142847a4(codeOrchestra.actionScript.generator.template.main@generator)" nodeID="4474297421020900644" />
+                </mapping-set-element>
+              </mapping-set>
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+        <mapping-priority-rule kind="strictly_before">
+          <greater-priority-mapping>
+            <generator generatorUID="28b08ee2-e6bf-406d-8c0a-da12f6f3d117(codeOrchestra.actionScript#1876716203901413928)" />
+            <external-mapping>
+              <mapping-node modelUID="r:17c64e8a-36f2-432d-b7e8-561c142847a4(codeOrchestra.actionScript.generator.template.main@generator)" nodeID="1871141085819704049" />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="28b08ee2-e6bf-406d-8c0a-da12f6f3d117(codeOrchestra.actionScript#1876716203901413928)" />
+            <external-mapping>
+              <mapping-set>
+                <mapping-set-element>
+                  <mapping-node modelUID="r:17c64e8a-36f2-432d-b7e8-561c142847a4(codeOrchestra.actionScript.generator.template.main@generator)" nodeID="755791679786408266" />
+                </mapping-set-element>
+                <mapping-set-element>
+                  <mapping-node modelUID="r:17c64e8a-36f2-432d-b7e8-561c142847a4(codeOrchestra.actionScript.generator.template.main@generator)" nodeID="4474297421020900644" />
+                </mapping-set-element>
+              </mapping-set>
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>

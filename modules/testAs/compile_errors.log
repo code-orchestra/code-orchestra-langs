@@ -1,15 +1,10 @@
-/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/MyClass.as(7): col: 7 Error: Syntax error.
+/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/ModelDependencies_testAs.as(8): col: 11 Error: Call to a possibly undefined method ModelDependencies_codeOrchestra_actionScript_logging_logUtil.
 
-      <!TextGen not found for 'codeOrchestra.actionScript.structure.ParenthesizedExpression'!>;
-      ^
+      new ModelDependencies_codeOrchestra_actionScript_logging_logUtil();
+          ^
 
-/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/MyClass.as(7): col: 27 Error: Syntax error: expected a definition keyword (such as function) after attribute extGen, not not.
+/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/ModelDependencies_testAs.as(3): col: 52 Error: Definition codeOrchestra.actionScript.logging.logUtil:ModelDependencies_codeOrchestra_actionScript_logging_logUtil could not be found.
 
-      <!TextGen not found for 'codeOrchestra.actionScript.structure.ParenthesizedExpression'!>;
-                          ^
-
-/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testAs/source_gen/testAs/MyClass.as(7): col: 95 Error: Syntax error: expecting rightbrace before semicolon.
-
-      <!TextGen not found for 'codeOrchestra.actionScript.structure.ParenthesizedExpression'!>;
-                                                                                              ^
+  import codeOrchestra.actionScript.logging.logUtil.ModelDependencies_codeOrchestra_actionScript_logging_logUtil;
+                                                   ^
 
