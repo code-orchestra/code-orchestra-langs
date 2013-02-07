@@ -12601,18 +12601,26 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="3215556138807115745">
-          <property name="severity" nameId="tpib.1167245565795" value="trace" />
-          <node role="logExpression" roleId="tpib.1167227463056" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115747">
-            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115751">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="3215556138807115750">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4151451152114434398" resolveInfo="mainClasses" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="5705256805049271602">
+          <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="5705256805049271604">
+            <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="3215556138807115745">
+              <property name="severity" nameId="tpib.1167245565795" value="trace" />
+              <node role="logExpression" roleId="tpib.1167227463056" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115747">
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115751">
+                  <node role="operand" roleId="tpee.1197027771414" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="3215556138807115750">
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4151451152114434398" resolveInfo="mainClasses" />
+                  </node>
+                  <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetSizeOperation" typeId="tp2q.1162935959151" id="3215556138807115755" />
+                </node>
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807115746">
+                  <property name="value" nameId="tpee.1070475926801" value="main-classes: " />
+                </node>
               </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetSizeOperation" typeId="tp2q.1162935959151" id="3215556138807115755" />
             </node>
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807115746">
-              <property name="value" nameId="tpee.1070475926801" value="main-classes: " />
-            </node>
+          </node>
+          <node role="condition" roleId="tpee.1068580123160" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="5705256805049271605">
+            <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1160392504918390302" resolveInfo="DevelopmentConstants" />
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="366885991256410118" resolveInfo="TRACE_DEPENDENCE_INFO" />
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3215556138806733605">
@@ -12659,33 +12667,41 @@
               </node>
             </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="4151451152114566069" />
-            <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="3215556138807568265">
-              <property name="severity" nameId="tpib.1167245565795" value="trace" />
-              <node role="logExpression" roleId="tpib.1167227463056" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807568266">
-                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807568272">
-                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807568276">
-                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807568279">
-                      <property name="value" nameId="tpee.1070475926801" value="root: " />
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="5705256805049271606">
+              <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="5705256805049271608">
+                <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="3215556138807568265">
+                  <property name="severity" nameId="tpib.1167245565795" value="trace" />
+                  <node role="logExpression" roleId="tpib.1167227463056" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807568266">
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807568272">
+                      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807568276">
+                        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807568279">
+                          <property name="value" nameId="tpee.1070475926801" value="root: " />
+                        </node>
+                        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3215556138807568275">
+                          <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4151451152114548691" resolveInfo="root" />
+                        </node>
+                      </node>
+                      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807568267">
+                        <property name="value" nameId="tpee.1070475926801" value=" -&gt; " />
+                      </node>
                     </node>
-                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3215556138807568275">
-                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4151451152114548691" resolveInfo="root" />
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3215556138807568268">
+                      <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="3215556138807568269">
+                        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3215556138807568270">
+                          <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3215556138807256168" resolveInfo="t" />
+                        </node>
+                        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3215556138807568271">
+                          <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="jeyo.~System" resolveInfo="System" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jeyo.~System%dcurrentTimeMillis()%clong" resolveInfo="currentTimeMillis" />
+                        </node>
+                      </node>
                     </node>
-                  </node>
-                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807568267">
-                    <property name="value" nameId="tpee.1070475926801" value=" -&gt; " />
                   </node>
                 </node>
-                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3215556138807568268">
-                  <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="3215556138807568269">
-                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3215556138807568270">
-                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3215556138807256168" resolveInfo="t" />
-                    </node>
-                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3215556138807568271">
-                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="jeyo.~System" resolveInfo="System" />
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jeyo.~System%dcurrentTimeMillis()%clong" resolveInfo="currentTimeMillis" />
-                    </node>
-                  </node>
-                </node>
+              </node>
+              <node role="condition" roleId="tpee.1068580123160" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="5705256805049271609">
+                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1160392504918390302" resolveInfo="DevelopmentConstants" />
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="366885991256410118" resolveInfo="TRACE_DEPENDENCE_INFO" />
               </node>
             </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3215556138807568264" />
@@ -12784,69 +12800,85 @@
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="4151451152114552181" />
-        <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="3215556138807568256">
-          <property name="severity" nameId="tpib.1167245565795" value="trace" />
-          <node role="logExpression" roleId="tpib.1167227463056" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807568257">
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807568258">
-              <property name="value" nameId="tpee.1070475926801" value=" -&gt; " />
-            </node>
-            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3215556138807568259">
-              <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="3215556138807568260">
-                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3215556138807568261">
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3215556138807256168" resolveInfo="t" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="5705256805049271610">
+          <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="5705256805049271612">
+            <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="3215556138807568256">
+              <property name="severity" nameId="tpib.1167245565795" value="trace" />
+              <node role="logExpression" roleId="tpib.1167227463056" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807568257">
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807568258">
+                  <property name="value" nameId="tpee.1070475926801" value=" -&gt; " />
                 </node>
-                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3215556138807568262">
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="jeyo.~System" resolveInfo="System" />
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jeyo.~System%dcurrentTimeMillis()%clong" resolveInfo="currentTimeMillis" />
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3215556138807568259">
+                  <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="3215556138807568260">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3215556138807568261">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3215556138807256168" resolveInfo="t" />
+                    </node>
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3215556138807568262">
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="jeyo.~System" resolveInfo="System" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jeyo.~System%dcurrentTimeMillis()%clong" resolveInfo="currentTimeMillis" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
           </node>
+          <node role="condition" roleId="tpee.1068580123160" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="5705256805049271613">
+            <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1160392504918390302" resolveInfo="DevelopmentConstants" />
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="366885991256410118" resolveInfo="TRACE_DEPENDENCE_INFO" />
+          </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3215556138807568254" />
-        <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="3215556138807115758">
-          <property name="severity" nameId="tpib.1167245565795" value="trace" />
-          <node role="logExpression" roleId="tpib.1167227463056" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807256175">
-            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3215556138807256178">
-              <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="3215556138807256183">
-                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3215556138807256186">
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3215556138807256168" resolveInfo="t" />
-                </node>
-                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3215556138807256182">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jeyo.~System%dcurrentTimeMillis()%clong" resolveInfo="currentTimeMillis" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="jeyo.~System" resolveInfo="System" />
-                </node>
-              </node>
-            </node>
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807256171">
-              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115773">
-                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115769">
-                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115760">
-                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807115759">
-                      <property name="value" nameId="tpee.1070475926801" value="after-collect[0]: " />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="5705256805049271614">
+          <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="5705256805049271616">
+            <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="3215556138807115758">
+              <property name="severity" nameId="tpib.1167245565795" value="trace" />
+              <node role="logExpression" roleId="tpib.1167227463056" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807256175">
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3215556138807256178">
+                  <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="3215556138807256183">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3215556138807256186">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3215556138807256168" resolveInfo="t" />
                     </node>
-                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115764">
-                      <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalStaticFieldReference" typeId="tpee.1172008963197" id="3215556138807115763">
-                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2937281914533392413" resolveInfo="usages" />
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3215556138807256182">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jeyo.~System%dcurrentTimeMillis()%clong" resolveInfo="currentTimeMillis" />
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="jeyo.~System" resolveInfo="System" />
+                    </node>
+                  </node>
+                </node>
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807256171">
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115773">
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115769">
+                      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115760">
+                        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807115759">
+                          <property name="value" nameId="tpee.1070475926801" value="after-collect[0]: " />
+                        </node>
+                        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115764">
+                          <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalStaticFieldReference" typeId="tpee.1172008963197" id="3215556138807115763">
+                            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2937281914533392413" resolveInfo="usages" />
+                          </node>
+                          <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetSizeOperation" typeId="tp2q.1162935959151" id="3215556138807115768" />
+                        </node>
                       </node>
-                      <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetSizeOperation" typeId="tp2q.1162935959151" id="3215556138807115768" />
+                      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807115772">
+                        <property name="value" nameId="tpee.1070475926801" value=", models: " />
+                      </node>
+                    </node>
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115777">
+                      <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalStaticMethodCall" typeId="tpee.1172058436953" id="3215556138807115776">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4151451152114552075" resolveInfo="getUsedModels" />
+                      </node>
+                      <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetSizeOperation" typeId="tp2q.1162935959151" id="3215556138807115781" />
                     </node>
                   </node>
-                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807115772">
-                    <property name="value" nameId="tpee.1070475926801" value=", models: " />
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807256174">
+                    <property name="value" nameId="tpee.1070475926801" value=" -&gt; " />
                   </node>
                 </node>
-                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115777">
-                  <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalStaticMethodCall" typeId="tpee.1172058436953" id="3215556138807115776">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4151451152114552075" resolveInfo="getUsedModels" />
-                  </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetSizeOperation" typeId="tp2q.1162935959151" id="3215556138807115781" />
-                </node>
-              </node>
-              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807256174">
-                <property name="value" nameId="tpee.1070475926801" value=" -&gt; " />
               </node>
             </node>
+          </node>
+          <node role="condition" roleId="tpee.1068580123160" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="5705256805049271617">
+            <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1160392504918390302" resolveInfo="DevelopmentConstants" />
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="366885991256410118" resolveInfo="TRACE_DEPENDENCE_INFO" />
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3215556138807115757" />
@@ -13032,82 +13064,90 @@
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3215556138807115783" />
-        <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="3215556138807115786">
-          <property name="severity" nameId="tpib.1167245565795" value="trace" />
-          <node role="logExpression" roleId="tpib.1167227463056" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807256201">
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807256197">
-              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115836">
-                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115832">
-                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115787">
-                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115791">
-                      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115792">
-                        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807115793">
-                          <property name="value" nameId="tpee.1070475926801" value="after-collect[1]: " />
-                        </node>
-                        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115794">
-                          <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalStaticFieldReference" typeId="tpee.1172008963197" id="3215556138807115797">
-                            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2937281914533392413" resolveInfo="usages" />
-                          </node>
-                          <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetSizeOperation" typeId="tp2q.1162935959151" id="3215556138807115795" />
-                        </node>
-                      </node>
-                      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807115796">
-                        <property name="value" nameId="tpee.1070475926801" value=", models: " />
-                      </node>
-                    </node>
-                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115788">
-                      <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalStaticMethodCall" typeId="tpee.1172058436953" id="3215556138807115789">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4151451152114552075" resolveInfo="getUsedModels" />
-                      </node>
-                      <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetSizeOperation" typeId="tp2q.1162935959151" id="3215556138807115790" />
-                    </node>
-                  </node>
-                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807115835">
-                    <property name="value" nameId="tpee.1070475926801" value=", all-roots: " />
-                  </node>
-                </node>
-                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115857">
-                  <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115840">
-                    <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalStaticMethodCall" typeId="tpee.1172058436953" id="3215556138807115839">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4151451152114552075" resolveInfo="getUsedModels" />
-                    </node>
-                    <node role="operation" roleId="tpee.1197027833540" type="tp2q.TranslateOperation" typeId="tp2q.1201792049884" id="3215556138807115844">
-                      <node role="closure" roleId="tp2q.1204796294226" type="tp2c.ClosureLiteral" typeId="tp2c.1199569711397" id="3215556138807115845">
-                        <node role="body" roleId="tp2c.1199569916463" type="tpee.StatementList" typeId="tpee.1068580123136" id="3215556138807115846">
-                          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3215556138807115849">
-                            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115851">
-                              <node role="operand" roleId="tpee.1197027771414" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="3215556138807115850">
-                                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3215556138807115847" resolveInfo="it" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="5705256805049271618">
+          <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="5705256805049271620">
+            <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="3215556138807115786">
+              <property name="severity" nameId="tpib.1167245565795" value="trace" />
+              <node role="logExpression" roleId="tpib.1167227463056" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807256201">
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807256197">
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115836">
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115832">
+                      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115787">
+                        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115791">
+                          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807115792">
+                            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807115793">
+                              <property name="value" nameId="tpee.1070475926801" value="after-collect[1]: " />
+                            </node>
+                            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115794">
+                              <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalStaticFieldReference" typeId="tpee.1172008963197" id="3215556138807115797">
+                                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2937281914533392413" resolveInfo="usages" />
                               </node>
-                              <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_RootsOperation" typeId="tp25.1171315804604" id="3215556138807115855" />
+                              <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetSizeOperation" typeId="tp2q.1162935959151" id="3215556138807115795" />
+                            </node>
+                          </node>
+                          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807115796">
+                            <property name="value" nameId="tpee.1070475926801" value=", models: " />
+                          </node>
+                        </node>
+                        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115788">
+                          <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalStaticMethodCall" typeId="tpee.1172058436953" id="3215556138807115789">
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4151451152114552075" resolveInfo="getUsedModels" />
+                          </node>
+                          <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetSizeOperation" typeId="tp2q.1162935959151" id="3215556138807115790" />
+                        </node>
+                      </node>
+                      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807115835">
+                        <property name="value" nameId="tpee.1070475926801" value=", all-roots: " />
+                      </node>
+                    </node>
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115857">
+                      <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115840">
+                        <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalStaticMethodCall" typeId="tpee.1172058436953" id="3215556138807115839">
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4151451152114552075" resolveInfo="getUsedModels" />
+                        </node>
+                        <node role="operation" roleId="tpee.1197027833540" type="tp2q.TranslateOperation" typeId="tp2q.1201792049884" id="3215556138807115844">
+                          <node role="closure" roleId="tp2q.1204796294226" type="tp2c.ClosureLiteral" typeId="tp2c.1199569711397" id="3215556138807115845">
+                            <node role="body" roleId="tp2c.1199569916463" type="tpee.StatementList" typeId="tpee.1068580123136" id="3215556138807115846">
+                              <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3215556138807115849">
+                                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3215556138807115851">
+                                  <node role="operand" roleId="tpee.1197027771414" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="3215556138807115850">
+                                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3215556138807115847" resolveInfo="it" />
+                                  </node>
+                                  <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_RootsOperation" typeId="tp25.1171315804604" id="3215556138807115855" />
+                                </node>
+                              </node>
+                            </node>
+                            <node role="parameter" roleId="tp2c.1199569906740" type="tp2q.SmartClosureParameterDeclaration" typeId="tp2q.1203518072036" id="3215556138807115847">
+                              <property name="name" nameId="tpck.1169194664001" value="it" />
+                              <node role="type" roleId="tpee.5680397130376446158" type="tpee.UndefinedType" typeId="tpee.4836112446988635817" id="3215556138807115848" />
                             </node>
                           </node>
                         </node>
-                        <node role="parameter" roleId="tp2c.1199569906740" type="tp2q.SmartClosureParameterDeclaration" typeId="tp2q.1203518072036" id="3215556138807115847">
-                          <property name="name" nameId="tpck.1169194664001" value="it" />
-                          <node role="type" roleId="tpee.5680397130376446158" type="tpee.UndefinedType" typeId="tpee.4836112446988635817" id="3215556138807115848" />
-                        </node>
                       </node>
+                      <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetSizeOperation" typeId="tp2q.1162935959151" id="3215556138807115861" />
                     </node>
                   </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetSizeOperation" typeId="tp2q.1162935959151" id="3215556138807115861" />
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807256200">
+                    <property name="value" nameId="tpee.1070475926801" value=" -&gt; " />
+                  </node>
                 </node>
-              </node>
-              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807256200">
-                <property name="value" nameId="tpee.1070475926801" value=" -&gt; " />
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3215556138807256204">
+                  <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="3215556138807256205">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3215556138807256206">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3215556138807256168" resolveInfo="t" />
+                    </node>
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3215556138807256207">
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="jeyo.~System" resolveInfo="System" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jeyo.~System%dcurrentTimeMillis()%clong" resolveInfo="currentTimeMillis" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
-            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3215556138807256204">
-              <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="3215556138807256205">
-                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3215556138807256206">
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3215556138807256168" resolveInfo="t" />
-                </node>
-                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3215556138807256207">
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="jeyo.~System" resolveInfo="System" />
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jeyo.~System%dcurrentTimeMillis()%clong" resolveInfo="currentTimeMillis" />
-                </node>
-              </node>
-            </node>
+          </node>
+          <node role="condition" roleId="tpee.1068580123160" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="5705256805049271621">
+            <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1160392504918390302" resolveInfo="DevelopmentConstants" />
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="366885991256410118" resolveInfo="TRACE_DEPENDENCE_INFO" />
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3215556138807115784" />
@@ -13119,23 +13159,31 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="3215556138807256188">
-          <property name="severity" nameId="tpib.1167245565795" value="trace" />
-          <node role="logExpression" roleId="tpib.1167227463056" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807256190">
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807256189">
-              <property name="value" nameId="tpee.1070475926801" value=" -&gt; " />
-            </node>
-            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3215556138807256193">
-              <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="3215556138807256194">
-                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3215556138807256195">
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3215556138807256168" resolveInfo="t" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="5705256805049271622">
+          <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="5705256805049271624">
+            <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="3215556138807256188">
+              <property name="severity" nameId="tpib.1167245565795" value="trace" />
+              <node role="logExpression" roleId="tpib.1167227463056" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3215556138807256190">
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3215556138807256189">
+                  <property name="value" nameId="tpee.1070475926801" value=" -&gt; " />
                 </node>
-                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3215556138807256196">
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="jeyo.~System" resolveInfo="System" />
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jeyo.~System%dcurrentTimeMillis()%clong" resolveInfo="currentTimeMillis" />
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParenthesizedExpression" typeId="tpee.1079359253375" id="3215556138807256193">
+                  <node role="expression" roleId="tpee.1079359253376" type="tpee.MinusExpression" typeId="tpee.1068581242869" id="3215556138807256194">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3215556138807256195">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3215556138807256168" resolveInfo="t" />
+                    </node>
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3215556138807256196">
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="jeyo.~System" resolveInfo="System" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="jeyo.~System%dcurrentTimeMillis()%clong" resolveInfo="currentTimeMillis" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
+          </node>
+          <node role="condition" roleId="tpee.1068580123160" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="5705256805049271625">
+            <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1160392504918390302" resolveInfo="DevelopmentConstants" />
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="366885991256410118" resolveInfo="TRACE_DEPENDENCE_INFO" />
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="4151451152114565888">
