@@ -25,6 +25,7 @@
   <roots>
     <node type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="3736429234689163535">
       <property name="name" nameId="tpck.1169194664001" value="main" />
+      <property name="topPriorityGroup" nameId="tpf8.1184950341882" value="true" />
     </node>
     <node type="tpf8.MappingScript" typeId="tpf8.1195499912406" id="343600647401656365">
       <property name="name" nameId="tpck.1169194664001" value="mixins" />

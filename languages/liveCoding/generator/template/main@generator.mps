@@ -160,6 +160,7 @@
     </node>
     <node type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="3686169147188662038">
       <property name="name" nameId="tpck.1169194664001" value="incremental" />
+      <property name="topPriorityGroup" nameId="tpf8.1184950341882" value="true" />
     </node>
     <node type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="3168392444573059545">
       <property name="sourceModule" value="d22c54c6-4703-4cdf-9356-99c91b496286" />
