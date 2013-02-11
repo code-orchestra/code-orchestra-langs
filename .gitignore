@@ -22,3 +22,25 @@ modules/testAs/testAs.msd
 *.log
 
 modules/testCollections/testCollections_flex_config.xml
+
+modules/testAs/compile_errors.log
+
+modules/testAs/testAs_flex_config.xml
+
+modules/testAs/testAs_flex_config.xml
+
+modules/testAs/compile_errors.log
+
+modules/testAs/link-report.xml
+
+modules/ActionScript_liveCoding/ActionScript_liveCoding.msd
+
+modules/ActionScript_liveCoding/codeOrchestra/liveCoding/load.mps
+
+modules/casalib/casalib_flex_config.xml
+
+modules/ActionScript_liveCoding/ActionScript_liveCoding_flex_config.xml
+
+modules/testAs/compile_errors.log
+
+modules/testAs/testAs_flex_config.xml
