@@ -10,6 +10,7 @@ artifacts/ActionScript.zip
 modules/jsTest/jsTest.msd
 modules/jsTest/my.mps
 ActionScript.mpr
+modules/ActionScript_liveCoding
 *.history
 modules/testAs/output_swf/testAs.swf
 
