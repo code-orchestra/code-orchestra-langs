@@ -11,7 +11,9 @@
       <models>
         <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="codeOrchestra.actionScript.liveCoding.generator.template" />
       </models>
-      <external-templates />
+      <external-templates>
+        <generator generatorUID="28b08ee2-e6bf-406d-8c0a-da12f6f3d117(codeOrchestra.actionScript#1876716203901413928)" />
+      </external-templates>
       <dependencies>
         <dependency reexport="false" exclude="false">JDK</dependency>
         <dependency reexport="false" exclude="false">codeOrchestra.actionScript</dependency>
