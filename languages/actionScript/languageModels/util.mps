@@ -36,7 +36,7 @@
     </node>
     <node type="3vt2.AnnotationDeclaration" typeId="3vt2.1630592743144475980" id="5573603667458783778">
       <property name="sourceModule" value="a540fd57-0e8e-4a41-b5a0-5eb74e58a302" />
-      <property name="name" nameId="tpck.1169194664001" value="CodeUpdateListener" />
+      <property name="name" nameId="tpck.1169194664001" value="LiveCodeUpdateListener" />
     </node>
     <node type="3vt2.AnnotationDeclaration" typeId="3vt2.1630592743144475980" id="600140203015164189">
       <property name="sourceModule" value="a540fd57-0e8e-4a41-b5a0-5eb74e58a302" />
