@@ -10,7 +10,6 @@
   <roots>
     <node type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="2782148203733243742">
       <property name="name" nameId="tpck.1169194664001" value="LogSeverity" />
-      <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="2782148203733243746" />
       <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2782148203733315347">
@@ -66,17 +65,9 @@
     </node>
   </roots>
   <root id="2782148203733243742">
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2782148203733243743">
-      <property name="internalValue" nameId="tpce.1083923523171" value="fatal" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="fatal" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2782148203733243744">
-      <property name="internalValue" nameId="tpce.1083923523171" value="error" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="error" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2782148203733243745">
-      <property name="internalValue" nameId="tpce.1083923523171" value="warn" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="warn" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2782148203733243748">
+      <property name="internalValue" nameId="tpce.1083923523171" value="trace" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="trace" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2782148203733243746">
       <property name="internalValue" nameId="tpce.1083923523171" value="debug" />
@@ -86,9 +77,17 @@
       <property name="internalValue" nameId="tpce.1083923523171" value="info" />
       <property name="externalValue" nameId="tpce.1083923523172" value="info" />
     </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2782148203733243748">
-      <property name="internalValue" nameId="tpce.1083923523171" value="trace" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="trace" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2782148203733243744">
+      <property name="internalValue" nameId="tpce.1083923523171" value="error" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="error" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2782148203733243745">
+      <property name="internalValue" nameId="tpce.1083923523171" value="warn" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="warn" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2782148203733243743">
+      <property name="internalValue" nameId="tpce.1083923523171" value="fatal" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="fatal" />
     </node>
   </root>
   <root id="2782148203733315347">

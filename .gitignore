@@ -45,3 +45,11 @@ modules/ActionScript_liveCoding/ActionScript_liveCoding_flex_config.xml
 modules/testAs/compile_errors.log
 
 modules/testAs/testAs_flex_config.xml
+
+*.swf
+
+*.swf
+
+modules/testAs/output_swf/livecoding/package_2.swf
+
+modules/testAs/output_swf/livecoding/package_2.swf

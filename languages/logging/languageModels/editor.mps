@@ -245,6 +245,9 @@
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SideTransformAnchorTagStyleClassItem" typeId="tpc2.1214320119173" id="5374560808524785048">
           <property name="tag" nameId="tpc2.1214320119174" value="default_RTransform" />
         </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.AutoDeletableStyleClassItem" typeId="tpc2.1186414949600" id="130529348540453435">
+          <property name="flag" nameId="tpc2.1186414551515" value="false" />
+        </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3483688336081543477">
         <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3483688336081543478" />
