@@ -32,7 +32,7 @@
   <import index="jeyo" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="tpcu" modelUID="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" version="-1" />
   <import index="ik8z" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
-  <import index="fbm7" modelUID="f:java_stub#codeOrchestra.actionscript.view.utils(codeOrchestra.actionscript.view.utils@java_stub)" version="-1" />
+  <import index="cjil" modelUID="f:java_stub#codeOrchestra.actionscript.view.utils(codeOrchestra.actionscript.view.utils@java_stub)" version="-1" />
   <import index="l53o" modelUID="r:c2336fcc-e421-4622-9531-36b8ab36e242(codeOrchestra.actionScript.objectBuilder.typesystem)" version="-1" />
   <import index="8go4" modelUID="f:java_stub#jetbrains.mps.workbench.actions.goTo.index.descriptor(jetbrains.mps.workbench.actions.goTo.index.descriptor@java_stub)" version="-1" />
   <import index="1k6w" modelUID="f:swc_stub#(@swc_stub)" version="-1" />
@@ -4621,6 +4621,10 @@
                                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="7243879795077908140">
                                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7243879795077908128" resolveInfo="fqn" />
                                         </node>
+                                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="9043812833459352341">
+                                          <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="9043812833459352340" />
+                                          <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="9043812833459352345" />
+                                        </node>
                                       </node>
                                       <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="7243879795077908141" />
                                     </node>
@@ -4647,8 +4651,8 @@
                                 </node>
                               </node>
                               <node role="condition" roleId="tpee.1068580123160" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7243879795077908162">
-                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fbm7.~ViewUtils%disInActionScriptView()%cboolean" resolveInfo="isInActionScriptView" />
-                                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="fbm7.~ViewUtils" resolveInfo="ViewUtils" />
+                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="cjil.~ViewUtils%disInActionScriptView()%cboolean" resolveInfo="isInActionScriptView" />
+                                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="cjil.~ViewUtils" resolveInfo="ViewUtils" />
                               </node>
                             </node>
                           </node>
