@@ -10,6 +10,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="-1" />
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
   <import index="hoe9" modelUID="f:java_stub#codeOrchestra.actionScript.scope(codeOrchestra.actionScript.scope@java_stub)" version="-1" />
+  <import index="14zm" modelUID="r:34718987-8b1e-4975-b8d7-67b22c35c5c2(codeOrchestra.actionScript.actions)" version="3" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp3b" modelUID="r:00000000-0000-4000-0000-011c8959035b(jetbrains.mps.lang.findUsages.structure)" version="2" implicit="yes" />
@@ -19,6 +20,7 @@
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" implicit="yes" />
   <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="8" implicit="yes" />
+  <import index="tpcw" modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" implicit="yes" />
   <roots>
     <node type="tp3b.FinderDeclaration" typeId="tp3b.1197044488845" id="2659957558736597380">
       <property name="name" nameId="tpck.1169194664001" value="AllMethodUsages" />
@@ -304,6 +306,12 @@
                 <link role="finder" roleId="tp3b.1206197741576" targetNodeId="tpci.1197636141662" resolveInfo="NodeUsages" />
                 <node role="queryNode" roleId="tp3b.1206197741572" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="2659957558736597470">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2659957558736597483" resolveInfo="methodDeclaration" />
+                </node>
+                <node role="queryScope" roleId="tp3b.1206197741573" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7808137072494388073">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="14zm.7808137072494361663" resolveInfo="getFindUsageScope" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="14zm.1285302235683756833" resolveInfo="ScopeUtil" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="7808137072494388074" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tp3b.ConceptFunctionParameter_node" typeId="tp3b.1197386047362" id="7808137072494388076" />
                 </node>
               </node>
               <node role="body" roleId="tpee.1154032183016" type="tpee.StatementList" typeId="tpee.1068580123136" id="2659957558736597471">
@@ -1171,6 +1179,12 @@
           <node role="inputSequence" roleId="tp2q.1153944424730" type="tp3b.ExecuteFinderExpression" typeId="tp3b.1206197741569" id="2659957558736597862">
             <link role="finder" roleId="tp3b.1206197741576" targetNodeId="tpci.1197636141662" resolveInfo="NodeUsages" />
             <node role="queryNode" roleId="tp3b.1206197741572" type="tp3b.ConceptFunctionParameter_node" typeId="tp3b.1197386047362" id="2659957558736597863" />
+            <node role="queryScope" roleId="tp3b.1206197741573" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7808137072494813713">
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="14zm.1285302235683756833" resolveInfo="ScopeUtil" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="14zm.7808137072494361663" resolveInfo="getFindUsageScope" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="7808137072494813714" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tp3b.ConceptFunctionParameter_node" typeId="tp3b.1197386047362" id="7808137072494813716" />
+            </node>
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tp2q.ForEachStatement" typeId="tp2q.1153943597977" id="2659957558736597864">
@@ -1267,6 +1281,12 @@
           <node role="inputSequence" roleId="tp2q.1153944424730" type="tp3b.ExecuteFinderExpression" typeId="tp3b.1206197741569" id="2659957558736597907">
             <link role="finder" roleId="tp3b.1206197741576" targetNodeId="tpci.1197636141662" resolveInfo="NodeUsages" />
             <node role="queryNode" roleId="tp3b.1206197741572" type="tp3b.ConceptFunctionParameter_node" typeId="tp3b.1197386047362" id="2659957558736597908" />
+            <node role="queryScope" roleId="tp3b.1206197741573" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7808137072494813717">
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="14zm.1285302235683756833" resolveInfo="ScopeUtil" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="14zm.7808137072494361663" resolveInfo="getFindUsageScope" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="7808137072494813718" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tp3b.ConceptFunctionParameter_node" typeId="tp3b.1197386047362" id="7808137072494813719" />
+            </node>
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="4075141420471852454" />
@@ -1311,6 +1331,12 @@
                   </node>
                 </node>
               </node>
+            </node>
+            <node role="queryScope" roleId="tp3b.1206197741573" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7808137072494813720">
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="14zm.1285302235683756833" resolveInfo="ScopeUtil" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="14zm.7808137072494361663" resolveInfo="getFindUsageScope" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="7808137072494813721" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tp3b.ConceptFunctionParameter_node" typeId="tp3b.1197386047362" id="7808137072494813722" />
             </node>
           </node>
         </node>
@@ -2012,6 +2038,12 @@
                 <node role="queryNode" roleId="tp3b.1206197741572" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="2659957558736598216">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2659957558736598194" resolveInfo="passingNode" />
                 </node>
+                <node role="queryScope" roleId="tp3b.1206197741573" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7808137072494813723">
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="14zm.1285302235683756833" resolveInfo="ScopeUtil" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="14zm.7808137072494361663" resolveInfo="getFindUsageScope" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="7808137072494813724" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tp3b.ConceptFunctionParameter_node" typeId="tp3b.1197386047362" id="7808137072494813725" />
+                </node>
               </node>
               <node role="variable" roleId="tpee.1144230900587" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2659957558736598217">
                 <property name="name" nameId="tpck.1169194664001" value="nodeUsage" />
@@ -2211,6 +2243,12 @@
                 <link role="finder" roleId="tp3b.1206197741576" targetNodeId="tpci.1197636141662" resolveInfo="NodeUsages" />
                 <node role="queryNode" roleId="tp3b.1206197741572" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="2659957558736598310">
                   <link role="variable" roleId="tp2q.1153944258490" targetNodeId="2659957558736598304" resolveInfo="fieldDeclaration" />
+                </node>
+                <node role="queryScope" roleId="tp3b.1206197741573" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7808137072494813726">
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="14zm.1285302235683756833" resolveInfo="ScopeUtil" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="14zm.7808137072494361663" resolveInfo="getFindUsageScope" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="7808137072494813727" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tp3b.ConceptFunctionParameter_node" typeId="tp3b.1197386047362" id="7808137072494813728" />
                 </node>
               </node>
               <node role="body" roleId="tpee.1154032183016" type="tpee.StatementList" typeId="tpee.1068580123136" id="2659957558736598311">
@@ -2478,6 +2516,12 @@
                     <link role="finder" roleId="tp3b.1206197741576" targetNodeId="tpci.1197636141662" resolveInfo="NodeUsages" />
                     <node role="queryNode" roleId="tp3b.1206197741572" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="2659957558736598426">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2659957558736598428" resolveInfo="derivedInterface" />
+                    </node>
+                    <node role="queryScope" roleId="tp3b.1206197741573" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7808137072494813729">
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="14zm.1285302235683756833" resolveInfo="ScopeUtil" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="14zm.7808137072494361663" resolveInfo="getFindUsageScope" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="7808137072494813730" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tp3b.ConceptFunctionParameter_node" typeId="tp3b.1197386047362" id="7808137072494813731" />
                     </node>
                   </node>
                 </node>
@@ -3342,6 +3386,12 @@
                 <node role="queryNode" roleId="tp3b.1206197741572" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="2659957558736598789">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2659957558736598775" resolveInfo="parameterNode" />
                 </node>
+                <node role="queryScope" roleId="tp3b.1206197741573" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7808137072494813732">
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="14zm.1285302235683756833" resolveInfo="ScopeUtil" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="14zm.7808137072494361663" resolveInfo="getFindUsageScope" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="7808137072494813733" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tp3b.ConceptFunctionParameter_node" typeId="tp3b.1197386047362" id="7808137072494813734" />
+                </node>
               </node>
               <node role="body" roleId="tpee.1154032183016" type="tpee.StatementList" typeId="tpee.1068580123136" id="2659957558736598790">
                 <node role="statement" roleId="tpee.1068581517665" type="tp3b.ResultStatement" typeId="tp3b.1200242336756" id="2659957558736598791">
@@ -3494,6 +3544,12 @@
           <node role="iterable" roleId="tpee.1144226360166" type="tp3b.ExecuteFinderExpression" typeId="tp3b.1206197741569" id="2659957558736598856">
             <link role="finder" roleId="tp3b.1206197741576" targetNodeId="tpci.1197636141662" resolveInfo="NodeUsages" />
             <node role="queryNode" roleId="tp3b.1206197741572" type="tp3b.ConceptFunctionParameter_node" typeId="tp3b.1197386047362" id="2659957558736598857" />
+            <node role="queryScope" roleId="tp3b.1206197741573" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7808137072494813735">
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="14zm.1285302235683756833" resolveInfo="ScopeUtil" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="14zm.7808137072494361663" resolveInfo="getFindUsageScope" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpcw.ConceptFunctionParameter_scope" typeId="tpcw.1161622878565" id="7808137072494813736" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tp3b.ConceptFunctionParameter_node" typeId="tp3b.1197386047362" id="7808137072494813737" />
+            </node>
           </node>
           <node role="variable" roleId="tpee.1144230900587" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2659957558736598858">
             <property name="name" nameId="tpck.1169194664001" value="nodeUsage" />
