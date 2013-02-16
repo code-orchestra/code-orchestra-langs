@@ -118,6 +118,9 @@
     <dependency reexport="false" exclude="false">playerglobal_swc</dependency>
     <dependency reexport="false" exclude="false">rpc_swc</dependency>
     <dependency reexport="false" exclude="false">spark_swc</dependency>
+    <dependency reexport="false" exclude="false">casalib</dependency>
+    <dependency reexport="false" exclude="false">framework_swc</dependency>
+    <dependency reexport="false" exclude="false">codeOrchestra.actionScript.extensionMethods</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>baseLanguage.ext.modelCache</usedLanguage>
@@ -129,6 +132,7 @@
     <usedLanguage>jetbrains.mps.baseLanguage.checkedDots</usedLanguage>
     <usedLanguage>jetbrains.mps.execution.configurations</usedLanguage>
     <usedLanguage>codeOrchestra.mps.smodelOperations</usedLanguage>
+    <usedLanguage>codeOrchestra.actionScript.extensionMethods</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>jetbrains.mps.devkit.language-design</usedDevKit>
