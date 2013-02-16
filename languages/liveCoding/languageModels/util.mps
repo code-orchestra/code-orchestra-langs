@@ -281,7 +281,7 @@
                                 <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.PlusExpression" typeId="3vt2.1630592743144887854" id="3716075014388915691">
                                   <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.PlusExpression" typeId="3vt2.1630592743144887854" id="3716075014388915648">
                                     <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="8951269775177402559">
-                                      <property name="value" nameId="3vt2.3383382943159949640" value="-&gt; update method: " />
+                                      <property name="value" nameId="3vt2.3383382943159949640" value="-&gt; update method: \&quot;" />
                                     </node>
                                     <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="3716075014388915620">
                                       <node role="operand" roleId="3vt2.1242234170112" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="3716075014388915610">
@@ -310,7 +310,7 @@
                                 </node>
                               </node>
                               <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="8951269775177402578">
-                                <property name="value" nameId="3vt2.3383382943159949640" value=" delivery time: " />
+                                <property name="value" nameId="3vt2.3383382943159949640" value="\&quot;, delivery time: " />
                               </node>
                             </node>
                             <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="3716075014388917822">

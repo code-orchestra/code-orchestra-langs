@@ -53,3 +53,5 @@ modules/testAs/testAs_flex_config.xml
 modules/testAs/output_swf/livecoding/package_2.swf
 
 modules/testAs/output_swf/livecoding/package_2.swf
+
+*.swf
