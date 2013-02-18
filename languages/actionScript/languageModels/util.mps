@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:944a31f8-bb9e-4168-b4ad-9638a126a51d(codeOrchestra.actionScript.util)">
   <persistence version="7" />
-  <language namespace="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce(codeOrchestra.actionScript)" />
+  <language namespace="codeOrchestra.actionScript" />
   <import index="1k6w" modelUID="f:swc_stub#(@swc_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="3vt2" modelUID="r:49784cba-a384-4286-b969-08d540fbc32f(codeOrchestra.actionScript.structure)" version="81" implicit="yes" />
@@ -118,7 +118,7 @@
   </root>
   <root id="5573603667458783778">
     <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="4968841509786481618">
-      <property name="name" nameId="tpck.1169194664001" value="class" />
+      <property name="name" nameId="tpck.1169194664001" value="classFqn" />
       <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="4968841509786481619">
         <property name="name" nameId="tpck.1169194664001" value="String" />
         <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
