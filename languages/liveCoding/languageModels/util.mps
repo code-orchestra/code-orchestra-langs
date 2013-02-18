@@ -41,7 +41,7 @@
     </node>
     <node type="3vt2.AnnotationDeclaration" typeId="3vt2.1630592743144475980" id="2171979710397415001">
       <property name="sourceModule" value="a540fd57-0e8e-4a41-b5a0-5eb74e58a302" />
-      <property name="name" nameId="tpck.1169194664001" value="LiveCodeMethod" />
+      <property name="name" nameId="tpck.1169194664001" value="CodeUpdateMethod" />
     </node>
     <node type="3vt2.AnnotationDeclaration" typeId="3vt2.1630592743144475980" id="2056702074806517861">
       <property name="sourceModule" value="a540fd57-0e8e-4a41-b5a0-5eb74e58a302" />

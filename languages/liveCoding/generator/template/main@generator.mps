@@ -3720,7 +3720,7 @@
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3168392444571174122">
                       <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.1624755644612062412" resolveInfo="getPropertyValue" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3168392444571174123">
-                        <property name="value" nameId="tpee.1070475926801" value="class" />
+                        <property name="value" nameId="tpee.1070475926801" value="classFqn" />
                       </node>
                     </node>
                   </node>
@@ -3758,7 +3758,7 @@
                 <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3168392444571174132" />
                 <node role="initializer" roleId="tpee.1068431790190" type="ec1g.ElvisOperator" typeId="ec1g.5643431131116238113" id="3168392444571508112">
                   <node role="alternative" roleId="ec1g.5643431131116238122" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3168392444571508115">
-                    <property name="value" nameId="tpee.1070475926801" value="false" />
+                    <property name="value" nameId="tpee.1070475926801" value="true" />
                   </node>
                   <node role="expression" roleId="ec1g.5643431131116238114" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3168392444571508108">
                     <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="3168392444571508109">
