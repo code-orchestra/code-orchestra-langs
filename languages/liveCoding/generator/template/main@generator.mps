@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:b3c8dc52-00a7-45c2-9a39-180d8745b5ae(codeOrchestra.actionScript.liveCoding.generator.template.main@generator)">
   <persistence version="7" />
-  <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
-  <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
-  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-  <language namespace="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce(codeOrchestra.actionScript)" />
-  <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
-  <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
-  <language namespace="99be9759-931f-4cb7-87af-307e252f4737(baseLanguage.ext.modelCache)" />
-  <language namespace="e4e98138-3db2-4129-a5a0-cb16bf67e712(codeOrchestra.mps.smodelOperations)" />
-  <language namespace="3a27ae5e-9c30-4977-a146-ffce86d2005c(codeOrchestra.actionScript.logging)" />
-  <language namespace="972ca8ca-74dd-4465-a884-8c03e004422d(baseLanguage.ext.nullable)" />
-  <language namespace="774bf8a0-62e5-41e1-af63-f4812e60e48b(jetbrains.mps.baseLanguage.checkedDots)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  <language namespace="jetbrains.mps.lang.generator" />
+  <language namespace="jetbrains.mps.lang.generator.generationContext" />
+  <language namespace="jetbrains.mps.lang.core" />
+  <language namespace="codeOrchestra.actionScript" />
+  <language namespace="jetbrains.mps.lang.typesystem" />
+  <language namespace="jetbrains.mps.lang.sharedConcepts" />
+  <language namespace="baseLanguage.ext.modelCache" />
+  <language namespace="codeOrchestra.mps.smodelOperations" />
+  <language namespace="codeOrchestra.actionScript.logging" />
+  <language namespace="baseLanguage.ext.nullable" />
+  <language namespace="jetbrains.mps.baseLanguage.checkedDots" />
+  <devkit namespace="jetbrains.mps.devkit.general-purpose" />
   <import index="gkhp" modelUID="r:d5373b3c-e251-4d0b-bd40-de28f23272a2(codeOrchestra.actionScript.liveCoding.structure)" version="-1" />
   <import index="uqph" modelUID="r:2ed175d6-09fe-4889-a48e-96838a5e8e69(codeOrchestra.actionScript.liveCoding.generator.template.util)" version="-1" />
   <import index="1k6w" modelUID="f:swc_stub#(@swc_stub)" version="-1" />
@@ -6299,19 +6299,12 @@
                   </node>
                 </node>
               </node>
-              <node role="condition" roleId="tpee.1068580123160" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6376721462181660075">
-                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6376721462181654248">
-                  <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="6376721462181654247">
-                    <link role="variable" roleId="tp2q.1153944258490" targetNodeId="5018390055763740643" resolveInfo="cl" />
-                  </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6376721462181654252">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.2760140803099099000" resolveInfo="getAnnotationByAnnotation" />
-                    <node role="actualArgument" roleId="tpee.1068499141038" type="tp25.NodeRefExpression" typeId="tp25.1219352745532" id="6376721462181654253">
-                      <link role="referentNode" roleId="tp25.1219352800908" targetNodeId="29it.600140203015164189" resolveInfo="Live" />
-                    </node>
-                  </node>
+              <node role="condition" roleId="tpee.1068580123160" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4398287018950341196">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6ghk.4398287018950323134" resolveInfo="isClassCanUseForLivecoding" />
+                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="6ghk.7171849358043998309" resolveInfo="LiveCodeMethodUtil" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="4398287018950341197">
+                  <link role="variable" roleId="tp2q.1153944258490" targetNodeId="5018390055763740643" resolveInfo="cl" />
                 </node>
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsNotNullOperation" typeId="tp25.1172008320231" id="6376721462181660079" />
               </node>
             </node>
           </node>
