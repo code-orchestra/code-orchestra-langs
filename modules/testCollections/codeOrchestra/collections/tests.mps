@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:9b693d0b-688c-4414-9868-07de1715d9a7(codeOrchestra.collections.tests)">
   <persistence version="7" />
-  <language namespace="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce(codeOrchestra.actionScript)" />
-  <language namespace="3a27ae5e-9c30-4977-a146-ffce86d2005c(codeOrchestra.actionScript.logging)" />
-  <language namespace="f8e34e2c-a7e4-43d2-ae57-c99a2499fa39(codeOrchestra.projectAssets)" />
-  <language namespace="056c3755-ed2e-4cf5-a6ed-45eef07466c2(codeOrchestra.actionScript.overloadedOperators)" />
-  <language namespace="bc24470f-6fe0-49d1-8324-930227a4f989(codeOrchestra.actionScript.collections)" />
-  <language namespace="25fc127a-f19c-4cfb-866c-0e5ff9049bb2(codeOrchestra.actionScript.assertions)" />
-  <language namespace="4ccc7985-cbd1-4af4-a0be-6c0449d5e673(codeOrchestra.actionScript.closures)" />
-  <language namespace="bcf140e4-e1d5-473b-8354-d14581e80d66(codeOrchestra.actionScript.tuples)" />
-  <language namespace="6bc913c8-e36e-409f-9c0b-7fa00c7e4ce9(codeOrchestra.actionScript.potapenko.workInProgress)" />
-  <language-engaged-on-generation namespace="3a27ae5e-9c30-4977-a146-ffce86d2005c(codeOrchestra.actionScript.logging)" />
+  <language namespace="codeOrchestra.actionScript" />
+  <language namespace="codeOrchestra.actionScript.logging" />
+  <language namespace="codeOrchestra.projectAssets" />
+  <language namespace="codeOrchestra.actionScript.overloadedOperators" />
+  <language namespace="codeOrchestra.actionScript.collections" />
+  <language namespace="codeOrchestra.actionScript.assertions" />
+  <language namespace="codeOrchestra.actionScript.closures" />
+  <language namespace="codeOrchestra.actionScript.tuples" />
+  <language namespace="codeOrchestra.actionScript.potapenko.workInProgress" />
+  <language-engaged-on-generation namespace="codeOrchestra.actionScript.logging" />
   <import index="1k6w" modelUID="f:swc_stub#(@swc_stub)" version="-1" />
   <import index="jivu" modelUID="f:swc_stub#flash.display(flash.display@swc_stub)" version="-1" />
   <import index="q8sl" modelUID="f:swc_stub#flash.metadata(flash.metadata@swc_stub)" version="-1" />
