@@ -3149,8 +3149,8 @@
                   <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="170225014702720998">
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="170225014702720999">
                       <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="170225014702721000">
-                        <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="170225014702721001">
-                          <link role="property" roleId="tp25.1138056395725" targetNodeId="gkhp.170225014702583033" resolveInfo="timestamp" />
+                        <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="1311382343353175127">
+                          <link role="property" roleId="tp25.1138056395725" targetNodeId="gkhp.1311382343353174969" resolveInfo="timestamp" />
                         </node>
                         <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="170225014702721002" />
                       </node>
@@ -3773,6 +3773,28 @@
                 </node>
               </node>
             </node>
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1311382343352869163">
+              <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1311382343352869164">
+                <property name="name" nameId="tpck.1169194664001" value="priority" />
+                <node role="initializer" roleId="tpee.1068431790190" type="ec1g.ElvisOperator" typeId="ec1g.5643431131116238113" id="1311382343352869166">
+                  <node role="alternative" roleId="ec1g.5643431131116238122" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1311382343353006565">
+                    <property name="value" nameId="tpee.1070475926801" value="0" />
+                  </node>
+                  <node role="expression" roleId="ec1g.5643431131116238114" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1311382343353006557">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1311382343353006558">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3168392444571125266" resolveInfo="annotation" />
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="1311382343353006559">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.1624755644612062412" resolveInfo="getPropertyValue" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1311382343353006560">
+                        <property name="value" nameId="tpee.1070475926801" value="priority" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="1311382343353006564" />
+              </node>
+            </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3168392444571174124" />
             <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="3168392444571174185">
               <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="3168392444571174186">
@@ -3880,6 +3902,13 @@
                                     </node>
                                     <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="8951269775177387387">
                                       <property name="value" nameId="3vt2.1241004569844" value="0" />
+                                      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp3r.PropertyAntiquotation" typeId="tp3r.1196866233735" id="1311382343353006569">
+                                        <property name="propertyName" nameId="tpck.1757699476691236117" value="value" />
+                                        <property name="label" nameId="tp3r.6489343236075007666" value="NumberConstant" />
+                                        <node role="expression" roleId="tp3r.1196350785111" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1311382343353006571">
+                                          <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1311382343352869164" resolveInfo="priority" />
+                                        </node>
+                                      </node>
                                     </node>
                                     <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.BooleanConstant" typeId="3vt2.1241011502101" id="8951269775177387389">
                                       <property name="value" nameId="3vt2.1241011554882" value="true" />
@@ -4037,6 +4066,13 @@
                                       </node>
                                       <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="3168392444571174243">
                                         <property name="value" nameId="3vt2.1241004569844" value="0" />
+                                        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp3r.PropertyAntiquotation" typeId="tp3r.1196866233735" id="1311382343353006566">
+                                          <property name="propertyName" nameId="tpck.1757699476691236117" value="value" />
+                                          <property name="label" nameId="tp3r.6489343236075007666" value="NumberConstant" />
+                                          <node role="expression" roleId="tp3r.1196350785111" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="1311382343353006568">
+                                            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1311382343352869164" resolveInfo="priority" />
+                                          </node>
+                                        </node>
                                       </node>
                                       <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.BooleanConstant" typeId="3vt2.1241011502101" id="3168392444571174244">
                                         <property name="value" nameId="3vt2.1241011554882" value="true" />
