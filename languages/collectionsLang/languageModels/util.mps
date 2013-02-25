@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:2ac04c12-1d74-46c7-8d92-94f05d20fa58(codeOrchestra.actionScript.collections.util)" version="0">
   <persistence version="7" />
-  <language namespace="bc24470f-6fe0-49d1-8324-930227a4f989(codeOrchestra.actionScript.collections)" />
-  <language namespace="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce(codeOrchestra.actionScript)" />
-  <language namespace="056c3755-ed2e-4cf5-a6ed-45eef07466c2(codeOrchestra.actionScript.overloadedOperators)" />
-  <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
-  <language namespace="25fc127a-f19c-4cfb-866c-0e5ff9049bb2(codeOrchestra.actionScript.assertions)" />
+  <language namespace="codeOrchestra.actionScript.collections" />
+  <language namespace="codeOrchestra.actionScript" />
+  <language namespace="codeOrchestra.actionScript.overloadedOperators" />
+  <language namespace="jetbrains.mps.lang.generator" />
+  <language namespace="codeOrchestra.actionScript.assertions" />
   <import index="m5sl" modelUID="r:93390832-59c0-4190-943c-43f11a357c86(codeOrchestra.actionScript.collections.structure)" version="-1" />
   <import index="1k6w" modelUID="f:swc_stub#(@swc_stub)" version="-1" />
   <import index="fju7" modelUID="f:swc_stub#flash.utils(flash.utils@swc_stub)" version="-1" />
@@ -7750,6 +7750,56 @@
           <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Object" resolveInfo="Object" />
         </node>
       </node>
+    </node>
+    <node role="staticMethod" roleId="3vt2.1239652857655" type="3vt2.StaticMethodDeclaration" typeId="3vt2.1240503066791" id="6511270615276106645">
+      <property name="name" nameId="tpck.1169194664001" value="clearMap" />
+      <node role="parameter" roleId="3vt2.3618339097803723485" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="6511270615276106650">
+        <property name="name" nameId="tpck.1169194664001" value="dic" />
+        <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="6511270615276106652">
+          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="fju7.~Dictionary" resolveInfo="Dictionary" />
+        </node>
+      </node>
+      <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="6511270615276106646">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ForInStatement" typeId="3vt2.3330372587359043547" id="6511270615276106653">
+          <node role="iterable" roleId="3vt2.3330372587359043550" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="6511270615276106654">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="6511270615276106661">
+              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="6511270615276106662">
+                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6511270615276106650" resolveInfo="dic" />
+              </node>
+            </node>
+          </node>
+          <node role="initializer" roleId="3vt2.8353046031964639937" type="3vt2.ForInBinding_VariableDeclaration" typeId="3vt2.8353046031964639938" id="6511270615276106656">
+            <node role="variableDeclaration" roleId="3vt2.8353046031964640005" type="3vt2.LocalVariableDeclaration" typeId="3vt2.1241453544092" id="6511270615276106657">
+              <property name="name" nameId="tpck.1169194664001" value="v" />
+              <node role="type" roleId="3vt2.1238708772985" type="3vt2.WildCardType" typeId="3vt2.1237727522379" id="6511270615276106658" />
+            </node>
+          </node>
+          <node role="statementBody" roleId="3vt2.1630592743144646085" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="6511270615276106659">
+            <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="6511270615276106663">
+              <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="6511270615276106664">
+                <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.DeleteExpression" typeId="3vt2.1237742801508" id="6511270615276106665">
+                  <node role="expression" roleId="3vt2.8405019087193283913" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="6511270615276106666">
+                    <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.AccessExpression" typeId="3vt2.7078864938167502023" id="6511270615276106673">
+                      <node role="access" roleId="3vt2.7078864938167502025" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="6511270615276106676">
+                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="6511270615276106677">
+                          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6511270615276106657" resolveInfo="v" />
+                        </node>
+                      </node>
+                      <node role="expression" roleId="3vt2.7078864938167502024" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="6511270615276106671">
+                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="6511270615276106672">
+                          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6511270615276106650" resolveInfo="dic" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="6511270615276106648" />
+      <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.VoidType" typeId="3vt2.1237649329996" id="6511270615276106649" />
     </node>
     <node role="outOfPackageButton" roleId="3vt2.5096339543744144377" type="3vt2.OutOfPackageAddButton" typeId="3vt2.5096339543744144378" id="9011142108074948137" />
     <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="9011142108074948138" />

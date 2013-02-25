@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:e435d107-23d2-4db5-875a-bba61a31228b(codeOrchestra.actionScript.collections.generator.template.main@generator)">
   <persistence version="7" />
-  <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
-  <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
-  <language namespace="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce(codeOrchestra.actionScript)" />
-  <language namespace="bc24470f-6fe0-49d1-8324-930227a4f989(codeOrchestra.actionScript.collections)" />
-  <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
-  <language namespace="4ccc7985-cbd1-4af4-a0be-6c0449d5e673(codeOrchestra.actionScript.closures)" />
-  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-  <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
-  <language namespace="3a27ae5e-9c30-4977-a146-ffce86d2005c(codeOrchestra.actionScript.logging)" />
-  <language namespace="aee9cad2-acd4-4608-aef2-0004f6a1cdbd(jetbrains.mps.lang.actions)" />
-  <language namespace="774bf8a0-62e5-41e1-af63-f4812e60e48b(jetbrains.mps.baseLanguage.checkedDots)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  <language namespace="jetbrains.mps.lang.generator" />
+  <language namespace="jetbrains.mps.lang.generator.generationContext" />
+  <language namespace="codeOrchestra.actionScript" />
+  <language namespace="codeOrchestra.actionScript.collections" />
+  <language namespace="jetbrains.mps.lang.typesystem" />
+  <language namespace="codeOrchestra.actionScript.closures" />
+  <language namespace="jetbrains.mps.lang.core" />
+  <language namespace="jetbrains.mps.lang.sharedConcepts" />
+  <language namespace="codeOrchestra.actionScript.logging" />
+  <language namespace="jetbrains.mps.lang.actions" />
+  <language namespace="jetbrains.mps.baseLanguage.checkedDots" />
+  <devkit namespace="jetbrains.mps.devkit.general-purpose" />
   <import index="m5sl" modelUID="r:93390832-59c0-4190-943c-43f11a357c86(codeOrchestra.actionScript.collections.structure)" version="-1" />
   <import index="jeyo" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="1k6w" modelUID="f:swc_stub#(@swc_stub)" version="-1" />
@@ -431,6 +431,11 @@
     <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="4002860602623102836">
       <property name="name" nameId="tpck.1169194664001" value="reduce_ObjectLiteral" />
       <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="3vt2.177674122516312845" resolveInfo="ObjectLiteral" />
+    </node>
+    <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="6511270615276101106">
+      <property name="name" nameId="tpck.1169194664001" value="reduce_MapClearOperation" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="map" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="m5sl.5561394839982267913" resolveInfo="MapClearOperation" />
     </node>
   </roots>
   <root id="1352740746169226030">
@@ -1253,6 +1258,12 @@
       </node>
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="4002860602623102838">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="4002860602623102836" resolveInfo="reduce_ObjectLiteral" />
+      </node>
+    </node>
+    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="6511270615276101108">
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="m5sl.5561394839982267913" resolveInfo="MapClearOperation" />
+      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="6511270615276101109">
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="6511270615276101106" resolveInfo="reduce_MapClearOperation" />
       </node>
     </node>
   </root>
@@ -8593,6 +8604,37 @@
       <node role="implementedInterface" roleId="3vt2.1239652910735" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="4002860602623122545">
         <property name="isAllowEmpty" nameId="3vt2.169389546812107517" value="true" />
       </node>
+    </node>
+  </root>
+  <root id="6511270615276101106">
+    <node role="contentNode" roleId="tpf8.1092060348987" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="6511270615276106411">
+      <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="6511270615276106412">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="j4ot.9011142108074945281" resolveInfo="CollectionsLanguageUtil" />
+      </node>
+      <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.StaticMethodCallOperation" typeId="3vt2.7909581671864979853" id="6511270615276106678">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="j4ot.6511270615276106645" resolveInfo="clearMap" />
+        <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="6511270615276106679">
+          <node role="expression" roleId="3vt2.3898885818439022005" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="6511270615276106680">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.NullLiteral" typeId="3vt2.1237732826761" id="6511270615276106681">
+              <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="6511270615276106682">
+                <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="6511270615276106683">
+                  <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6511270615276106684">
+                    <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6511270615276106685">
+                      <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6511270615276106686">
+                        <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="6511270615276106687" />
+                        <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6511270615276106688">
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="pbic.7817988119666075326" resolveInfo="getOperand" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="6511270615276106424" />
     </node>
   </root>
 </model>
