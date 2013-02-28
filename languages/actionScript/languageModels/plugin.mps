@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:d878dda8-9f0b-442b-b45d-b84e09f5fbd6(codeOrchestra.actionScript.plugin)" version="1">
   <persistence version="7" />
-  <language namespace="28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)" />
-  <language namespace="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce(codeOrchestra.actionScript)" />
-  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-  <language namespace="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
-  <language namespace="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
-  <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
-  <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
-  <language namespace="98cb9bc8-a49a-4590-857f-f3ae4cf4743e(codeOrchestra.mps.editorTrigger)" />
-  <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
-  <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
-  <language namespace="a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)" />
-  <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
-  <language namespace="aee9cad2-acd4-4608-aef2-0004f6a1cdbd(jetbrains.mps.lang.actions)" />
-  <language namespace="99be9759-931f-4cb7-87af-307e252f4737(baseLanguage.ext.modelCache)" />
-  <language namespace="65dc9932-3232-4133-a1ed-2b75b3a2894e(codeOrchestra.mps.extensionPoint)" />
-  <language namespace="972ca8ca-74dd-4465-a884-8c03e004422d(baseLanguage.ext.nullable)" />
-  <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
-  <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
-  <language namespace="774bf8a0-62e5-41e1-af63-f4812e60e48b(jetbrains.mps.baseLanguage.checkedDots)" />
-  <language namespace="0eddeefa-c2d6-4437-bc2c-de50fd4ce470(jetbrains.mps.lang.script)" />
-  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-  <language namespace="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" />
-  <language-engaged-on-generation namespace="99be9759-931f-4cb7-87af-307e252f4737(baseLanguage.ext.modelCache)" />
-  <language-engaged-on-generation namespace="a06f46c9-e771-4812-97c8-a43b21bb598c(baseLanguage.ext.mpsPerformanceCheckers)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  <language namespace="jetbrains.mps.lang.plugin" />
+  <language namespace="codeOrchestra.actionScript" />
+  <language namespace="jetbrains.mps.baseLanguage" />
+  <language namespace="jetbrains.mps.baseLanguage.classifiers" />
+  <language namespace="jetbrains.mps.baseLanguage.logging" />
+  <language namespace="jetbrains.mps.baseLanguage.collections" />
+  <language namespace="jetbrains.mps.lang.smodel" />
+  <language namespace="codeOrchestra.mps.editorTrigger" />
+  <language namespace="jetbrains.mps.lang.typesystem" />
+  <language namespace="jetbrains.mps.lang.sharedConcepts" />
+  <language namespace="jetbrains.mps.baseLanguage.tuples" />
+  <language namespace="jetbrains.mps.baseLanguage.closures" />
+  <language namespace="jetbrains.mps.lang.actions" />
+  <language namespace="baseLanguage.ext.modelCache" />
+  <language namespace="codeOrchestra.mps.extensionPoint" />
+  <language namespace="baseLanguage.ext.nullable" />
+  <language namespace="jetbrains.mps.lang.structure" />
+  <language namespace="jetbrains.mps.lang.generator.generationContext" />
+  <language namespace="jetbrains.mps.baseLanguage.checkedDots" />
+  <language namespace="jetbrains.mps.lang.script" />
+  <language namespace="jetbrains.mps.lang.core" />
+  <language namespace="jetbrains.mps.lang.behavior" />
+  <language-engaged-on-generation namespace="baseLanguage.ext.modelCache" />
+  <language-engaged-on-generation namespace="baseLanguage.ext.mpsPerformanceCheckers" />
+  <devkit namespace="jetbrains.mps.devkit.general-purpose" />
   <import index="3vt2" modelUID="r:49784cba-a384-4286-b969-08d540fbc32f(codeOrchestra.actionScript.structure)" version="84" />
   <import index="uqqj" modelUID="f:java_stub#jetbrains.mps.nodeEditor(jetbrains.mps.nodeEditor@java_stub)" version="-1" />
   <import index="7ij6" modelUID="f:java_stub#jetbrains.mps.workbench(jetbrains.mps.workbench@java_stub)" version="-1" />
@@ -604,7 +604,7 @@
       <property name="sendMessageToLog" nameId="xpsn.3397060732423421996" value="true" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="triggers" />
       <property name="sourceModule" value="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce" />
-      <property name="name" nameId="tpck.1169194664001" value="NeedConvertReedToWrite" />
+      <property name="name" nameId="tpck.1169194664001" value="NeedConvertReadToWrite" />
       <link role="applicableConcept" roleId="xpsn.2274388411734425103" targetNodeId="3vt2.4718407685799594253" resolveInfo="IReadWriteAccessor" />
     </node>
     <node type="xpsn.EditorTriggerDeclaration" typeId="xpsn.2274388411734417624" id="3964094296550971490">
@@ -951,6 +951,13 @@
   <root id="6503113277685388050">
     <node role="executeBlock" roleId="xpsn.2274388411734425113" type="xpsn.EditorTriggerExecuteBlock" typeId="xpsn.2274388411734425105" id="6503113277685388051">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6503113277685388052">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5972314342937500391">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5972314342937500394">
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.4115929742098609355" resolveInfo="removeAsBrokenMarker" />
+            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ejob.7546539046874168386" resolveInfo="ReferenceBrokenUtil" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="xpsn.ConceptFunctionParameter_sourceNode" typeId="xpsn.2274388411734453089" id="5972314342937500395" />
+          </node>
+        </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="6503113277685388085">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6503113277685388086">
             <property name="name" nameId="tpck.1169194664001" value="fix" />

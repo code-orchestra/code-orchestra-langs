@@ -6520,8 +6520,8 @@
       <property name="name" nameId="tpck.1169194664001" value="TRACE_TRIGGERS" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1160392504918390413" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="1160392504918390414" />
-      <node role="initializer" roleId="tpee.1068431790190" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="6012330963559330831">
-        <property name="value" nameId="tpee.1068580123138" value="false" />
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="5972314342936560958">
+        <property name="value" nameId="tpee.1068580123138" value="true" />
       </node>
     </node>
     <node role="staticField" roleId="tpee.1128555889557" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="4060231759305238404">
@@ -6583,8 +6583,8 @@
       <property name="name" nameId="tpck.1169194664001" value="TRACE_PLUGINS" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1678280313045735342" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="1678280313045735343" />
-      <node role="initializer" roleId="tpee.1068431790190" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="6012330963559330838">
-        <property name="value" nameId="tpee.1068580123138" value="false" />
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="5972314342936560959">
+        <property name="value" nameId="tpee.1068580123138" value="true" />
       </node>
     </node>
     <node role="staticField" roleId="tpee.1128555889557" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="854747662356925324">
@@ -6592,8 +6592,8 @@
       <property name="name" nameId="tpck.1169194664001" value="TRACE_TYPE_CHECKS" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="854747662356925325" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="854747662356925326" />
-      <node role="initializer" roleId="tpee.1068431790190" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="6012330963559330839">
-        <property name="value" nameId="tpee.1068580123138" value="false" />
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="5972314342936560960">
+        <property name="value" nameId="tpee.1068580123138" value="true" />
       </node>
     </node>
     <node role="staticField" roleId="tpee.1128555889557" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="1847641822704221140">
@@ -6601,8 +6601,8 @@
       <property name="name" nameId="tpck.1169194664001" value="TRACE_TYPE_INFERENCE" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1847641822704221141" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="1847641822704221142" />
-      <node role="initializer" roleId="tpee.1068431790190" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="6012330963559330840">
-        <property name="value" nameId="tpee.1068580123138" value="false" />
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="5972314342936560961">
+        <property name="value" nameId="tpee.1068580123138" value="true" />
       </node>
     </node>
     <node role="staticField" roleId="tpee.1128555889557" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="2948426535874812897">
