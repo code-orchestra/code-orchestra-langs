@@ -1296,8 +1296,8 @@
       <property name="name" nameId="tpck.1169194664001" value="liveCodingMode" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="8546660906668917837" />
       <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8546660906669018083">
-        <node role="operand" roleId="tpee.1197027771414" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="595318778139265412">
-          <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bzft.~LiveCodingMode%dANNOTATED_IN_OPEN_TABS" resolveInfo="ANNOTATED_IN_OPEN_TABS" />
+        <node role="operand" roleId="tpee.1197027771414" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="537386119754663591">
+          <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bzft.~LiveCodingMode%dALL_METHODS" resolveInfo="ALL_METHODS" />
           <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bzft.~LiveCodingMode" resolveInfo="LiveCodingMode" />
         </node>
         <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8546660906669018087">
