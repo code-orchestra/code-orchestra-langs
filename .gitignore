@@ -56,44 +56,5 @@ modules/testAs/output_swf/livecoding/package_2.swf
 
 *.swf
 
-assets/grass.png
+assets/*.*
 
-assets/icon_others.png
-
-assets/pop.png
-
-assets/tree.png
-
-assets/icon_rase.png
-
-assets/wood_64x256.jpg
-
-modules/testAs/RGSOutput.zip
-
-modules/testAs/output_swf/testAs.swc
-
-assets/Enemy.png
-
-assets/Enemy.xml
-
-assets/backdrop.jpg
-
-assets/platform_end.png
-
-assets/platform.png
-
-assets/muffin.png
-
-modules/SP1/SP1_flex_config.xml
-
-modules/SP1/com/realaxy/cueseditor.mps
-
-modules/SP1/SP1.msd
-
-assets/Hero.xml
-
-assets/Hero.png
-
-modules/testMxml/testMxml.msd
-
-modules/testMxml/testMxml.mps

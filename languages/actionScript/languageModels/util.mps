@@ -62,6 +62,10 @@
       <property name="sourceModule" value="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce" />
       <property name="name" nameId="tpck.1169194664001" value="NeverUsed" />
     </node>
+    <node type="3vt2.AnnotationDeclaration" typeId="3vt2.1630592743144475980" id="1302197430940622550">
+      <property name="sourceModule" value="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce" />
+      <property name="name" nameId="tpck.1169194664001" value="LiveConsole" />
+    </node>
   </roots>
   <root id="3055059035958419817">
     <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="3055059035958419819">
@@ -162,5 +166,6 @@
   <root id="2426699204959661314">
     <node role="outOfPackageButton" roleId="3vt2.5096339543744144377" type="3vt2.OutOfPackageAddButton" typeId="3vt2.5096339543744144378" id="2426699204959661317" />
   </root>
+  <root id="1302197430940622550" />
 </model>
 

@@ -30,6 +30,7 @@
         <dependency reexport="false" exclude="false">playerglobal_swc</dependency>
         <dependency reexport="false" exclude="false">rpc_swc</dependency>
         <dependency reexport="false" exclude="false">spark_swc</dependency>
+        <dependency reexport="false" exclude="false">framework_swc</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>baseLanguage.ext.modelCache</usedLanguage>

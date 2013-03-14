@@ -19,6 +19,11 @@
       <property name="sourceModule" value="a540fd57-0e8e-4a41-b5a0-5eb74e58a302" />
       <property name="name" nameId="tpck.1169194664001" value="ICodeUpdate" />
     </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5658410185540454170">
+      <property name="sourceModule" value="a540fd57-0e8e-4a41-b5a0-5eb74e58a302" />
+      <property name="name" nameId="tpck.1169194664001" value="AssetUpdate" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
   </roots>
   <root id="170225014702583032">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5554776426816477043">
@@ -62,6 +67,25 @@
       <property name="role" nameId="tpce.1071599776563" value="updatedNode" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+  </root>
+  <root id="5658410185540454170">
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5658410185540454341">
+      <property name="name" nameId="tpck.1169194664001" value="source" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5658410185540460222">
+      <property name="name" nameId="tpck.1169194664001" value="resolvedSource" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5658410185540454171">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2871885588630396317" resolveInfo="ICodeUpdate" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5658410185540454321">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3vt2.1238597294000" resolveInfo="IValidIdentifier" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5658410185540454323">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3vt2.2627253240086528097" resolveInfo="IRoot" />
     </node>
   </root>
 </model>

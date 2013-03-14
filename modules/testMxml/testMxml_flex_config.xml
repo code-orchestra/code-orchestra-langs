@@ -1,0 +1,23 @@
+<flex-config xmlns="http://www.adobe.com/2006/flex-config">
+<target-player>11.5.0</target-player>
+<compiler>
+<incremental>true</incremental>
+<source-path>
+<path-element>/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testMxml/source_gen</path-element>
+</source-path>
+<library-path append="true">
+<path-element>/Users/john/Downloads/CodeOrchestra.app/flex_sdk/frameworks/libs/spark.swc</path-element>
+<path-element>/Users/john/Downloads/CodeOrchestra.app/flex_sdk/frameworks/libs/framework.swc</path-element>
+<path-element>/Users/john/Downloads/CodeOrchestra.app/flex_sdk/frameworks/libs/rpc.swc</path-element>
+</library-path>
+<keep-as3-metadata>
+<name>MixinReplacement</name>
+</keep-as3-metadata>
+</compiler>
+<static-link-runtime-shared-libraries>true</static-link-runtime-shared-libraries>
+<verify-digests>false</verify-digests>
+<file-specs>
+<path-element>/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testMxml/source_gen/testMxml/MyMxml.mxml</path-element>
+</file-specs>
+<output>/Users/john/Projects/CodeOrchestra/code-orchestra-langs/modules/testMxml/output_swf/testMxml.swf</output>
+</flex-config>
