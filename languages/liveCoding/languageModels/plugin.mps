@@ -68,6 +68,8 @@
   <import index="iaj1" modelUID="f:java_stub#codeOrchestra.actionscript.liveCoding.run.config.ios(codeOrchestra.actionscript.liveCoding.run.config.ios@java_stub)" version="-1" />
   <import index="b4tc" modelUID="f:java_stub#codeOrchestra.actionscript.liveCoding.run.view.ios(codeOrchestra.actionscript.liveCoding.run.view.ios@java_stub)" version="-1" />
   <import index="irmw" modelUID="f:java_stub#com.intellij.execution.process(com.intellij.execution.process@java_stub)" version="-1" />
+  <import index="eaq" modelUID="f:java_stub#codeOrchestra.actionScript.assets(codeOrchestra.actionScript.assets@java_stub)" version="-1" />
+  <import index="f23r" modelUID="f:java_stub#codeOrchestra.actionScript.assets.util(codeOrchestra.actionScript.assets.util@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="uhxm" modelUID="r:f3383ae6-205a-4e7c-8dd9-c29966e29e49(jetbrains.mps.execution.configurations.structure)" version="0" implicit="yes" />
   <import index="tp4k" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="23" implicit="yes" />
@@ -159,6 +161,10 @@
       <property name="sourceModule" value="a540fd57-0e8e-4a41-b5a0-5eb74e58a302" />
       <property name="keymap" nameId="tp4k.1562714432501166281" value="Mac OS X" />
       <property name="name" nameId="tpck.1169194664001" value="ASLiveCodingKeyMapMac" />
+    </node>
+    <node type="tpee.ClassConcept" typeId="tpee.1068390468198" id="8974194528676161361">
+      <property name="sourceModule" value="a540fd57-0e8e-4a41-b5a0-5eb74e58a302" />
+      <property name="name" nameId="tpck.1169194664001" value="LiveCodingAssetFileListener" />
     </node>
   </roots>
   <root id="6301529416470458563">
@@ -2579,6 +2585,24 @@
         </node>
       </node>
     </node>
+    <node role="fieldDeclaration" roleId="tp4k.1206112250032" type="tp4f.DefaultClassifierFieldDeclaration" typeId="tp4f.1213999088275" id="8974194528676173886">
+      <property name="name" nameId="tpck.1169194664001" value="assetFileListener" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="8974194528676173887" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8974194528676173889">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="eaq.~AssetFileListener" resolveInfo="AssetFileListener" />
+      </node>
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="8974194528676173891">
+        <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="8974194528676173893">
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8974194528676161363" resolveInfo="LiveCodingAssetFileListener" />
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8974194528676173945">
+            <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="8974194528676173894" />
+            <node role="operation" roleId="tpee.1197027833540" type="tp4f.DefaultClassifierFieldAccessOperation" typeId="tp4f.1213999117680" id="8974194528676173949">
+              <link role="member" roleId="tp4f.1205756909548" targetNodeId="1788663280563633593" resolveInfo="generatorManager" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="initBlock" roleId="tp4k.1206110253508" type="tp4k.ProjectPluginInitBlock" typeId="tp4k.1206110093589" id="1788663280563633598">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1788663280563633599">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="7034481412371367494">
@@ -2629,6 +2653,23 @@
                     <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="3017156370291066087" />
                     <node role="operation" roleId="tpee.1197027833540" type="tp4f.DefaultClassifierFieldAccessOperation" typeId="tp4f.1213999117680" id="3017156370291066088">
                       <link role="member" roleId="tp4f.1205756909548" targetNodeId="3017156370291056312" resolveInfo="sessionListener" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8974194528676173959">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8974194528676173962">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8974194528676173961">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eaq.~AssetsManager%dgetInstance()%ccodeOrchestra%dactionScript%dassets%dAssetsManager" resolveInfo="getInstance" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eaq.~AssetsManager" resolveInfo="AssetsManager" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8974194528676174022">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eaq.~AssetsManager%daddAssetFileListener(codeOrchestra%dactionScript%dassets%dAssetFileListener)%cvoid" resolveInfo="addAssetFileListener" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8974194528676174023">
+                    <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="8974194528676174024" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp4f.DefaultClassifierFieldAccessOperation" typeId="tp4f.1213999117680" id="8974194528676174025">
+                      <link role="member" roleId="tp4f.1205756909548" targetNodeId="8974194528676173886" resolveInfo="assetFileListener" />
                     </node>
                   </node>
                 </node>
@@ -2731,6 +2772,23 @@
                     <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="3017156370291066095" />
                     <node role="operation" roleId="tpee.1197027833540" type="tp4f.DefaultClassifierFieldAccessOperation" typeId="tp4f.1213999117680" id="3017156370291066096">
                       <link role="member" roleId="tp4f.1205756909548" targetNodeId="3017156370291056312" resolveInfo="sessionListener" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8974194528676174027">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8974194528676174031">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8974194528676174030">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eaq.~AssetsManager%dgetInstance()%ccodeOrchestra%dactionScript%dassets%dAssetsManager" resolveInfo="getInstance" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eaq.~AssetsManager" resolveInfo="AssetsManager" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8974194528676174035">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eaq.~AssetsManager%dremoveAssetFileListener(codeOrchestra%dactionScript%dassets%dAssetFileListener)%cvoid" resolveInfo="removeAssetFileListener" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8974194528676252188">
+                    <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="8974194528676252189" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp4f.DefaultClassifierFieldAccessOperation" typeId="tp4f.1213999117680" id="8974194528676252190">
+                      <link role="member" roleId="tp4f.1205756909548" targetNodeId="8974194528676173886" resolveInfo="assetFileListener" />
                     </node>
                   </node>
                 </node>
@@ -4670,6 +4728,37 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="3716075014388849032" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3716075014388849042" />
     </node>
+    <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="8974194528676252201">
+      <property name="name" nameId="tpck.1169194664001" value="fireAssetUpdated" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="8974194528676252202" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="8974194528676252203">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="8974194528676252211">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="8974194528676252212">
+            <property name="text" nameId="tpee.6329021646629104958" value="TODO: implement" />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpib.LogStatement" typeId="tpib.1167227138527" id="8974194528676252243">
+          <property name="severity" nameId="tpib.1167245565795" value="trace" />
+          <node role="logExpression" roleId="tpib.1167227463056" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8974194528676252245">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="8974194528676252248">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8974194528676252206" resolveInfo="relativePath" />
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8974194528676252244">
+              <property name="value" nameId="tpee.1070475926801" value="Asset updated: " />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8974194528676252204" />
+      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="8974194528676252206">
+        <property name="name" nameId="tpck.1169194664001" value="relativePath" />
+        <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="8974194528676252207" />
+      </node>
+      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="8974194528676252208">
+        <property name="name" nameId="tpck.1169194664001" value="abslolutePath" />
+        <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="8974194528676252210" />
+      </node>
+    </node>
   </root>
   <root id="3017156370291066027">
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3017156370291066028" />
@@ -6341,6 +6430,104 @@
       <node role="keystroke" roleId="tp4k.1562714432501166206" type="tp4k.KeyMapKeystroke" typeId="tp4k.1207318242772" id="9064145594862654536">
         <property name="modifiers" nameId="tp4k.1207318242773" value="ctrl" />
         <property name="keycode" nameId="tp4k.1207318242774" value="VK_ENTER" />
+      </node>
+    </node>
+  </root>
+  <root id="8974194528676161361">
+    <node role="field" roleId="tpee.1068390468199" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="8974194528676173865">
+      <property name="name" nameId="tpck.1169194664001" value="liveCodingIncrementalGenerationManager" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="8974194528676173866" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8974194528676173868">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="5005916371628986771" resolveInfo="LiveCodingIncrementalGenerationManager" />
+      </node>
+    </node>
+    <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8974194528676161362" />
+    <node role="constructor" roleId="tpee.1068390468201" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="8974194528676161363">
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="8974194528676161364" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8974194528676161365" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="8974194528676161366">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8974194528676173871">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="8974194528676173878">
+            <node role="rValue" roleId="tpee.1068498886297" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="8974194528676173881">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8974194528676173869" resolveInfo="liveCodingIncrementalGenerationManager" />
+            </node>
+            <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8974194528676173873">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="8974194528676173872" />
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.FieldReferenceOperation" typeId="tpee.1197029447546" id="8974194528676173877">
+                <link role="fieldDeclaration" roleId="tpee.1197029500499" targetNodeId="8974194528676173865" resolveInfo="liveCodingIncrementalGenerationManager" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="8974194528676173869">
+        <property name="name" nameId="tpck.1169194664001" value="liveCodingIncrementalGenerationManager" />
+        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8974194528676173870">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="5005916371628986771" resolveInfo="LiveCodingIncrementalGenerationManager" />
+        </node>
+      </node>
+    </node>
+    <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8974194528676173699">
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="eaq.~AssetFileListener" resolveInfo="AssetFileListener" />
+    </node>
+    <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="8974194528676173700">
+      <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="onAssetFileEvent" />
+      <property name="isFinal" nameId="tpee.1181808852946" value="false" />
+      <property name="isDeprecated" nameId="tpee.1224848525476" value="false" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8974194528676173701" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="8974194528676173702" />
+      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="8974194528676173703">
+        <property name="name" nameId="tpck.1169194664001" value="event" />
+        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8974194528676173704">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="eaq.~AssetFileEvent" resolveInfo="AssetFileEvent" />
+        </node>
+      </node>
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="8974194528676173705">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="8974194528676252227">
+          <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="8974194528676252228">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8974194528676252191">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8974194528676252197">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalInstanceFieldReference" typeId="tpee.7785501532031639928" id="8974194528676252192">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8974194528676173865" resolveInfo="liveCodingIncrementalGenerationManager" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8974194528676252205">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8974194528676252201" resolveInfo="fireAssetUpdated" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8974194528676252214">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="8974194528676252213">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8974194528676173703" resolveInfo="event" />
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8974194528676252218">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eaq.~AssetFileEvent%dgetRelativePath()%cjava%dlang%dString" resolveInfo="getRelativePath" />
+                    </node>
+                  </node>
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8974194528676252221">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="8974194528676252220">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8974194528676173703" resolveInfo="event" />
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8974194528676252225">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eaq.~AssetFileEvent%dgetAbsolutePath()%cjava%dlang%dString" resolveInfo="getAbsolutePath" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="condition" roleId="tpee.1068580123160" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="8974194528676252237">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="8974194528676252241">
+              <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="f23r.~AssetEventType%dCHANGED" resolveInfo="CHANGED" />
+              <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="f23r.~AssetEventType" resolveInfo="AssetEventType" />
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8974194528676252232">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="8974194528676252231">
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8974194528676173703" resolveInfo="event" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8974194528676252236">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eaq.~AssetFileEvent%dgetEventType()%ccodeOrchestra%dactionScript%dassets%dutil%dAssetEventType" resolveInfo="getEventType" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </root>
