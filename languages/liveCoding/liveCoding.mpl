@@ -13,6 +13,7 @@
       </models>
       <external-templates>
         <generator generatorUID="28b08ee2-e6bf-406d-8c0a-da12f6f3d117(codeOrchestra.actionScript#1876716203901413928)" />
+        <generator generatorUID="d25ac8a0-1e1a-4807-979a-a16c23a3c275(codeOrchestra.projectAssets#3270617262786186070)" />
       </external-templates>
       <dependencies>
         <dependency reexport="false" exclude="false">JDK</dependency>
@@ -21,6 +22,7 @@
         <dependency reexport="false" exclude="false">codeOrchestra.actionScript.liveCoding#866401854151052314</dependency>
         <dependency reexport="false" exclude="false">codeOrchestra.actionScript.logging</dependency>
         <dependency reexport="false" exclude="false">codeOrchestra.smallLanguage</dependency>
+        <dependency reexport="false" exclude="false">framework_swc</dependency>
         <dependency reexport="false" exclude="false">jetbrains.mps.baseLanguage</dependency>
         <dependency reexport="false" exclude="false">jetbrains.mps.baseLanguage.blTypes</dependency>
         <dependency reexport="false" exclude="false">jetbrains.mps.baseLanguage.closures</dependency>
@@ -30,7 +32,6 @@
         <dependency reexport="false" exclude="false">playerglobal_swc</dependency>
         <dependency reexport="false" exclude="false">rpc_swc</dependency>
         <dependency reexport="false" exclude="false">spark_swc</dependency>
-        <dependency reexport="false" exclude="false">framework_swc</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>baseLanguage.ext.modelCache</usedLanguage>
@@ -51,10 +52,20 @@
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <generator generatorUID="28b08ee2-e6bf-406d-8c0a-da12f6f3d117(codeOrchestra.actionScript#1876716203901413928)" />
-            <external-mapping>
-              <all-local-mappings />
-            </external-mapping>
+            <mapping-set>
+              <mapping-set-element>
+                <generator generatorUID="28b08ee2-e6bf-406d-8c0a-da12f6f3d117(codeOrchestra.actionScript#1876716203901413928)" />
+                <external-mapping>
+                  <all-local-mappings />
+                </external-mapping>
+              </mapping-set-element>
+              <mapping-set-element>
+                <generator generatorUID="d25ac8a0-1e1a-4807-979a-a16c23a3c275(codeOrchestra.projectAssets#3270617262786186070)" />
+                <external-mapping>
+                  <all-local-mappings />
+                </external-mapping>
+              </mapping-set-element>
+            </mapping-set>
           </lesser-priority-mapping>
         </mapping-priority-rule>
         <mapping-priority-rule kind="absolute_first">
