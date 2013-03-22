@@ -373,6 +373,20 @@
                 </node>
               </node>
             </node>
+            <node role="argument" roleId="rzqf.856705193941281781" type="rzqf.CommandParameterAssignment" typeId="rzqf.856705193941281764" id="7952827836415057073">
+              <link role="parameterDeclaration" roleId="rzqf.856705193941281765" targetNodeId="4jdw.7952827836414995044" resolveInfo="webAddress" />
+              <node role="value" roleId="rzqf.856705193941281766" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7952827836415057081">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7952827836415057076">
+                  <node role="operand" roleId="tpee.1197027771414" type="uhxm.ConfigurationFromExecutorReference" typeId="uhxm.7806358006983738927" id="7952827836415057075" />
+                  <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="7952827836415057080">
+                    <link role="variableDeclaration" roleId="fb9u.946964771156066575" targetNodeId="6301529416470493642" resolveInfo="myLiveCodingSettings" />
+                  </node>
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="7952827836415057085">
+                  <link role="variableDeclaration" roleId="fb9u.946964771156066575" targetNodeId="7952827836415057009" resolveInfo="webAddress" />
+                </node>
+              </node>
+            </node>
             <node role="argument" roleId="rzqf.856705193941281781" type="rzqf.CommandParameterAssignment" typeId="rzqf.856705193941281764" id="602256540007053612">
               <link role="parameterDeclaration" roleId="rzqf.856705193941281765" targetNodeId="4jdw.7246331298844226667" resolveInfo="launcherType" />
               <node role="value" roleId="rzqf.856705193941281766" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4912847108532402478">
@@ -484,6 +498,22 @@
                 <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="7246331298844207121" />
                 <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="7246331298844207119">
                   <link role="variableDeclaration" roleId="fb9u.946964771156066575" targetNodeId="7246331298844207049" resolveInfo="flashPlayerPath" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7952827836415057058">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7952827836415057060">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="7952827836415057059">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5728582121944852440" resolveInfo="runConfigurationWrapper" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7952827836415057064">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~ASLiveCodingRunConfiguration%dsetWebAddress(java%dlang%dString)%cvoid" resolveInfo="setWebAddress" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7952827836415057066">
+                <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="7952827836415057065" />
+                <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="7952827836415057070">
+                  <link role="variableDeclaration" roleId="fb9u.946964771156066575" targetNodeId="7952827836415057009" resolveInfo="webAddress" />
                 </node>
               </node>
             </node>
@@ -673,6 +703,22 @@
               </node>
             </node>
           </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7952827836415057013">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7952827836415057015">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="7952827836415057014">
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="9151532210702383027" resolveInfo="runConfigurationWrapper" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7952827836415057019">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~ASLiveCodingRunConfiguration%dsetWebAddress(java%dlang%dString)%cvoid" resolveInfo="setWebAddress" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7952827836415057021">
+                  <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="7952827836415057020" />
+                  <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="7952827836415057025">
+                    <link role="variableDeclaration" roleId="fb9u.946964771156066575" targetNodeId="7952827836415057009" resolveInfo="webAddress" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="8546660906669023009" />
           <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="8546660906669023012">
             <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="8546660906669023013">
@@ -852,6 +898,22 @@
                   <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="7246331298844207100" />
                   <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="7246331298844207101">
                     <link role="variableDeclaration" roleId="fb9u.946964771156066575" targetNodeId="7246331298844207049" resolveInfo="flashPlayerPath" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7952827836415057027">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7952827836415057029">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="7952827836415057028">
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3190354945660292488" resolveInfo="runConfigurationWrapper" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7952827836415057033">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~ASLiveCodingRunConfiguration%dsetWebAddress(java%dlang%dString)%cvoid" resolveInfo="setWebAddress" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7952827836415057035">
+                  <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="7952827836415057034" />
+                  <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="7952827836415057039">
+                    <link role="variableDeclaration" roleId="fb9u.946964771156066575" targetNodeId="7952827836415057009" resolveInfo="webAddress" />
                   </node>
                 </node>
               </node>
@@ -1167,6 +1229,24 @@
               </node>
             </node>
           </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7952827836415057041">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="7952827836415057048">
+              <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7952827836415057052">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="7952827836415057051">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3190354945660292488" resolveInfo="runConfigurationWrapper" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7952827836415057056">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bzft.~ASLiveCodingRunConfiguration%dgetWebAddress()%cjava%dlang%dString" resolveInfo="getWebAddress" />
+                </node>
+              </node>
+              <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7952827836415057043">
+                <node role="operand" roleId="tpee.1197027771414" type="fb9u.Configuration_Parameter" typeId="fb9u.946964771156067216" id="7952827836415057042" />
+                <node role="operation" roleId="tpee.1197027833540" type="fb9u.PersistentPropertyReferenceOperation" typeId="fb9u.946964771156066574" id="7952827836415057047">
+                  <link role="variableDeclaration" roleId="fb9u.946964771156066575" targetNodeId="7952827836415057009" resolveInfo="webAddress" />
+                </node>
+              </node>
+            </node>
+          </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="8546660906668917924" />
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8546660906668917926">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="8546660906668917933">
@@ -1291,6 +1371,10 @@
     <node role="persistentProperty" roleId="fb9u.946964771156066595" type="fb9u.PersistentPropertyDeclaration" typeId="fb9u.946964771156066585" id="3190354945660291339">
       <property name="name" nameId="tpck.1169194664001" value="swfFile" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3190354945660291341" />
+    </node>
+    <node role="persistentProperty" roleId="fb9u.946964771156066595" type="fb9u.PersistentPropertyDeclaration" typeId="fb9u.946964771156066585" id="7952827836415057009">
+      <property name="name" nameId="tpck.1169194664001" value="webAddress" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="7952827836415057011" />
     </node>
     <node role="persistentProperty" roleId="fb9u.946964771156066595" type="fb9u.PersistentPropertyDeclaration" typeId="fb9u.946964771156066585" id="3190354945660291347">
       <property name="name" nameId="tpck.1169194664001" value="useCustomFile" />
