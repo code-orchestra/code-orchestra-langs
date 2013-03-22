@@ -23,6 +23,7 @@
   <import index="pylm" modelUID="r:c0ba38c5-765c-41a6-a90f-5e172354be1e(codeOrchestra.extensionmethods.casalib)" version="-1" />
   <import index="c0di" modelUID="r:2b1792ac-839e-49be-b59b-b8ecd4398b18(codeOrchestra.actionScript.extensionMethods.methods)" version="-1" />
   <import index="ejnj" modelUID="r:b05ee051-416a-4565-b6df-068850416543(org.casalib.util)" version="-1" />
+  <import index="v8ee" modelUID="f:swc_stub#mx.core(mx.core@swc_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="3vt2" modelUID="r:49784cba-a384-4286-b969-08d540fbc32f(codeOrchestra.actionScript.structure)" version="81" implicit="yes" />
   <import index="m5sl" modelUID="r:93390832-59c0-4190-943c-43f11a357c86(codeOrchestra.actionScript.collections.structure)" version="-1" implicit="yes" />
@@ -1954,6 +1955,7 @@
                                     <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="1368479023198873564">
                                       <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1944212109269492107" resolveInfo="assetChange" />
                                     </node>
+                                    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="jqm3.LogAnnotation" typeId="jqm3.6442196390395724006" id="107014212918918925" />
                                   </node>
                                 </node>
                               </node>
@@ -2148,6 +2150,23 @@
                       </node>
                     </node>
                   </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="107014212920061324">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="107014212920061325">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="jqm3.LogExpression" typeId="jqm3.3263609243781816981" id="107014212920061326">
+              <property name="severity" nameId="jqm3.3263609243781816982" value="trace" />
+              <node role="expression" roleId="jqm3.3263609243781816984" type="3vt2.PlusExpression" typeId="3vt2.1630592743144887854" id="107014212920061328">
+                <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="107014212920061331">
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="107014212920061332">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="4671562459499402701" resolveInfo="url" />
+                  </node>
+                </node>
+                <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="107014212920061327">
+                  <property name="value" nameId="3vt2.3383382943159949640" value="&gt;&gt;&gt;&gt; url: " />
                 </node>
               </node>
             </node>
@@ -2431,6 +2450,7 @@
                                                 </node>
                                               </node>
                                             </node>
+                                            <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="jqm3.LogAnnotation" typeId="jqm3.6442196390395724006" id="107014212919336482" />
                                           </node>
                                         </node>
                                       </node>
