@@ -1704,9 +1704,7 @@
                 </node>
               </node>
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6076585360679824319">
-                <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="6076585360679824318">
-                  <property name="left_transform_hint" value="true" />
-                </node>
+                <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="6076585360679824318" />
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6076585360679824323">
                   <link role="property" roleId="tp25.1138056395725" targetNodeId="3vt2.6785247387536506694" resolveInfo="isRoot" />
                 </node>
@@ -3473,6 +3471,23 @@
               <property name="text" nameId="tpih.1164413036326" value="public" />
               <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.IncludeMacro" typeId="tpf8.1194565793557" id="6410508113988882745">
                 <link role="includeTemplate" roleId="tpf8.1194566366375" targetNodeId="6410508113988780724" resolveInfo="include_IVisible" />
+              </node>
+            </node>
+            <node role="item" roleId="tpih.1211919312449" type="tpih.GText" typeId="tpih.1164412789837" id="8315515285136372549">
+              <property name="text" nameId="tpih.1164413036326" value="dynamic" />
+              <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.IfMacro" typeId="tpf8.1118773211870" id="8315515285136372551">
+                <node role="conditionFunction" roleId="tpf8.1167945861827" type="tpf8.IfMacro_Condition" typeId="tpf8.1167945743726" id="8315515285136372554">
+                  <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8315515285136372555">
+                    <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8315515285136372556">
+                      <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8315515285136372557">
+                        <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8315515285136372560">
+                          <link role="property" roleId="tp25.1138056395725" targetNodeId="3vt2.1003657255945148876" resolveInfo="isDynamic" />
+                        </node>
+                        <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="8315515285136372559" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
             <node role="item" roleId="tpih.1211919312449" type="tpih.GText" typeId="tpih.1164412789837" id="6410508113992800996">
