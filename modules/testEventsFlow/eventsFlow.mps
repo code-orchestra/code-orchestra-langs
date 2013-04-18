@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:bf44aec0-a373-444e-a9c6-954da2ce0939(eventsFlow)">
   <persistence version="7" />
-  <language namespace="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce(codeOrchestra.actionScript)" />
-  <language namespace="3a27ae5e-9c30-4977-a146-ffce86d2005c(codeOrchestra.actionScript.logging)" />
-  <language namespace="309a44cd-c95a-432d-973b-a9f806d7a6cb(codeOrchestra.actionScript.eventsFlow)" />
-  <language namespace="4ccc7985-cbd1-4af4-a0be-6c0449d5e673(codeOrchestra.actionScript.closures)" />
-  <language namespace="bc24470f-6fe0-49d1-8324-930227a4f989(codeOrchestra.actionScript.collections)" />
-  <language namespace="25fc127a-f19c-4cfb-866c-0e5ff9049bb2(codeOrchestra.actionScript.assertions)" />
-  <language-engaged-on-generation namespace="3a27ae5e-9c30-4977-a146-ffce86d2005c(codeOrchestra.actionScript.logging)" />
+  <language namespace="codeOrchestra.actionScript" />
+  <language namespace="codeOrchestra.actionScript.logging" />
+  <language namespace="codeOrchestra.actionScript.eventsFlow" />
+  <language namespace="codeOrchestra.actionScript.closures" />
+  <language namespace="codeOrchestra.actionScript.collections" />
+  <language namespace="codeOrchestra.actionScript.assertions" />
+  <language namespace="codeOrchestra.projectAssets" />
+  <language-engaged-on-generation namespace="codeOrchestra.actionScript.logging" />
   <import index="1k6w" modelUID="f:swc_stub#(@swc_stub)" version="-1" />
   <import index="jivu" modelUID="f:swc_stub#flash.display(flash.display@swc_stub)" version="-1" />
   <import index="2vau" modelUID="f:swc_stub#flash.events(flash.events@swc_stub)" version="-1" />
   <import index="a91" modelUID="f:swc_stub#mx.controls(mx.controls@swc_stub)" version="-1" />
   <import index="isnc" modelUID="r:d1e63020-1d5a-4417-89de-7ced8975f252(codeOrchestra.actionScript.eventsFlow.util)" version="-1" />
-  <import index="lcgt" modelUID="f:swc_stub#spark.components(spark.components@swc_stub)" version="-1" />
-  <import index="ic5l" modelUID="f:#()" version="-1" />
-  <import index="j4ot" modelUID="r:2ac04c12-1d74-46c7-8d92-94f05d20fa58(codeOrchestra.actionScript.collections.util)" version="0" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="3vt2" modelUID="r:49784cba-a384-4286-b969-08d540fbc32f(codeOrchestra.actionScript.structure)" version="81" implicit="yes" />
   <import index="wv2x" modelUID="r:3ad38550-61d2-4c03-aaf7-25a9892537a3(codeOrchestra.actionScript.eventsFlow.structure)" version="-1" implicit="yes" />
@@ -23,6 +21,9 @@
   <import index="jqm3" modelUID="r:fbe79660-97b4-428d-b1be-fe20f98872b6(codeOrchestra.actionScript.logging.structure)" version="2" implicit="yes" />
   <import index="m5sl" modelUID="r:93390832-59c0-4190-943c-43f11a357c86(codeOrchestra.actionScript.collections.structure)" version="-1" implicit="yes" />
   <import index="nbmv" modelUID="r:e5e77513-1278-416a-b1e2-beffd85a0221(codeOrchestra.actionScript.assertions.structure)" version="-1" implicit="yes" />
+  <import index="lcgt" modelUID="f:swc_stub#spark.components(spark.components@swc_stub)" version="-1" implicit="yes" />
+  <import index="lbmv" modelUID="r:8a4b8ef0-9ad1-439b-a216-d0659bebf629(codeOrchestra.projectAssets.structure)" version="-1" implicit="yes" />
+  <import index="c47s" modelUID="f:asset_stub##assets#-Project_assets(#assets#-Project_assets@asset_stub)" version="-1" implicit="yes" />
   <roots>
     <node type="3vt2.ClassConcept" typeId="3vt2.1237644023270" id="8530922048462925301">
       <property name="sourceModule" value="73020f77-87e3-4cff-8fe4-9991df2fe788" />
@@ -3465,7 +3466,27 @@
     <node role="outOfPackageButton" roleId="3vt2.5096339543744144377" type="3vt2.OutOfPackageAddButton" typeId="3vt2.5096339543744144378" id="7453401087267184626" />
     <node role="constructor" roleId="3vt2.1239652818186" type="3vt2.ConstructorDeclaration" typeId="3vt2.1237644154612" id="7453401087267184627">
       <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="7453401087267184628">
-        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="9122436897329475890" />
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="5919887510093376662">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="5919887510093376663">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="lbmv.AssetRefenceExpression" typeId="lbmv.757112486354479175" id="5919887510093376664">
+              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="c47s.~bugaga_d_properties" resolveInfo="bugaga.properties" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="4016615616214939508">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="4016615616214939509">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="lbmv.AssetRefenceExpression" typeId="lbmv.757112486354479175" id="4016615616214939510">
+              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="c47s.~123_d_jpg" resolveInfo="123.jpg" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="4016615616214942418">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="4016615616214942419">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="lbmv.AssetRefenceExpression" typeId="lbmv.757112486354479175" id="4016615616214942420">
+              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="c47s.~asd876_d_jpg" resolveInfo="876.jpg" />
+            </node>
+          </node>
+        </node>
       </node>
       <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="7453401087267184633" />
     </node>

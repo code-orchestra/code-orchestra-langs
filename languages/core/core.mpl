@@ -47,6 +47,7 @@
     <dependency reexport="false" exclude="false">playerglobal_swc</dependency>
     <dependency reexport="false" exclude="false">rpc_swc</dependency>
     <dependency reexport="false" exclude="false">codeOrchestra.projectAssets</dependency>
+    <dependency reexport="false" exclude="false">codeOrchestra.projectAssets#3270617262786186070</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>baseLanguage.ext.modelCache</usedLanguage>
