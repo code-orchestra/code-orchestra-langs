@@ -100,3 +100,7 @@ languages/templates/languageModels/constraints.mps
 languages/templates/languageModels/plugin.mps
 
 modules/testMxml/testMxml.mps
+
+modules/testMxml/testMxml_flex_config.xml
+
+modules/testMxml/testMxml.msd
