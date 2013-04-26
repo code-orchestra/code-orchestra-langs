@@ -7573,6 +7573,22 @@
                                   </node>
                                 </node>
                               </node>
+                              <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp3r.PropertyAntiquotation" typeId="tp3r.1196866233735" id="4701924606760730911">
+                                <property name="propertyName" nameId="tpck.1757699476691236117" value="name" />
+                                <node role="expression" roleId="tp3r.1196350785111" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="4701924606760730914">
+                                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4701924606760730915">
+                                    <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="4701924606760730916">
+                                      <link role="variable" roleId="tp2q.1153944258490" targetNodeId="4258698068592566644" resolveInfo="cl" />
+                                    </node>
+                                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4701924606760730917">
+                                      <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+                                    </node>
+                                  </node>
+                                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4701924606760730918">
+                                    <property name="value" nameId="tpee.1070475926801" value="initLiveField_" />
+                                  </node>
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
