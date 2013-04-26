@@ -135,6 +135,17 @@
     <node role="method" roleId="3vt2.1238599729748" type="3vt2.InstanceMethodDeclaration" typeId="3vt2.1237644241500" id="4691844006497741474">
       <property name="name" nameId="tpck.1169194664001" value="putMethod" />
       <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="4691844006496017023">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.CommentedStatement" typeId="3vt2.1630592743144646070" id="4701924606760730031">
+          <node role="statement" roleId="3vt2.1630592743144646071" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="3443854535863065529">
+            <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="3443854535863065530">
+              <node role="expression" roleId="3vt2.2232984037991132641" type="jqm3.LogExpression" typeId="jqm3.3263609243781816981" id="3443854535863065531">
+                <property name="severity" nameId="jqm3.3263609243781816982" value="trace" />
+                <node role="expression" roleId="jqm3.3263609243781816984" type="jqm3.LogMethodDirective" typeId="jqm3.2782148203733543435" id="3443854535863066473" />
+                <node role="expression" roleId="jqm3.3263609243781816984" type="jqm3.LogArgsDirective" typeId="jqm3.7869733229381754460" id="3443854535863066475" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node role="statement" roleId="3vt2.1237648447990" type="3vt2.IfStatement" typeId="3vt2.1630592743144674750" id="3716075014388915316">
           <node role="condition" roleId="3vt2.1630592743144674752" type="3vt2.Condition" typeId="3vt2.1630592743144646077" id="3716075014388915317">
             <node role="expressionList" roleId="3vt2.7484592148249142370" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="3716075014388915318">
