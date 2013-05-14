@@ -144,14 +144,32 @@
       <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="5714443973649381747">
         <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Boolean" resolveInfo="Boolean" />
       </node>
+      <node role="defaultValue" roleId="3vt2.1630592743144475989" type="3vt2.BooleanConstant" typeId="3vt2.1241011502101" id="3145496202702629668">
+        <property name="value" nameId="3vt2.1241011554882" value="true" />
+      </node>
+    </node>
+    <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="3145496202702629660">
+      <property name="name" nameId="tpck.1169194664001" value="assetsWatch" />
+      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3145496202702629662">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Boolean" resolveInfo="Boolean" />
+      </node>
+      <node role="defaultValue" roleId="3vt2.1630592743144475989" type="3vt2.BooleanConstant" typeId="3vt2.1241011502101" id="3145496202702629664">
+        <property name="value" nameId="3vt2.1241011554882" value="true" />
+      </node>
     </node>
     <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="600140203015164197">
       <property name="name" nameId="tpck.1169194664001" value="priority" />
       <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="600140203015164199">
         <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~int" resolveInfo="int" />
       </node>
+      <node role="defaultValue" roleId="3vt2.1630592743144475989" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="3145496202702629666">
+        <property name="value" nameId="3vt2.1241004569844" value="0" />
+      </node>
     </node>
     <node role="outOfPackageButton" roleId="3vt2.5096339543744144377" type="3vt2.OutOfPackageAddButton" typeId="3vt2.5096339543744144378" id="5573603667458783779" />
+    <node role="asDoc" roleId="3vt2.3043663067530528325" type="3vt2.AsDoc" typeId="3vt2.3043663067530528315" id="3145496202702629669">
+      <node role="line" roleId="3vt2.3043663067530529483" type="3vt2.AsDocLine" typeId="3vt2.3043663067530529472" id="3145496202702629670" />
+    </node>
   </root>
   <root id="600140203015164189">
     <node role="outOfPackageButton" roleId="3vt2.5096339543744144377" type="3vt2.OutOfPackageAddButton" typeId="3vt2.5096339543744144378" id="600140203015164196" />

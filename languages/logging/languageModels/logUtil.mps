@@ -4,15 +4,16 @@
   <language namespace="codeOrchestra.actionScript" />
   <language namespace="baseLanguage.ext.nullable" />
   <language namespace="codeOrchestra.actionScript.mixins" />
+  <language namespace="codeOrchestra.actionScript.logging" />
   <import index="xjoc" modelUID="f:swc_stub#flash.net(flash.net@swc_stub)" version="-1" />
   <import index="2vau" modelUID="f:swc_stub#flash.events(flash.events@swc_stub)" version="-1" />
   <import index="1k6w" modelUID="f:swc_stub#(@swc_stub)" version="-1" />
   <import index="fju7" modelUID="f:swc_stub#flash.utils(flash.utils@swc_stub)" version="-1" />
   <import index="29it" modelUID="r:944a31f8-bb9e-4168-b4ad-9638a126a51d(codeOrchestra.actionScript.util)" version="-1" />
   <import index="jeyo" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="tpdu" modelUID="r:00000000-0000-4000-0000-011c895902de(jetbrains.mps.baseLanguage.blTypes.primitiveDescriptors)" version="-1" />
   <import index="k2ls" modelUID="r:a515a607-b683-410e-b576-8fb6fe47b78f(codeOrchestra.actionScript.enums.util)" version="-1" />
   <import index="f2uc" modelUID="r:831e1d52-6c06-4248-97e9-2aaf939a5b91(codeOrchestra.actionScript.mixins.util)" version="-1" />
+  <import index="1avy" modelUID="f:swc_stub#flash.system(flash.system@swc_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="3vt2" modelUID="r:49784cba-a384-4286-b969-08d540fbc32f(codeOrchestra.actionScript.structure)" version="81" implicit="yes" />
   <roots>
@@ -1275,6 +1276,20 @@
             </node>
             <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.XmlExpression" typeId="3vt2.1454453520698992803" id="5611074087070568210">
               <node role="xmlNode" roleId="3vt2.1454453520698992807" type="3vt2.XmlElementNode" typeId="3vt2.1454453520698992780" id="5611074087070568211">
+                <node role="attrs" roleId="3vt2.1454453520698992784" type="3vt2.XmlAttribute" typeId="3vt2.1454453520698992808" id="5542952190228769885">
+                  <node role="attributeValue" roleId="3vt2.1454453520698992810" type="3vt2.XmlAttributeValue" typeId="3vt2.1454453520698992763" id="5542952190228769888">
+                    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="3vt2.XmlTemplate" typeId="3vt2.1454453520698992830" id="5542952190228769889">
+                      <node role="expression" roleId="3vt2.1454453520698992831" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="5542952190228769891">
+                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.StaticFieldReferenceOperation" typeId="3vt2.7909581671864683150" id="5542952190228769892">
+                          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="834568732355898612" resolveInfo="clientId" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="attributeName" roleId="3vt2.1454453520698992809" type="3vt2.XmlAttributeName" typeId="3vt2.1454453520698992756" id="5542952190228769887">
+                    <property name="name" nameId="tpck.1169194664001" value="clientId" />
+                  </node>
+                </node>
                 <node role="xmlName" roleId="3vt2.1454453520698992783" type="3vt2.XmlElementNodeName" typeId="3vt2.1454453520698992820" id="5611074087070568212">
                   <property name="name" nameId="tpck.1169194664001" value="logMessage" />
                 </node>
@@ -1506,7 +1521,7 @@
                               </node>
                               <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="834568732355898820">
                                 <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.StaticFieldReferenceOperation" typeId="3vt2.7909581671864683150" id="834568732355898821">
-                                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="834568732355898612" resolveInfo="classCreatedTimestamp" />
+                                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="834568732355898612" resolveInfo="clientId" />
                                 </node>
                               </node>
                             </node>
@@ -1800,7 +1815,7 @@
       </node>
     </node>
     <node role="staticField" roleId="3vt2.1239652787843" type="3vt2.StaticFieldDeclaration" typeId="3vt2.1239652745040" id="834568732355898612">
-      <property name="name" nameId="tpck.1169194664001" value="classCreatedTimestamp" />
+      <property name="name" nameId="tpck.1169194664001" value="clientId" />
       <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PrivateVisibility" typeId="3vt2.1237671687576" id="834568732355898613" />
       <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="834568732355898616">
         <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
@@ -2020,7 +2035,7 @@
     <node role="staticMethod" roleId="3vt2.1239652857655" type="3vt2.StaticMethodDeclaration" typeId="3vt2.1240503066791" id="3889275043215803091">
       <property name="name" nameId="tpck.1169194664001" value="startLiveCodingSession" />
       <node role="parameter" roleId="3vt2.3618339097803723485" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="3889275043215803298">
-        <property name="name" nameId="tpck.1169194664001" value="sessionId" />
+        <property name="name" nameId="tpck.1169194664001" value="broadcastId" />
         <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3889275043215803300">
           <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
         </node>
@@ -2044,9 +2059,36 @@
                 <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="3889275043215803170">
                   <property name="value" nameId="3vt2.3383382943159949640" value="" />
                 </node>
-                <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="3889275043215803301">
-                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="4144789857666605826">
-                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3889275043215803298" resolveInfo="sessionId" />
+                <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.PlusExpression" typeId="3vt2.1630592743144887854" id="5542952190228898715">
+                  <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.PlusExpression" typeId="3vt2.1630592743144887854" id="5542952190228898716">
+                    <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.PlusExpression" typeId="3vt2.1630592743144887854" id="5542952190228898638">
+                      <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.PlusExpression" typeId="3vt2.1630592743144887854" id="5542952190228769868">
+                        <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="3889275043215803301">
+                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="4144789857666605826">
+                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3889275043215803298" resolveInfo="broadcastId" />
+                          </node>
+                        </node>
+                        <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="5542952190228769857">
+                          <property name="value" nameId="3vt2.3383382943159949640" value=":" />
+                        </node>
+                      </node>
+                      <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="5542952190228769873">
+                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.StaticFieldReferenceOperation" typeId="3vt2.7909581671864683150" id="5542952190228769874">
+                          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="834568732355898612" resolveInfo="clientId" />
+                        </node>
+                      </node>
+                    </node>
+                    <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="5542952190228898651">
+                      <property name="value" nameId="3vt2.3383382943159949640" value=":" />
+                    </node>
+                  </node>
+                  <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="5542952190228905110">
+                    <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="5542952190228905142">
+                      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1avy.~Capabilities" resolveInfo="Capabilities" />
+                    </node>
+                    <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.StaticGetterReference" typeId="3vt2.3584749982114047553" id="5542952190228905199">
+                      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1avy.~Capabilities_serverString_s_get" resolveInfo="serverString" />
+                    </node>
                   </node>
                 </node>
                 <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="3889275043215803303">
@@ -2056,9 +2098,20 @@
             </node>
           </node>
         </node>
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ReturnStatement" typeId="3vt2.3391459608350013428" id="5542952190228935776">
+          <node role="expression" roleId="3vt2.3391459608350013430" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="5542952190228935777">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="5542952190228935779">
+              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.StaticFieldReferenceOperation" typeId="3vt2.7909581671864683150" id="5542952190228935780">
+                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="834568732355898612" resolveInfo="clientId" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3889275043215803110" />
-      <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.VoidType" typeId="3vt2.1237649329996" id="3889275043215803111" />
+      <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="5542952190228935775">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
+      </node>
     </node>
     <node role="staticMethod" roleId="3vt2.1239652857655" type="3vt2.StaticMethodDeclaration" typeId="3vt2.1240503066791" id="4969246222123877018">
       <property name="name" nameId="tpck.1169194664001" value="setSocketAddress" />
