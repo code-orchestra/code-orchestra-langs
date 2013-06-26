@@ -21,14 +21,11 @@
     <node type="3vt2.AnnotationDeclaration" typeId="3vt2.1630592743144475980" id="896648595326759553">
       <property name="sourceModule" value="61f1b066-12fc-41eb-b175-ec618f465f03" />
       <property name="name" nameId="tpck.1169194664001" value="EditorForInstance" />
+      <link role="superAnnotation" roleId="3vt2.896648595327075313" targetNodeId="896648595326759552" resolveInfo="Editor" />
     </node>
     <node type="ug4l.EnumClass" typeId="ug4l.2136186081531835963" id="896648595326961443">
       <property name="sourceModule" value="61f1b066-12fc-41eb-b175-ec618f465f03" />
       <property name="name" nameId="tpck.1169194664001" value="EditorFormat" />
-    </node>
-    <node type="3vt2.AnnotationDeclaration" typeId="3vt2.1630592743144475980" id="896648595326961461">
-      <property name="sourceModule" value="61f1b066-12fc-41eb-b175-ec618f465f03" />
-      <property name="name" nameId="tpck.1169194664001" value="EditorAddAction" />
     </node>
     <node type="ug4l.EnumClass" typeId="ug4l.2136186081531835963" id="896648595326961493">
       <property name="sourceModule" value="61f1b066-12fc-41eb-b175-ec618f465f03" />
@@ -44,25 +41,6 @@
       <property name="name" nameId="tpck.1169194664001" value="strategy" />
       <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="896648595326961507">
         <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="896648595326961493" resolveInfo="EditStrategy" />
-      </node>
-    </node>
-    <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="896648595326961519">
-      <property name="name" nameId="tpck.1169194664001" value="component" />
-      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="896648595326961520">
-        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Class" resolveInfo="Class" />
-      </node>
-      <node role="remark" roleId="3vt2.3109959289237677655" type="3vt2.StatementRemark" typeId="3vt2.3109959289237669681" id="896648595326961521">
-        <property name="value" nameId="3vt2.3109959289237805335" value="interface or class" />
-      </node>
-    </node>
-    <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="896648595326961522">
-      <property name="name" nameId="tpck.1169194664001" value="property" />
-      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="896648595326961523">
-        <property name="name" nameId="tpck.1169194664001" value="String" />
-        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
-      </node>
-      <node role="remark" roleId="3vt2.3109959289237677655" type="3vt2.StatementRemark" typeId="3vt2.3109959289237669681" id="896648595326961524">
-        <property name="value" nameId="3vt2.3109959289237805335" value="property name" />
       </node>
     </node>
     <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="896648595326961525">
@@ -138,6 +116,12 @@
         <property name="value" nameId="3vt2.1241011554882" value="false" />
       </node>
     </node>
+    <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="896648595327074537">
+      <property name="name" nameId="tpck.1169194664001" value="listElementType" />
+      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="896648595327074538">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Class" resolveInfo="Class" />
+      </node>
+    </node>
   </root>
   <root id="896648595326759553">
     <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="896648595326961459">
@@ -157,56 +141,6 @@
       </node>
       <node role="remark" roleId="3vt2.3109959289237677655" type="3vt2.StatementRemark" typeId="3vt2.3109959289237669681" id="896648595326961465">
         <property name="value" nameId="3vt2.3109959289237805335" value="property name" />
-      </node>
-    </node>
-    <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="896648595326961508">
-      <property name="name" nameId="tpck.1169194664001" value="name" />
-      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="896648595326961509">
-        <property name="name" nameId="tpck.1169194664001" value="String" />
-        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
-      </node>
-      <node role="remark" roleId="3vt2.3109959289237677655" type="3vt2.StatementRemark" typeId="3vt2.3109959289237669681" id="896648595326961510">
-        <property name="value" nameId="3vt2.3109959289237805335" value="display name (default - propertyName)" />
-      </node>
-    </node>
-    <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="896648595326961472">
-      <property name="name" nameId="tpck.1169194664001" value="category" />
-      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="896648595326961473">
-        <property name="name" nameId="tpck.1169194664001" value="String" />
-        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
-      </node>
-    </node>
-    <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="896648595326961478">
-      <property name="name" nameId="tpck.1169194664001" value="defaultValue" />
-      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="896648595326961479">
-        <property name="name" nameId="tpck.1169194664001" value="String" />
-        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
-      </node>
-    </node>
-    <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="896648595326961480">
-      <property name="name" nameId="tpck.1169194664001" value="enumeration" />
-      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="896648595326961481">
-        <property name="name" nameId="tpck.1169194664001" value="String" />
-        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
-      </node>
-    </node>
-    <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="896648595326961482">
-      <property name="name" nameId="tpck.1169194664001" value="format" />
-      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="896648595326961489">
-        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="896648595326961443" resolveInfo="EditorFormat" />
-      </node>
-      <node role="remark" roleId="3vt2.3109959289237677655" type="3vt2.StatementRemark" typeId="3vt2.3109959289237669681" id="896648595326961487">
-        <property name="value" nameId="3vt2.3109959289237805335" value="Determines the type of editor that appears in the Property inspector when you modify the attribute." />
-      </node>
-    </node>
-    <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="896648595326961484">
-      <property name="name" nameId="tpck.1169194664001" value="listOffset" />
-      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="896648595326961485">
-        <property name="name" nameId="tpck.1169194664001" value="String" />
-        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
-      </node>
-      <node role="remark" roleId="3vt2.3109959289237677655" type="3vt2.StatementRemark" typeId="3vt2.3109959289237669681" id="896648595326961486">
-        <property name="value" nameId="3vt2.3109959289237805335" value="Specifies the default index into a List value." />
       </node>
     </node>
     <node role="asDoc" roleId="3vt2.3043663067530528325" type="3vt2.AsDoc" typeId="3vt2.3043663067530528315" id="896648595326961467">
@@ -255,14 +189,6 @@
     </node>
     <node role="implementedInterface" roleId="3vt2.1239652910735" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="896648595326961446">
       <property name="isAllowEmpty" nameId="3vt2.169389546812107517" value="true" />
-    </node>
-  </root>
-  <root id="896648595326961461">
-    <node role="parameter" roleId="3vt2.1630592743144475984" type="3vt2.AnnotationPropertyDeclaration" typeId="3vt2.1630592743144475985" id="896648595326961474">
-      <property name="name" nameId="tpck.1169194664001" value="component" />
-      <node role="type" roleId="3vt2.1630592743144475988" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="896648595326961477">
-        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Class" resolveInfo="Class" />
-      </node>
     </node>
   </root>
   <root id="896648595326961493">
@@ -390,6 +316,12 @@
       </node>
       <node role="implementedInterface" roleId="3vt2.1239652910735" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="896648595326967692">
         <property name="isAllowEmpty" nameId="3vt2.169389546812107517" value="true" />
+      </node>
+    </node>
+    <node role="annotation" roleId="3vt2.455913868588249145" type="3vt2.AnnotationInstance" typeId="3vt2.1630592743144475974" id="896648595328297899">
+      <link role="annotation" roleId="3vt2.1624755644612062310" targetNodeId="896648595326759553" resolveInfo="EditorForInstance" />
+      <node role="value" roleId="3vt2.1624755644612062294" type="3vt2.AnnotationPropertyValue" typeId="3vt2.1630592743144475978" id="896648595328297900">
+        <node role="value" roleId="3vt2.1624755644612063050" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="896648595328297901" />
       </node>
     </node>
   </root>

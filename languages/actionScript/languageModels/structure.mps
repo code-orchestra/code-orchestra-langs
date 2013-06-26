@@ -5008,6 +5008,12 @@
     </node>
   </root>
   <root id="1630592743144475980">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="896648595327075313">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
+      <property name="role" nameId="tpce.1071599776563" value="superAnnotation" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1630592743144475980" resolveInfo="AnnotationDeclaration" />
+    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1630592743144475981">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2627253240086528097" resolveInfo="IRoot" />
     </node>
