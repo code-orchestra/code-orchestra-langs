@@ -318,12 +318,6 @@
         <property name="isAllowEmpty" nameId="3vt2.169389546812107517" value="true" />
       </node>
     </node>
-    <node role="annotation" roleId="3vt2.455913868588249145" type="3vt2.AnnotationInstance" typeId="3vt2.1630592743144475974" id="896648595328297899">
-      <link role="annotation" roleId="3vt2.1624755644612062310" targetNodeId="896648595326759553" resolveInfo="EditorForInstance" />
-      <node role="value" roleId="3vt2.1624755644612062294" type="3vt2.AnnotationPropertyValue" typeId="3vt2.1630592743144475978" id="896648595328297900">
-        <node role="value" roleId="3vt2.1624755644612063050" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="896648595328297901" />
-      </node>
-    </node>
   </root>
 </model>
 
