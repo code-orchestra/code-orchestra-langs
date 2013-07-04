@@ -901,8 +901,8 @@
             </node>
           </node>
           <node role="condition" roleId="tpee.1068580123160" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8801828876014467889">
-            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="oxz8.1240208292988918461" resolveInfo="KeywordsUtil" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="oxz8.1240208292988918598" resolveInfo="isKeyword" />
+            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="760g.6520655557128663915" resolveInfo="KeywordsUtil" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="760g.6520655557128663920" resolveInfo="isKeyword" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8801828876014467890">
               <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="8801828876014467891" />
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8801828876014467892">
