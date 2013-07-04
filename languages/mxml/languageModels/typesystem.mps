@@ -19,7 +19,7 @@
   <devkit namespace="jetbrains.mps.devkit.general-purpose" />
   <import index="n5iv" modelUID="r:8db50c2a-6a97-4d49-a466-79cea12a6b1a(codeOrchestra.mxml.structure)" version="34" />
   <import index="ndwn" modelUID="r:81f0ca78-d516-436f-b54b-8970fc616f40(codeOrchestra.actionScript.editor)" version="0" />
-  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="8" />
+  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="9" />
   <import index="1k6w" modelUID="f:swc_stub#(@swc_stub)" version="-1" />
   <import index="3vt2" modelUID="r:49784cba-a384-4286-b969-08d540fbc32f(codeOrchestra.actionScript.structure)" version="84" />
   <import index="sgk9" modelUID="r:a26bf164-05ae-4f67-b69e-fd623f5caeb8(codeOrchestra.mxml.behavior)" version="7" />
@@ -41,6 +41,7 @@
   <import index="v8ee" modelUID="f:swc_stub#mx.core(mx.core@swc_stub)" version="-1" implicit="yes" />
   <import index="lcgt" modelUID="f:swc_stub#spark.components(spark.components@swc_stub)" version="-1" implicit="yes" />
   <import index="tpdg" modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" implicit="yes" />
+  <import index="760g" modelUID="r:9462d2a2-4e81-4a3d-a9e1-a8e7dcd66948(codeOrchestra.actionScript.lang.util)" version="0" implicit="yes" />
   <roots>
     <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="3116912533766394451">
       <property name="name" nameId="tpck.1169194664001" value="check_MxmlComponentAttributeParameter" />
@@ -2104,8 +2105,8 @@
                   </node>
                   <node role="condition" roleId="tpee.1206060619838" type="tpee.NotExpression" typeId="tpee.1081516740877" id="879353188073134056">
                     <node role="expression" roleId="tpee.1081516765348" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="879353188073134057">
-                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ejob.332600479656772591" resolveInfo="PatternUtil" />
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.332600479656772597" resolveInfo="isValidIndifier" />
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="760g.2637283161764766507" resolveInfo="PatternUtil" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="760g.2637283161764766533" resolveInfo="isValidIndifier" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="879353188073134058">
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="879353188073092063" resolveInfo="id" />
                       </node>

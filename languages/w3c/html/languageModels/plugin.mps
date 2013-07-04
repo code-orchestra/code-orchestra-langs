@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:88123295-bdcc-4bf7-8fe9-c8343b8e1369(html5.w3c.html.plugin)">
   <persistence version="7" />
-  <language namespace="28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)" />
-  <language namespace="0aec723e-d1c8-438a-9617-baa430df7f3d(html5.w3c.html)" />
-  <language namespace="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
-  <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
-  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-  <language namespace="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce(codeOrchestra.actionScript)" />
-  <language namespace="972ca8ca-74dd-4465-a884-8c03e004422d(baseLanguage.ext.nullable)" />
-  <language namespace="b7189d41-b93c-4ffa-ab10-12b334c0bb92(codeOrchestra.actionScript.enums)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  <language namespace="jetbrains.mps.lang.plugin" />
+  <language namespace="html5.w3c.html" />
+  <language namespace="jetbrains.mps.baseLanguage.classifiers" />
+  <language namespace="jetbrains.mps.lang.typesystem" />
+  <language namespace="jetbrains.mps.lang.core" />
+  <language namespace="codeOrchestra.actionScript" />
+  <language namespace="baseLanguage.ext.nullable" />
+  <language namespace="codeOrchestra.actionScript.enums" />
+  <devkit namespace="jetbrains.mps.devkit.general-purpose" />
   <import index="9vbt" modelUID="r:0563ce51-e3f4-487b-86d1-2f876c4cd774(html5.w3c.html.structure)" version="-1" />
   <import index="ug4l" modelUID="r:b7af40be-c419-4491-9cea-72efb573c7e5(codeOrchestra.actionScript.enums.structure)" version="1" />
   <import index="iduq" modelUID="r:d54d0e95-e69b-4301-9201-b1caae466dfc(codeOrchestra.actionScript.core.plugin)" version="-1" />
   <import index="o9cw" modelUID="f:java_stub#org.w3c.dom.html(org.w3c.dom.html@java_stub)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="8" />
+  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="9" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="1k6w" modelUID="f:swc_stub#(@swc_stub)" version="-1" />
   <import index="jeyo" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
@@ -33,6 +33,7 @@
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
+  <import index="760g" modelUID="r:9462d2a2-4e81-4a3d-a9e1-a8e7dcd66948(codeOrchestra.actionScript.lang.util)" version="0" implicit="yes" />
   <roots>
     <node type="tp4k.ActionDeclaration" typeId="tp4k.1203071646776" id="5212347747212521731">
       <property name="sourceModule" value="0aec723e-d1c8-438a-9617-baa430df7f3d" />
@@ -223,8 +224,8 @@
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5212347747213245578">
                   <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="5212347747213245636">
                     <node role="rValue" roleId="tpee.1068498886297" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5212347747213245640">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.5105896455437474159" resolveInfo="convertToConstantStyle" />
-                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ejob.7575476684780666650" resolveInfo="NameUtil" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="760g.2637283161764767245" resolveInfo="convertToConstantStyle" />
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="760g.2637283161764766920" resolveInfo="NameUtil" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="4607149293339274025">
                         <link role="variable" roleId="tp2q.1153944258490" targetNodeId="5212347747213218628" resolveInfo="attrName" />
                       </node>
@@ -488,8 +489,8 @@
                   </node>
                 </node>
                 <node role="rValue" roleId="tpee.1068498886297" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4607149293339272932">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.6043279253571661771" resolveInfo="capitalize" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ejob.7575476684780666650" resolveInfo="NameUtil" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="760g.2637283161764767049" resolveInfo="capitalize" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="760g.2637283161764766920" resolveInfo="NameUtil" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5212347747213206258">
                     <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="5212347747213206257">
                       <link role="variable" roleId="tp2q.1153944258490" targetNodeId="5212347747212725808" resolveInfo="tag" />
@@ -842,8 +843,8 @@
                         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tp3r.PropertyAntiquotation" typeId="tp3r.1196866233735" id="5038472390825957389">
                           <property name="propertyName" nameId="tpck.1757699476691236117" value="name" />
                           <node role="expression" roleId="tp3r.1196350785111" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5038472390825957390">
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.5105896455437474159" resolveInfo="convertToConstantStyle" />
-                            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ejob.7575476684780666650" resolveInfo="NameUtil" />
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="760g.2637283161764767245" resolveInfo="convertToConstantStyle" />
+                            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="760g.2637283161764766920" resolveInfo="NameUtil" />
                             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5038472390825957391">
                               <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="5038472390825957392">
                                 <link role="variable" roleId="tp2q.1153944258490" targetNodeId="4301895537018694237" resolveInfo="t" />

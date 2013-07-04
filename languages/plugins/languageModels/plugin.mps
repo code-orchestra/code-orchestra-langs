@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:0f101d74-3dc1-4918-a10d-3c9267993c2b(codeOrchestra.actionScript.plugins.plugin)" version="0">
   <persistence version="7" />
-  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-  <language namespace="28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)" />
-  <language namespace="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
-  <language namespace="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
-  <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
-  <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  <language namespace="jetbrains.mps.baseLanguage" />
+  <language namespace="jetbrains.mps.lang.plugin" />
+  <language namespace="jetbrains.mps.baseLanguage.classifiers" />
+  <language namespace="jetbrains.mps.baseLanguage.logging" />
+  <language namespace="jetbrains.mps.baseLanguage.collections" />
+  <language namespace="jetbrains.mps.lang.smodel" />
+  <devkit namespace="jetbrains.mps.devkit.general-purpose" />
   <import index="7ij6" modelUID="f:java_stub#jetbrains.mps.workbench(jetbrains.mps.workbench@java_stub)" version="-1" />
   <import index="4e83" modelUID="f:java_stub#jetbrains.mps.workbench.tools(jetbrains.mps.workbench.tools@java_stub)" version="-1" />
   <import index="8amf" modelUID="f:java_stub#javax.swing(javax.swing@java_stub)" version="-1" />
@@ -21,7 +21,7 @@
   <import index="jxpo" modelUID="f:java_stub#jetbrains.mps.nodeEditor.cells(jetbrains.mps.nodeEditor.cells@java_stub)" version="-1" />
   <import index="rs2j" modelUID="f:java_stub#jetbrains.mps.ide.hierarchy(jetbrains.mps.ide.hierarchy@java_stub)" version="-1" />
   <import index="ik8z" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
-  <import index="zdyw" modelUID="f:java_stub#codeOrchestra.actionscript.hierarchy(codeOrchestra.actionscript.hierarchy@java_stub)" version="-1" />
+  <import index="mioy" modelUID="f:java_stub#codeOrchestra.actionscript.hierarchy(codeOrchestra.actionscript.hierarchy@java_stub)" version="-1" />
   <import index="kcc1" modelUID="f:java_stub#jetbrains.mps.ide.findusages.view(jetbrains.mps.ide.findusages.view@java_stub)" version="-1" />
   <import index="k9fk" modelUID="f:java_stub#java.awt.event(java.awt.event@java_stub)" version="-1" />
   <import index="tp4l" modelUID="r:00000000-0000-4000-0000-011c89590369(jetbrains.mps.lang.plugin.generator.baseLanguage.template.main@generator)" version="-1" />
@@ -33,7 +33,7 @@
   <import index="d2qg" modelUID="f:java_stub#jetbrains.mps.ide.findusages.model(jetbrains.mps.ide.findusages.model@java_stub)" version="-1" />
   <import index="biet" modelUID="f:java_stub#jetbrains.mps.findUsages(jetbrains.mps.findUsages@java_stub)" version="-1" />
   <import index="2tgk" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
-  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="8" />
+  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="9" />
   <import index="x51o" modelUID="f:java_stub#com.intellij.ide(com.intellij.ide@java_stub)" version="-1" />
   <import index="1lc7" modelUID="f:java_stub#com.intellij.openapi.components(com.intellij.openapi.components@java_stub)" version="-1" />
   <import index="bwog" modelUID="f:java_stub#jetbrains.mps.ide.findusages.view.treeholder.tree(jetbrains.mps.ide.findusages.view.treeholder.tree@java_stub)" version="-1" />
@@ -387,7 +387,7 @@
               <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="3128795565783190287">
                 <property name="name" nameId="tpck.1169194664001" value="tool" />
                 <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3128795565783190288">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="zdyw.~ASLanguageHierarchyViewTool" resolveInfo="ASLanguageHierarchyViewTool" />
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="mioy.~ASLanguageHierarchyViewTool" resolveInfo="ASLanguageHierarchyViewTool" />
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3128795565783197350">
                   <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3128795565783197339">
@@ -399,7 +399,7 @@
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3128795565783197356">
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ik8z.~IOperationContext%dgetComponent(java%dlang%dClass)%cjava%dlang%dObject" resolveInfo="getComponent" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="3128795565783197359">
-                      <link role="classifier" roleId="tpee.1116615189566" targetNodeId="zdyw.~ASLanguageHierarchyViewTool" resolveInfo="ASLanguageHierarchyViewTool" />
+                      <link role="classifier" roleId="tpee.1116615189566" targetNodeId="mioy.~ASLanguageHierarchyViewTool" resolveInfo="ASLanguageHierarchyViewTool" />
                     </node>
                   </node>
                 </node>

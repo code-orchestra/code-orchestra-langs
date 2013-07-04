@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:ba42906d-dc5c-41aa-b933-2cb4e0267395(codeOrchestra.mps.editorTrigger.generator.template.main@generator)">
   <persistence version="7" />
-  <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
-  <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
-  <language namespace="28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)" />
-  <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
-  <language namespace="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
-  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-  <language namespace="99be9759-931f-4cb7-87af-307e252f4737(baseLanguage.ext.modelCache)" />
-  <language namespace="d7a92d38-f7db-40d0-8431-763b0c3c9f20(jetbrains.mps.lang.intentions)" />
-  <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
-  <language namespace="774bf8a0-62e5-41e1-af63-f4812e60e48b(jetbrains.mps.baseLanguage.checkedDots)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  <language namespace="jetbrains.mps.lang.generator" />
+  <language namespace="jetbrains.mps.lang.generator.generationContext" />
+  <language namespace="jetbrains.mps.lang.plugin" />
+  <language namespace="jetbrains.mps.lang.structure" />
+  <language namespace="jetbrains.mps.baseLanguage.classifiers" />
+  <language namespace="jetbrains.mps.lang.core" />
+  <language namespace="baseLanguage.ext.modelCache" />
+  <language namespace="jetbrains.mps.lang.intentions" />
+  <language namespace="jetbrains.mps.lang.sharedConcepts" />
+  <language namespace="jetbrains.mps.baseLanguage.checkedDots" />
+  <devkit namespace="jetbrains.mps.devkit.general-purpose" />
   <import index="xpsn" modelUID="r:89b664fd-9b43-419e-800b-7fa5fb482511(codeOrchestra.mps.editorTrigger.structure)" version="-1" />
   <import index="jeyo" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="ik8z" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
@@ -20,7 +20,7 @@
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
-  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="8" />
+  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="9" />
   <import index="87tv" modelUID="f:java_stub#com.intellij.openapi.wm.impl(com.intellij.openapi.wm.impl@java_stub)" version="-1" />
   <import index="k5ie" modelUID="f:java_stub#com.intellij.openapi.command(com.intellij.openapi.command@java_stub)" version="-1" />
   <import index="flxt" modelUID="f:java_stub#jetbrains.mps.ide(jetbrains.mps.ide@java_stub)" version="-1" />
@@ -39,9 +39,10 @@
   <import index="yayk" modelUID="r:a7b6835b-bd13-4a83-a20d-4ae541cbcbc1(codeOrchestra.mps.editorTrigger.behavior)" version="-1" />
   <import index="tpdu" modelUID="r:00000000-0000-4000-0000-011c895902de(jetbrains.mps.baseLanguage.blTypes.primitiveDescriptors)" version="-1" />
   <import index="tpcn" modelUID="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" version="-1" />
-  <import index="cjoq" modelUID="f:java_stub#codeOrchestra.utils(codeOrchestra.utils@java_stub)" version="-1" />
-  <import index="ir69" modelUID="f:java_stub#codeOrchestra.utils.macro.util(codeOrchestra.utils.macro.util@java_stub)" version="-1" />
+  <import index="37bc" modelUID="f:java_stub#codeOrchestra.utils(codeOrchestra.utils@java_stub)" version="-1" />
+  <import index="p1s" modelUID="f:java_stub#codeOrchestra.utils.macro.util(codeOrchestra.utils.macro.util@java_stub)" version="-1" />
   <import index="s3sh" modelUID="f:java_stub#java.awt(java.awt@java_stub)" version="-1" />
+  <import index="760g" modelUID="r:9462d2a2-4e81-4a3d-a9e1-a8e7dcd66948(codeOrchestra.actionScript.lang.util)" version="0" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tp4k" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="23" implicit="yes" />
@@ -1519,8 +1520,8 @@
                                                                 <node role="elementType" roleId="tp2q.1151688676805" type="tpee.StringType" typeId="tpee.1225271177708" id="8859518649137014899" />
                                                               </node>
                                                               <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8859518649137014900">
-                                                                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ejob.7575476684780666650" resolveInfo="NameUtil" />
-                                                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.7575476684780666656" resolveInfo="splitByCamels" />
+                                                                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="760g.2637283161764766920" resolveInfo="NameUtil" />
+                                                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="760g.2637283161764766921" resolveInfo="splitByCamels" />
                                                                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8859518649137014901">
                                                                   <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="8859518649137014902" />
                                                                   <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8859518649137014903">
@@ -2396,8 +2397,8 @@
               <link role="classifier" roleId="tpee.1107535924139" targetNodeId="s3sh.~Point" resolveInfo="Point" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2845414913426372646">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ir69.~CursorUtil%dgetCursorPosition()%cjava%dawt%dPoint" resolveInfo="getCursorPosition" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ir69.~CursorUtil" resolveInfo="CursorUtil" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="p1s.~CursorUtil%dgetCursorPosition()%cjava%dawt%dPoint" resolveInfo="getCursorPosition" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="p1s.~CursorUtil" resolveInfo="CursorUtil" />
             </node>
             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="2845414913426372820">
               <property name="propertyName" nameId="tpck.1757699476691236117" value="name" />
@@ -2546,8 +2547,8 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.CommentedStatementsBlock" typeId="tpee.1177326519037" id="4473688802120504791">
           <node role="statement" roleId="tpee.1177326540772" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2845414913426372909">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2845414913426372929">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ir69.~CursorUtil%dsetCursorPosition(java%dawt%dPoint)%cboolean" resolveInfo="setCursorPosition" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ir69.~CursorUtil" resolveInfo="CursorUtil" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="p1s.~CursorUtil%dsetCursorPosition(java%dawt%dPoint)%cboolean" resolveInfo="setCursorPosition" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="p1s.~CursorUtil" resolveInfo="CursorUtil" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="2845414913426372948">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2845414913426372644" resolveInfo="cursorPosition" />
               </node>

@@ -14,6 +14,7 @@
       </external-templates>
       <dependencies>
         <dependency reexport="false" exclude="false">playerglobal_swc</dependency>
+        <dependency reexport="false" exclude="false">codeOrchestra.actionScript.nullable#2002468725052889715</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>codeOrchestra.actionScript</usedLanguage>
@@ -45,6 +46,7 @@
     <dependency reexport="false" exclude="false">jetbrains.mps.baseLanguage.blTypes</dependency>
     <dependency reexport="false" exclude="false">JDK</dependency>
     <dependency reexport="false" exclude="false">jetbrains.mps.baseLanguage.closures</dependency>
+    <dependency reexport="false" exclude="false">codeOrchestra.actionScript.nullable</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>baseLanguage.ext.modelCache</usedLanguage>

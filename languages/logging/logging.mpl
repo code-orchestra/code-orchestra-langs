@@ -31,6 +31,7 @@
         <usedLanguage>baseLanguage.ext.modelCache</usedLanguage>
         <usedLanguage>codeOrchestra.actionScript</usedLanguage>
         <usedLanguage>baseLanguage.ext.nullable</usedLanguage>
+        <usedLanguage>codeOrchestra.actionScript.logging</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>jetbrains.mps.devkit.language-design</usedDevKit>

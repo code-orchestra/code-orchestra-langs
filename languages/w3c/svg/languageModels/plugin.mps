@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:4e066a88-c3de-4064-8166-38fca7609d53(html5.w3c.svg.plugin)">
   <persistence version="7" />
-  <language namespace="28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)" />
-  <language namespace="d73d7ac5-1314-461d-a510-f238e1351f75(html5.w3c.svg)" />
-  <language namespace="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce(codeOrchestra.actionScript)" />
-  <language namespace="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
-  <language namespace="b7189d41-b93c-4ffa-ab10-12b334c0bb92(codeOrchestra.actionScript.enums)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  <language namespace="jetbrains.mps.lang.plugin" />
+  <language namespace="html5.w3c.svg" />
+  <language namespace="codeOrchestra.actionScript" />
+  <language namespace="jetbrains.mps.baseLanguage.classifiers" />
+  <language namespace="codeOrchestra.actionScript.enums" />
+  <devkit namespace="jetbrains.mps.devkit.general-purpose" />
   <import index="zx6m" modelUID="r:4c791b31-8b31-4808-a4b6-5eb1f704a936(html5.w3c.svg.structure)" version="-1" />
   <import index="1k6w" modelUID="f:swc_stub#(@swc_stub)" version="-1" />
-  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="8" />
+  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="9" />
   <import index="k2ls" modelUID="r:a515a607-b683-410e-b576-8fb6fe47b78f(codeOrchestra.actionScript.enums.util)" version="-1" />
   <import index="88o5" modelUID="r:7150c529-f3aa-44c2-8882-3380cb22998e(html5.w3c.html.behavior)" version="-1" />
   <import index="fdjq" modelUID="r:8960d6df-a766-4c92-84d4-2a3a79c52121(html5.api.util)" version="-1" />
@@ -29,6 +29,7 @@
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="3337" modelUID="r:7f008be8-dc8f-41a8-a6c3-6fc1f57c71e2(html5.w3c.svg.behavior)" version="-1" implicit="yes" />
   <import index="soou" modelUID="r:29acca59-81b2-40d3-82a2-d0f412826680(html5.w3c.svg.api)" version="-1" implicit="yes" />
+  <import index="760g" modelUID="r:9462d2a2-4e81-4a3d-a9e1-a8e7dcd66948(codeOrchestra.actionScript.lang.util)" version="0" implicit="yes" />
   <roots>
     <node type="tp4k.ActionDeclaration" typeId="tp4k.1203071646776" id="5212347747212521731">
       <property name="sourceModule" value="d73d7ac5-1314-461d-a510-f238e1351f75" />
@@ -257,8 +258,8 @@
                         </node>
                       </node>
                       <node role="rValue" roleId="tpee.1068498886297" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4779176112748160240">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.5105896455437474159" resolveInfo="convertToConstantStyle" />
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ejob.7575476684780666650" resolveInfo="NameUtil" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="760g.2637283161764767245" resolveInfo="convertToConstantStyle" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="760g.2637283161764766920" resolveInfo="NameUtil" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="4779176112748160241">
                           <link role="variable" roleId="tp2q.1153944258490" targetNodeId="5212347747213218628" resolveInfo="attrName" />
                         </node>
@@ -476,8 +477,8 @@
                       </node>
                     </node>
                     <node role="rValue" roleId="tpee.1068498886297" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8550290965421613755">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.5105896455437474154" resolveInfo="convertToCamelStyle" />
-                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ejob.7575476684780666650" resolveInfo="NameUtil" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="760g.2637283161764767100" resolveInfo="convertToCamelStyle" />
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="760g.2637283161764766920" resolveInfo="NameUtil" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8550290965421613758">
                         <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8550290965421613749">
                           <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="5212347747213206257">
@@ -506,8 +507,8 @@
                   <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4779176112748159506">
                     <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="4779176112748159513">
                       <node role="rValue" roleId="tpee.1068498886297" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4779176112748159518">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.6043279253571661771" resolveInfo="capitalize" />
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ejob.7575476684780666650" resolveInfo="NameUtil" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="760g.2637283161764767049" resolveInfo="capitalize" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="760g.2637283161764766920" resolveInfo="NameUtil" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="4779176112748159519">
                           <link role="variable" roleId="tp2q.1153944258490" targetNodeId="5212347747212725808" resolveInfo="element" />
                         </node>
@@ -528,8 +529,8 @@
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4779176112748126975">
               <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="4779176112748127843">
                 <node role="rValue" roleId="tpee.1068498886297" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="4779176112748127848">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ejob.6043279253571661771" resolveInfo="capitalize" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ejob.7575476684780666650" resolveInfo="NameUtil" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="760g.2637283161764767049" resolveInfo="capitalize" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="760g.2637283161764766920" resolveInfo="NameUtil" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4779176112748127850">
                     <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="4779176112748127849">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5212347747213199688" resolveInfo="e" />

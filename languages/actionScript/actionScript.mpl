@@ -5,6 +5,7 @@
   </models>
   <accessoryModels>
     <model modelUID="r:944a31f8-bb9e-4168-b4ad-9638a126a51d(codeOrchestra.actionScript.util)" />
+    <model modelUID="r:9462d2a2-4e81-4a3d-a9e1-a8e7dcd66948(codeOrchestra.actionScript.lang.util)" />
   </accessoryModels>
   <generators>
     <generator name="actionScript" generatorUID="codeOrchestra.actionScript#1876716203901413928" uuid="28b08ee2-e6bf-406d-8c0a-da12f6f3d117">
@@ -44,6 +45,7 @@
         <usedLanguage>gtext.ext.generatorGoodies</usedLanguage>
         <usedLanguage>jetbrains.mps.gtext</usedLanguage>
         <usedLanguage>jetbrains.mps.lang.behavior</usedLanguage>
+        <usedLanguage>codeOrchestra.actionScript</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>jetbrains.mps.devkit.language-design</usedDevKit>
@@ -118,6 +120,7 @@
     <dependency reexport="false" exclude="false">spark_swc</dependency>
     <dependency reexport="false" exclude="false">jetbrains.mps.ide</dependency>
     <dependency reexport="false" exclude="false">jetbrains.mps.baseLanguage.closures</dependency>
+    <dependency reexport="false" exclude="false">Feathers_swc</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>baseLanguage.ext.modelCache</usedLanguage>

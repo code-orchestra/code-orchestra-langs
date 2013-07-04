@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:a938d6be-962e-4387-b077-bb30208bdc51(codeOrchestra.actionScript.generator.template.util)">
   <persistence version="7" />
-  <language namespace="jetbrains.mps.lang.generator.generationContext" />
-  <language namespace="jetbrains.mps.lang.generator" />
-  <language namespace="jetbrains.mps.lang.sharedConcepts" />
   <devkit namespace="jetbrains.mps.devkit.general-purpose" />
-  <import index="7jb9" modelUID="f:java_stub#codeOrchestra.actionscript.run.compiler.properties(codeOrchestra.actionscript.run.compiler.properties@java_stub)" version="-1" />
-  <import index="2tgk" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
-  <import index="fxfs" modelUID="f:java_stub#jetbrains.mps.project(jetbrains.mps.project@java_stub)" version="-1" />
-  <import index="wqwp" modelUID="f:java_stub#jetbrains.mps.project.structure.modules(jetbrains.mps.project.structure.modules@java_stub)" version="-1" />
   <import index="ik8z" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
-  <import index="29it" modelUID="r:944a31f8-bb9e-4168-b4ad-9638a126a51d(codeOrchestra.actionScript.util)" version="-1" />
-  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="8" />
+  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="9" />
   <import index="3vt2" modelUID="r:49784cba-a384-4286-b969-08d540fbc32f(codeOrchestra.actionScript.structure)" version="81" />
   <import index="1lc7" modelUID="f:java_stub#com.intellij.openapi.components(com.intellij.openapi.components@java_stub)" version="-1" />
-  <import index="f58r" modelUID="r:7d98053b-f333-4e5d-bc94-3c246337e609(html5.astojs.generator.template.util)" version="-1" />
   <import index="3zsl" modelUID="f:java_stub#codeOrchestra.generator(codeOrchestra.generator@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="-1" implicit="yes" />

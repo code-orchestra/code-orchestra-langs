@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="codeOrchestra.mps.editorTrigger" uuid="98cb9bc8-a49a-4590-857f-f3ae4cf4743e" compileInMPS="true" doNotGenerateAdapters="false" engageOnImport="false">
+<language namespace="codeOrchestra.mps.editorTrigger" uuid="98cb9bc8-a49a-4590-857f-f3ae4cf4743e" compileInMPS="true" doNotGenerateAdapters="false" engageOnImport="false" globalEngage="false">
   <models>
     <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="codeOrchestra.mps.editorTrigger" />
   </models>
@@ -16,24 +16,24 @@
         <generator generatorUID="2bdcefec-ba49-4b32-ab50-ebc7a41d5090(jetbrains.mps.lang.smodel#1139186730696)" />
       </external-templates>
       <dependencies>
-        <dependency reexport="false">37a3367b-1fb2-44d8-aa6b-18075e74e003(MPS.Classpath)</dependency>
-        <dependency reexport="false">2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce(codeOrchestra.actionScript)</dependency>
-        <dependency reexport="false">8c922c12-3396-4807-8bd4-7247913dd36b(codeOrchestra.smallLanguage)</dependency>
-        <dependency reexport="false">18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</dependency>
-        <dependency reexport="false">d547343e-176a-45a2-8748-f7abfd850b86(codeOrchestra.actionScript.core)</dependency>
-        <dependency reexport="false">65dc9932-3232-4133-a1ed-2b75b3a2894e(codeOrchestra.mps.extensionPoint)</dependency>
-        <dependency reexport="false">ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</dependency>
-        <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+        <dependency reexport="false" exclude="false">MPS.Classpath</dependency>
+        <dependency reexport="false" exclude="false">codeOrchestra.actionScript</dependency>
+        <dependency reexport="false" exclude="false">codeOrchestra.smallLanguage</dependency>
+        <dependency reexport="false" exclude="false">jetbrains.mps.lang.editor</dependency>
+        <dependency reexport="false" exclude="false">codeOrchestra.actionScript.core</dependency>
+        <dependency reexport="false" exclude="false">codeOrchestra.mps.extensionPoint</dependency>
+        <dependency reexport="false" exclude="false">jetbrains.mps.baseLanguage.blTypes</dependency>
+        <dependency reexport="false" exclude="false">JDK</dependency>
       </dependencies>
       <usedLanguages>
-        <usedLanguage>99be9759-931f-4cb7-87af-307e252f4737(baseLanguage.ext.modelCache)</usedLanguage>
-        <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
-        <usedLanguage>83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</usedLanguage>
-        <usedLanguage>28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)</usedLanguage>
-        <usedLanguage>c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</usedLanguage>
+        <usedLanguage>baseLanguage.ext.modelCache</usedLanguage>
+        <usedLanguage>jetbrains.mps.baseLanguage</usedLanguage>
+        <usedLanguage>jetbrains.mps.baseLanguage.collections</usedLanguage>
+        <usedLanguage>jetbrains.mps.lang.plugin</usedLanguage>
+        <usedLanguage>jetbrains.mps.lang.structure</usedLanguage>
       </usedLanguages>
       <usedDevKits>
-        <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
+        <usedDevKit>jetbrains.mps.devkit.general-purpose</usedDevKit>
       </usedDevKits>
       <mapping-priorities>
         <mapping-priority-rule kind="strictly_before">
@@ -88,16 +88,17 @@
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)</dependency>
+    <dependency reexport="false" exclude="false">jetbrains.mps.baseLanguage.regexp</dependency>
+    <dependency reexport="false" exclude="false">codeOrchestra.mps.editorTrigger</dependency>
   </dependencies>
   <usedLanguages>
-    <usedLanguage>99be9759-931f-4cb7-87af-307e252f4737(baseLanguage.ext.modelCache)</usedLanguage>
-    <usedLanguage>972ca8ca-74dd-4465-a884-8c03e004422d(baseLanguage.ext.nullable)</usedLanguage>
-    <usedLanguage>daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)</usedLanguage>
+    <usedLanguage>baseLanguage.ext.modelCache</usedLanguage>
+    <usedLanguage>baseLanguage.ext.nullable</usedLanguage>
+    <usedLanguage>jetbrains.mps.baseLanguage.regexp</usedLanguage>
   </usedLanguages>
   <usedDevKits>
-    <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
-    <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
+    <usedDevKit>jetbrains.mps.devkit.general-purpose</usedDevKit>
+    <usedDevKit>jetbrains.mps.devkit.language-design</usedDevKit>
   </usedDevKits>
   <extendedLanguages>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:20925b1c-d1f9-4a14-a10d-066855d959f7(codeOrchestra.projectAssets.behavior)">
   <persistence version="7" />
-  <language namespace="f8e34e2c-a7e4-43d2-ae57-c99a2499fa39(codeOrchestra.projectAssets)" />
-  <language namespace="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" />
-  <language namespace="99be9759-931f-4cb7-87af-307e252f4737(baseLanguage.ext.modelCache)" />
-  <language namespace="daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)" />
-  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-  <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
-  <language namespace="2d3d83fe-bb56-4c31-a57c-6d0c98bc04ce(codeOrchestra.actionScript)" />
-  <language-engaged-on-generation namespace="99be9759-931f-4cb7-87af-307e252f4737(baseLanguage.ext.modelCache)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  <language namespace="codeOrchestra.projectAssets" />
+  <language namespace="jetbrains.mps.lang.behavior" />
+  <language namespace="baseLanguage.ext.modelCache" />
+  <language namespace="jetbrains.mps.baseLanguage.regexp" />
+  <language namespace="jetbrains.mps.lang.core" />
+  <language namespace="jetbrains.mps.lang.typesystem" />
+  <language namespace="codeOrchestra.actionScript" />
+  <language-engaged-on-generation namespace="baseLanguage.ext.modelCache" />
+  <devkit namespace="jetbrains.mps.devkit.general-purpose" />
   <import index="lbmv" modelUID="r:8a4b8ef0-9ad1-439b-a216-d0659bebf629(codeOrchestra.projectAssets.structure)" version="-1" />
   <import index="fmc9" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
   <import index="ik8z" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
-  <import index="4hdz" modelUID="f:java_stub#codeOrchestra.actionScript.assets(codeOrchestra.actionScript.assets@java_stub)" version="-1" />
+  <import index="eaq" modelUID="f:java_stub#codeOrchestra.actionScript.assets(codeOrchestra.actionScript.assets@java_stub)" version="-1" />
   <import index="iduq" modelUID="r:d54d0e95-e69b-4301-9201-b1caae466dfc(codeOrchestra.actionScript.core.plugin)" version="-1" />
   <import index="6i5f" modelUID="f:java_stub#com.intellij.openapi.project(com.intellij.openapi.project@java_stub)" version="-1" />
-  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="8" />
+  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="9" />
   <import index="jeyo" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="jivu" modelUID="f:swc_stub#flash.display(flash.display@swc_stub)" version="-1" />
   <import index="v8ee" modelUID="f:swc_stub#mx.core(mx.core@swc_stub)" version="-1" />
@@ -138,8 +138,8 @@
               <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ik8z.~SModelReference" resolveInfo="SModelReference" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="757112486354479229">
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="4hdz.~AssetsManager" resolveInfo="AssetsManager" />
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4hdz.~AssetsManager%dcreateProjectAssetModelReference(com%dintellij%dopenapi%dproject%dProject)%cjetbrains%dmps%dsmodel%dSModelReference" resolveInfo="createProjectAssetModelReference" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="eaq.~AssetsManager" resolveInfo="AssetsManager" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="eaq.~AssetsManager%dcreateProjectAssetModelReference(com%dintellij%dopenapi%dproject%dProject)%cjetbrains%dmps%dsmodel%dSModelReference" resolveInfo="createProjectAssetModelReference" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="7256825819434823612">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7256825819434816634" resolveInfo="project" />
               </node>

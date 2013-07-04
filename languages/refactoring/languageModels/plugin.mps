@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:049fce2b-4201-4c8e-9b1a-3ceec157fcf0(codeOrchestra.actionScript.refactoring.plugin)">
   <persistence version="7" />
-  <language namespace="d0050e71-a98b-4d36-acd0-d639954d1958(codeOrchestra.actionScript.refactoring)" />
-  <language namespace="28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)" />
-  <language namespace="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
-  <language namespace="65dc9932-3232-4133-a1ed-2b75b3a2894e(codeOrchestra.mps.extensionPoint)" />
-  <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
-  <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
-  <language namespace="e4e98138-3db2-4129-a5a0-cb16bf67e712(codeOrchestra.mps.smodelOperations)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  <language namespace="codeOrchestra.actionScript.refactoring" />
+  <language namespace="jetbrains.mps.lang.plugin" />
+  <language namespace="jetbrains.mps.baseLanguage.classifiers" />
+  <language namespace="codeOrchestra.mps.extensionPoint" />
+  <language namespace="jetbrains.mps.lang.generator.generationContext" />
+  <language namespace="jetbrains.mps.lang.sharedConcepts" />
+  <language namespace="codeOrchestra.mps.smodelOperations" />
+  <devkit namespace="jetbrains.mps.devkit.general-purpose" />
   <import index="10m" modelUID="r:ce7688b2-9b9b-4430-9efb-36b9a689561d(codeOrchestra.actionScript.refactoring.structure)" version="-1" />
   <import index="1tk1" modelUID="r:c96ab981-ac83-4bc5-80a6-f1d40491fd71(codeOrchestra.actionScript.refactoring.refactorings)" version="0" />
-  <import index="fbm7" modelUID="f:java_stub#codeOrchestra.actionscript.view.utils(codeOrchestra.actionscript.view.utils@java_stub)" version="-1" />
+  <import index="cjil" modelUID="f:java_stub#codeOrchestra.actionscript.view.utils(codeOrchestra.actionscript.view.utils@java_stub)" version="-1" />
   <import index="xym2" modelUID="f:java_stub#jetbrains.mps.ide.projectPane(jetbrains.mps.ide.projectPane@java_stub)" version="-1" />
   <import index="2tgk" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
   <import index="3vt2" modelUID="r:49784cba-a384-4286-b969-08d540fbc32f(codeOrchestra.actionScript.structure)" version="81" />
@@ -26,7 +26,7 @@
   <import index="faxn" modelUID="r:c8f09818-27d0-4e31-9cdf-dedd92fee7ef(jetbrains.mps.baseLanguage.closures.util)" version="-1" />
   <import index="tpdu" modelUID="r:00000000-0000-4000-0000-011c895902de(jetbrains.mps.baseLanguage.blTypes.primitiveDescriptors)" version="-1" />
   <import index="d7bu" modelUID="r:380d342b-2bbf-4a16-aa77-4b3e8fdc3759(codeOrchestra.smallLanguage.behavior)" version="-1" />
-  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="8" />
+  <import index="ejob" modelUID="r:9dc9c33a-5b25-436a-8f84-855f38c32f14(codeOrchestra.actionScript.behavior)" version="9" />
   <import index="7ij6" modelUID="f:java_stub#jetbrains.mps.workbench(jetbrains.mps.workbench@java_stub)" version="-1" />
   <import index="z8ui" modelUID="f:java_stub#com.intellij.openapi.actionSystem(com.intellij.openapi.actionSystem@java_stub)" version="-1" />
   <import index="n95n" modelUID="r:d878dda8-9f0b-442b-b45d-b84e09f5fbd6(codeOrchestra.actionScript.plugin)" version="1" />
@@ -229,8 +229,8 @@
                   <link role="classifier" roleId="tpee.1107535924139" targetNodeId="xym2.~IProjectPane" resolveInfo="IProjectPane" />
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2883077738355527980">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fbm7.~ViewUtils%dgetCurrentPane(com%dintellij%dopenapi%dproject%dProject)%cjetbrains%dmps%dide%dprojectPane%dIProjectPane" resolveInfo="getCurrentPane" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="fbm7.~ViewUtils" resolveInfo="ViewUtils" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="cjil.~ViewUtils%dgetCurrentPane(com%dintellij%dopenapi%dproject%dProject)%cjetbrains%dmps%dide%dprojectPane%dIProjectPane" resolveInfo="getCurrentPane" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="cjil.~ViewUtils" resolveInfo="ViewUtils" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2883077738355527981">
                     <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="2883077738355527982" />
                     <node role="operation" roleId="tpee.1197027833540" type="tp4k.ActionDataParameterReferenceOperation" typeId="tp4k.1217252428768" id="2883077738355527983">
@@ -424,8 +424,8 @@
                   <link role="classifier" roleId="tpee.1107535924139" targetNodeId="xym2.~IProjectPane" resolveInfo="IProjectPane" />
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="698580497176089124">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fbm7.~ViewUtils%dgetCurrentPane(com%dintellij%dopenapi%dproject%dProject)%cjetbrains%dmps%dide%dprojectPane%dIProjectPane" resolveInfo="getCurrentPane" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="fbm7.~ViewUtils" resolveInfo="ViewUtils" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="cjil.~ViewUtils%dgetCurrentPane(com%dintellij%dopenapi%dproject%dProject)%cjetbrains%dmps%dide%dprojectPane%dIProjectPane" resolveInfo="getCurrentPane" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="cjil.~ViewUtils" resolveInfo="ViewUtils" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="698580497176089125">
                     <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="698580497176089126" />
                     <node role="operation" roleId="tpee.1197027833540" type="tp4k.ActionDataParameterReferenceOperation" typeId="tp4k.1217252428768" id="698580497176089127">
