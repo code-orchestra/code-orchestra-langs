@@ -409,9 +409,6 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="expression" />
       <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="3vt2.2232984037991132640" resolveInfo="ExpressionList" />
     </node>
-    <node type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="4871971097876640134">
-      <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="3vt2.4871971097876606982" resolveInfo="LoopVariableDeclarationExpression" />
-    </node>
     <node type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="8764578276938464055">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="statement.loop" />
       <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="3vt2.8764578276937376056" resolveInfo="ForInitialiser_Variable" />
@@ -4617,30 +4614,6 @@
             <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitCodeForStatement" typeId="tp41.1206454052847" id="3125622128982536526">
               <node role="codeFor" roleId="tp41.1206454079161" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="3125622128982536528">
                 <link role="variable" roleId="tp2q.1153944258490" targetNodeId="3125622128982536517" resolveInfo="e" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </root>
-  <root id="4871971097876640134">
-    <node role="builderBlock" roleId="tp41.1206442812839" type="tp41.BuilderBlock" typeId="tp41.1206442659665" id="4871971097876640135">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4871971097876640136">
-        <node role="statement" roleId="tpee.1068581517665" type="tp2q.ForEachStatement" typeId="tp2q.1153943597977" id="668672069939354645">
-          <node role="variable" roleId="tp2q.1153944400369" type="tp2q.ForEachVariable" typeId="tp2q.1153944193378" id="668672069939354646">
-            <property name="name" nameId="tpck.1169194664001" value="v" />
-          </node>
-          <node role="inputSequence" roleId="tp2q.1153944424730" type="tpee.DotExpression" typeId="tpee.1197027756228" id="668672069939354650">
-            <node role="operand" roleId="tpee.1197027771414" type="tp41.NodeParameter" typeId="tp41.1206442747519" id="668672069939354649" />
-            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkListAccess" typeId="tp25.1138056282393" id="668672069939377366">
-              <link role="link" roleId="tp25.1138056546658" targetNodeId="3vt2.4871971097876606991" />
-            </node>
-          </node>
-          <node role="body" roleId="tpee.1154032183016" type="tpee.StatementList" typeId="tpee.1068580123136" id="668672069939354648">
-            <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitCodeForStatement" typeId="tp41.1206454052847" id="668672069939377367">
-              <node role="codeFor" roleId="tp41.1206454079161" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="668672069939377369">
-                <link role="variable" roleId="tp2q.1153944258490" targetNodeId="668672069939354646" resolveInfo="v" />
               </node>
             </node>
           </node>

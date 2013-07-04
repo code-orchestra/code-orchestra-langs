@@ -880,10 +880,6 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="expression" />
       <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="3vt2.2232984037991132640" resolveInfo="ExpressionList" />
     </node>
-    <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="4871971097876641824">
-      <property name="name" nameId="tpck.1169194664001" value="reduce_LoopLocalVariableDeclaration" />
-      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="3vt2.4871971097876606982" resolveInfo="LoopVariableDeclarationExpression" />
-    </node>
     <node type="tpf8.MappingScript" typeId="tpf8.1195499912406" id="4463165930403572970">
       <property name="name" nameId="tpck.1169194664001" value="check_abstract_expressions" />
       <property name="scriptKind" nameId="tpf8.1195595592106" value="pre_processing" />
@@ -2151,13 +2147,6 @@
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1309228183837561329" resolveInfo="reduce_LocalFunctionReference" />
       </node>
     </node>
-    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1309228183837562566">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="classifier.member.method.reference" />
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="3vt2.5570081164887565005" resolveInfo="StaticMethodReference" />
-      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1309228183837562568">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1309228183837562569" resolveInfo="reduce_StaticMethodReference" />
-      </node>
-    </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1309228183837562583">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="classifier.member.method.reference" />
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="3vt2.7909581671865082420" resolveInfo="StaticMethodReferenceOperation" />
@@ -2218,13 +2207,6 @@
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="3vt2.8480212669356022860" resolveInfo="OperationExpression" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="3173856201782503207">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="3173856201782503208" resolveInfo="reduce_OperationExpression" />
-      </node>
-    </node>
-    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="3173856201782815289">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="namespace" />
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="3vt2.4145423273877691425" resolveInfo="GlobalNamespaceReference" />
-      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="3173856201782815291">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="3173856201782815292" resolveInfo="reduce_GlobalNamespaceReference" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="3173856201783031851">
@@ -2766,12 +2748,6 @@
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="5643431131110165399" resolveInfo="reduce_StaticMethodCall" />
       </node>
     </node>
-    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="8284452284736745936">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="3vt2.4513170397250377332" resolveInfo="StaticAccessExpression" />
-      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="8284452284736745937">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="5643431131111364117" resolveInfo="reduce_StaticAccessExpression" />
-      </node>
-    </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="8284452284736745938">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="classifier.member.method.call" />
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="3vt2.1242232929257" resolveInfo="InstanceMethodCallOperation" />
@@ -2834,12 +2810,6 @@
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="3vt2.1237732848122" resolveInfo="UndefinedLiteral" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="8284452284736745955">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="5643431131114043417" resolveInfo="reduce_UndefinedLiteral" />
-      </node>
-    </node>
-    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="4871971097876641826">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="3vt2.4871971097876606982" resolveInfo="LoopVariableDeclarationExpression" />
-      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="4871971097876641828">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="4871971097876641824" resolveInfo="reduce_LoopLocalVariableDeclaration" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="5243579018538934448">
@@ -14222,26 +14192,6 @@
         </node>
       </node>
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="8316387374409098851" />
-    </node>
-  </root>
-  <root id="4871971097876641824">
-    <node role="contentNode" roleId="tpf8.1092060348987" type="tpih.GText" typeId="tpih.1164412789837" id="4871971097876641829">
-      <property name="text" nameId="tpih.1164413036326" value="expression" />
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="4871971097876641830" />
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="4871971097876641832">
-        <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="4871971097876641835">
-          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4871971097876641836">
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4871971097876641837">
-              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4871971097876641838">
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="4871971097876641839">
-                  <link role="link" roleId="tp25.1138056516764" targetNodeId="3vt2.4871971097876606991" />
-                </node>
-                <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="4871971097876641840" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </root>
   <root id="4463165930403572970">
