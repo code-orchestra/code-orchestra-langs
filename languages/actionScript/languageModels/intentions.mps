@@ -18644,8 +18644,8 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6036748977176257495">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6036748977176257496">
-            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="3vt2.2954089936729748859" resolveInfo="MPSUtil" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3vt2.2954089936729748865" resolveInfo="openDocumentOf" />
+            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="760g.7139328491422568114" resolveInfo="MPSUtil" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="760g.7139328491422568115" resolveInfo="openDocumentOf" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="6036748977176257497">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6036748977176257477" resolveInfo="classConcept" />
             </node>
@@ -34997,8 +34997,8 @@
                   <link role="classifier" roleId="tpee.1107535924139" targetNodeId="uqqj.~EditorContext" resolveInfo="EditorContext" />
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6871888079090850378">
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="3vt2.2954089936729748859" resolveInfo="MPSUtil" />
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3vt2.2954089936729748865" resolveInfo="openDocumentOf" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="760g.7139328491422568114" resolveInfo="MPSUtil" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="760g.7139328491422568115" resolveInfo="openDocumentOf" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="6871888079090850379">
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6871888079090850368" resolveInfo="nodeToSelect" />
                   </node>
@@ -39221,8 +39221,8 @@
                   <link role="classifier" roleId="tpee.1107535924139" targetNodeId="uqqj.~EditorContext" resolveInfo="EditorContext" />
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8801828876014409689">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3vt2.2954089936729748865" resolveInfo="openDocumentOf" />
-                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="3vt2.2954089936729748859" resolveInfo="MPSUtil" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="760g.7139328491422568115" resolveInfo="openDocumentOf" />
+                  <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="760g.7139328491422568114" resolveInfo="MPSUtil" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="8801828876014409690">
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8801828876014409679" resolveInfo="nodeToSelect" />
                   </node>
